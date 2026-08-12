@@ -1,0 +1,346 @@
+[
+  {
+    "nome": "Parque Amantikir",
+    "nota": 4.8,
+    "endereco": "Rodovia Campos do Jordão, 215",
+    "tags": ["natureza"],
+    "descricao": "Jardins inspirados em vários países com vista privilegiada para a serra.",
+    "categoria": "Natureza"
+  },
+  {
+    "nome": "Horto Florestal",
+    "nota": 4.7,
+    "endereco": "Av. Pedro Paulo, s/n",
+    "tags": ["natureza"],
+    "descricao": "Um dos parques mais antigos do Brasil, ideal para trilhas e piqueniques.",
+    "categoria": "Natureza"
+  },
+  {
+    "nome": "Bosque do Silêncio",
+    "nota": 4.7,
+    "endereco": "Av. Sen. Roberto Simonsen, 1724",
+    "tags": ["natureza"],
+    "descricao": "Parque com arvorismo e trilhas em meio à mata nativa.",
+    "categoria": "Natureza"
+  },
+  {
+    "nome": "Lagoinha",
+    "nota": 4.6,
+    "endereco": "Estrada da Lagoinha",
+    "tags": ["natureza"],
+    "descricao": "Local para trilhas e contato com a natureza.",
+    "categoria": "Natureza"
+  },
+  {
+    "nome": "Borboletário Flores que Voam",
+    "nota": 4.5,
+    "endereco": "Av. Dr. Paulo Borges de Oliveira",
+    "tags": ["natureza"],
+    "descricao": "Espaço dedicado à preservação e observação de borboletas.",
+    "categoria": "Natureza"
+  },
+  {
+    "nome": "Parque da Lagoinha",
+    "nota": 4.5,
+    "endereco": "Av. Pedro Paulo",
+    "tags": ["natureza"],
+    "descricao": "Parque arborizado excelente para caminhadas.",
+    "categoria": "Natureza"
+  },
+  {
+    "nome": "Jardim da Mantiqueira",
+    "nota": 4.4,
+    "endereco": "Rodovia Floriano Rodrigues",
+    "tags": ["natureza"],
+    "descricao": "Espaço natural focado em plantas regionais.",
+    "categoria": "Natureza"
+  },
+  {
+    "nome": "Capivari",
+    "nota": 4.8,
+    "endereco": "Centro de Capivari",
+    "tags": ["passeios"],
+    "descricao": "O coração de Campos do Jordão, com comércio e vida noturna.",
+    "categoria": "Passeios Clássicos"
+  },
+  {
+    "nome": "Morro do Elefante",
+    "nota": 4.7,
+    "endereco": "Av. Alto do Morro do Elefante",
+    "tags": ["passeios", "mirantes"],
+    "descricao": "Um dos pontos mais famosos com vista panorâmica da cidade.",
+    "categoria": "Passeios Clássicos"
+  },
+  {
+    "nome": "Teleférico",
+    "nota": 4.6,
+    "endereco": "Parque Capivari",
+    "tags": ["passeios"],
+    "descricao": "O primeiro teleférico do Brasil, levando ao topo do Morro do Elefante.",
+    "categoria": "Passeios Clássicos"
+  },
+  {
+    "nome": "Bondinho",
+    "nota": 4.5,
+    "endereco": "Estação Emílio Ribas",
+    "tags": ["passeios"],
+    "descricao": "Passeio clássico pelo centro de Campos do Jordão.",
+    "categoria": "Passeios Clássicos"
+  },
+  {
+    "nome": "Ducha de Prata",
+    "nota": 4.4,
+    "endereco": "Av. Roberto Simonsen",
+    "tags": ["passeios"],
+    "descricao": "Quedas d'água artificiais e comércio de artesanato.",
+    "categoria": "Passeios Clássicos"
+  },
+  {
+    "nome": "Portal da Cidade",
+    "nota": 4.5,
+    "endereco": "Entrada da cidade",
+    "tags": ["passeios"],
+    "descricao": "Portal típico da arquitetura alpina, local para fotos.",
+    "categoria": "Passeios Clássicos"
+  },
+  {
+    "nome": "Estrada de Ferro",
+    "nota": 4.5,
+    "endereco": "Estação Abernéssia",
+    "tags": ["passeios"],
+    "descricao": "Passeio histórico de trem pela serra.",
+    "categoria": "Passeios Clássicos"
+  },
+  {
+    "nome": "Museu Felícia Leirner",
+    "nota": 4.9,
+    "endereco": "Av. Dr. Luís Arrobas Martins, 1880",
+    "tags": ["cultura"],
+    "descricao": "Museu ao ar livre com esculturas integradas à natureza.",
+    "categoria": "Cultura"
+  },
+  {
+    "nome": "Auditório Cláudio Santoro",
+    "nota": 4.9,
+    "endereco": "Av. Dr. Luís Arrobas Martins, 1880",
+    "tags": ["cultura"],
+    "descricao": "Sede do Festival de Inverno, um marco arquitetônico e cultural.",
+    "categoria": "Cultura"
+  },
+  {
+    "nome": "Palácio Boa Vista",
+    "nota": 4.7,
+    "endereco": "Av. Adhemar de Barros, 3001",
+    "tags": ["cultura"],
+    "descricao": "Residência de inverno do governador com importante acervo de arte.",
+    "categoria": "Cultura"
+  },
+  {
+    "nome": "Mosteiro São João",
+    "nota": 4.8,
+    "endereco": "Av. Dr. Adhemar de Barros, 330",
+    "tags": ["cultura"],
+    "descricao": "Um local de paz e tradição religiosa.",
+    "categoria": "Cultura"
+  },
+  {
+    "nome": "Casa da Xilogravura",
+    "nota": 4.7,
+    "endereco": "Av. Eduardo Moreira da Cruz, 295",
+    "tags": ["cultura"],
+    "descricao": "Museu dedicado à arte da xilogravura brasileira.",
+    "categoria": "Cultura"
+  },
+  {
+    "nome": "Centro Cultural",
+    "nota": 4.5,
+    "endereco": "Praça Pindorama",
+    "tags": ["cultura"],
+    "descricao": "Espaço para exposições e eventos culturais.",
+    "categoria": "Cultura"
+  },
+  {
+    "nome": "Capela de São Pedro",
+    "nota": 4.4,
+    "endereco": "Av. Alto da Boa Vista",
+    "tags": ["cultura"],
+    "descricao": "Uma construção histórica com belos vitrais.",
+    "categoria": "Cultura"
+  },
+  {
+    "nome": "Shopping Pátio Paris",
+    "nota": 4.5,
+    "endereco": "Av. Macedo Soares",
+    "tags": ["compras"],
+    "descricao": "Opções de lojas e gastronomia no coração de Capivari.",
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Cadij Shopping",
+    "nota": 4.6,
+    "endereco": "Rua Djalma Forjaz",
+    "tags": ["compras"],
+    "descricao": "Espaço clássico de compras em Campos do Jordão.",
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Boulevard Geneve",
+    "nota": 4.6,
+    "endereco": "Rua Djalma Forjaz",
+    "tags": ["compras"],
+    "descricao": "Shopping com arquitetura europeia e lojas exclusivas.",
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Chocolate Araucária",
+    "nota": 4.7,
+    "endereco": "Av. Macedo Soares",
+    "tags": ["compras"],
+    "descricao": "Chocolates artesanais típicos da cidade.",
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Malharia Geneve",
+    "nota": 4.5,
+    "endereco": "Rua Djalma Forjaz",
+    "tags": ["compras"],
+    "descricao": "Tradicional loja de malhas de inverno.",
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Espaço das Malhas",
+    "nota": 4.4,
+    "endereco": "Rua Eng. Diogo de Carvalho",
+    "tags": ["compras"],
+    "descricao": "Variedade em moda e malharia.",
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Mercado Municipal",
+    "nota": 4.6,
+    "endereco": "Rua Dr. Djalma Forjaz",
+    "tags": ["compras"],
+    "descricao": "Produtos regionais e artesanato local.",
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Tarundu",
+    "nota": 4.7,
+    "endereco": "Av. José Antônio Manso, 1515",
+    "tags": ["aventura"],
+    "descricao": "Centro de lazer com diversas atividades como arvorismo e tirolesa.",
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Prana Park",
+    "nota": 4.7,
+    "endereco": "Estrada do Pico do Itapeva",
+    "tags": ["aventura"],
+    "descricao": "Parque de aventura com balanços radicais e trilhas.",
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Horto Florestal (Aventura)",
+    "nota": 4.7,
+    "endereco": "Av. Pedro Paulo, s/n",
+    "tags": ["aventura"],
+    "descricao": "Trilhas de mountain bike e percursos desafiadores.",
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Tirolesa",
+    "nota": 4.6,
+    "endereco": "Parque Capivari",
+    "tags": ["aventura"],
+    "descricao": "Experiência radical com vista para o parque.",
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Arvorismo",
+    "nota": 4.5,
+    "endereco": "Parque da Lagoinha",
+    "tags": ["aventura"],
+    "descricao": "Circuito de arvorismo para todas as idades.",
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Quadriciclo",
+    "nota": 4.4,
+    "endereco": "Estrada do Pico",
+    "tags": ["aventura"],
+    "descricao": "Passeios guiados de quadriciclo pelas montanhas.",
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Paintball",
+    "nota": 4.3,
+    "endereco": "Av. Dr. Luís Arrobas Martins",
+    "tags": ["aventura"],
+    "descricao": "Arena de paintball para grupos de amigos.",
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Prana Por do Sol",
+    "nota": 4.9,
+    "endereco": "Estrada do Pico do Itapeva",
+    "tags": ["mirantes", "aventura"],
+    "descricao": "Lugar lindíssimo com um restaurante super charmoso para um pôr do sol inesquecível.",
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Pico do Itapeva",
+    "nota": 4.9,
+    "endereco": "Estrada do Pico do Itapeva",
+    "tags": ["mirantes", "aventura"],
+    "descricao": "Uma das vistas mais altas e impressionantes da região.",
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Vista Chinesa",
+    "nota": 4.7,
+    "endereco": "Estrada do Pico do Itapeva",
+    "tags": ["mirantes"],
+    "descricao": "Ponto de observação com vistas deslumbrantes da serra.",
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Mirante Orizonte",
+    "nota": 4.8,
+    "endereco": "Estrada do Pico do Itapeva",
+    "tags": ["mirantes"],
+    "descricao": "Um mirante moderno com vista panorâmica.",
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Pedra do Baú",
+    "nota": 4.9,
+    "endereco": "São Bento do Sapucaí (próx)",
+    "tags": ["mirantes", "aventura"],
+    "descricao": "Famosa formação rochosa, um dos pontos mais icônicos da região.",
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Mirante do Morro do Elefante",
+    "nota": 4.7,
+    "endereco": "Av. Alto do Morro do Elefante",
+    "tags": ["mirantes"],
+    "descricao": "Vista clássica do alto da cidade.",
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Mirante do Portal",
+    "nota": 4.5,
+    "endereco": "Entrada da Cidade",
+    "tags": ["mirantes"],
+    "descricao": "Vista da chegada em Campos.",
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Mirante das Araucárias",
+    "nota": 4.6,
+    "endereco": "Av. Dr. Adhemar de Barros",
+    "tags": ["mirantes"],
+    "descricao": "Ponto de observação das araucárias locais.",
+    "categoria": "Mirantes"
+  }
+]

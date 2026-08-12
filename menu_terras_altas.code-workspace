@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../OneDrive/Área de Trabalho/EDGAR/MINER/2026/ProjetoDataGovernance"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ProjetoDataGovernance",
+		"liveServer.settings.port": 5501
+	}
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra Campos do Jordão • Casa Terras Altas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <h1>🌲 Casa Terras Altas</h1>
+            <p>Campos do Jordão</p>
+        </div>
+        <nav>
+            <a href="index.html">Restaurantes</a>
+            <a href="o_que_fazer.html">Descubra Campos do Jordão</a>
+            <a href="sobre_a_casa.html">Sobre a Casa</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <img class="hero-bg" src="hero_casa_terras_altas.png" alt="Casa Terras Altas">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h2>Descubra Campos do Jordão</h2>
+        <p>Explore os melhores passeios, parques e atrações turísticas.</p>
+    </div>
+</section>
+
+<section class="intro">
+    <div class="container">
+        <div class="intro-card">
+            <h3>✨ Atrações Imperdíveis</h3>
+            <div class="intro-features experience-grid" id="filters">
+                <button class="active" onclick="filtrarPorExperiencia('Todos')">Todos</button>
+                <button onclick="filtrarPorExperiencia('natureza')">🌳 Natureza</button>
+                <button onclick="filtrarPorExperiencia('passeios')">🎡 Passeios Clássicos</button>
+                <button onclick="filtrarPorExperiencia('cultura')">🎭 Cultura</button>
+                <button onclick="filtrarPorExperiencia('compras')">🛍️ Compras</button>
+                <button onclick="filtrarPorExperiencia('aventura')">🚵 Aventura</button>
+                <button onclick="filtrarPorExperiencia('mirantes')">📸 Mirantes</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main>
+    <div class="container">
+        <section id="attractionGrid" class="restaurant-grid"></section>
+    </div>
+</main>
+
+<script src="script_atracoes.js"></script>
+</body>
+</html>
