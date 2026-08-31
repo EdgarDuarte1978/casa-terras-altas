@@ -1,0 +1,15 @@
+# Build / distribuição (reproduzível a partir do código-fonte)
+publicar/
+publicar_casa_terras_altas.zip
+Guia da casa Terras altas.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / SO
+.vscode/
+.DS_Store
+Thumbs.db

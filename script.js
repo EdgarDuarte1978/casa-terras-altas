@@ -1,216 +1,133 @@
 // =====================================================
-// Guia Gastronômico Casa Terras Altas
-// script.js - MVP V1
+// Guia Gastronômico Casa Terras Altas — script.js (v2)
+// Correções:
+//  - remove dependência de #searchInput / .categories (erro no console)
+//  - destaque do filtro ativo agora funciona
+//  - "Como Chegar" parte de um endereço válido da casa
+//  - template do card usa classes explícitas (.card-meta / .card-desc)
 // =====================================================
+
+const ORIGEM_CASA = "Rua K, 400 - Jardim Primavera, Campos do Jordão, SP";
 
 let restaurantes = [];
 let restaurantesFiltrados = [];
 
-//======================================================
+// ------------------------------------------------------
 // CARREGAR JSON
-//======================================================
-
+// ------------------------------------------------------
 async function carregarRestaurantes() {
-
     try {
-
         const resposta = await fetch("restaurantes.json");
-
         restaurantes = await resposta.json();
-
         restaurantesFiltrados = [...restaurantes];
-
         renderizar(restaurantesFiltrados);
-
     } catch (erro) {
-
         console.error("Erro ao carregar restaurantes:", erro);
-
         document.getElementById("restaurantGrid").innerHTML = `
             <p style="text-align:center;padding:40px;">
                 Não foi possível carregar os restaurantes.
-            </p>
-        `;
-
+            </p>`;
     }
-
 }
 
-//======================================================
+// ------------------------------------------------------
 // RENDERIZAR CARDS
-//======================================================
-
+// ------------------------------------------------------
 function renderizar(lista) {
-
     const grid = document.getElementById("restaurantGrid");
-
     grid.innerHTML = "";
 
-    if (lista.length === 0) {
-
+    if (!lista.length) {
         grid.innerHTML = `
             <p style="text-align:center;padding:40px;">
                 Nenhum restaurante encontrado.
-            </p>
-        `;
-
+            </p>`;
         return;
-
     }
 
-    lista.forEach(restaurante => {
-
+    lista.forEach(r => {
         const card = document.createElement("article");
-
         card.className = "restaurant-card";
 
-        const link = restaurante.site || restaurante.instagram || restaurante.maps || '#';
+        const destino = `${r.nome} ${r.bairro || ""} Campos do Jordão`
+            .replace(/\s+/g, " ")
+            .trim();
 
-        // Origem fixa: Casa Terras Altas
-        const origem = 'Rua K, 225, Campos do Jordão';
+        const directionsUrl =
+            `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(ORIGEM_CASA)}` +
+            `&destination=${encodeURIComponent(destino)}`;
 
-        // Montar destino amigável: nome + bairro (se disponível)
-        const destinoText = `${restaurante.nome} ${restaurante.bairro || ''} Campos do Jordão`;
-
-        const directionsUrl = `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(origem)}&destination=${encodeURIComponent(destinoText)}`;
-
-        // montar link de visita (site > instagram > maps)
-        const visitLink = restaurante.site || restaurante.instagram || restaurante.maps || null;
-
-        const visitButtonHtml = visitLink
+        // link de visita: site > instagram > maps
+        const visitLink = r.site || r.instagram || r.maps || null;
+        const visitButton = visitLink
             ? `<a href="${visitLink}" target="_blank" rel="noopener noreferrer" class="visit-button">Visitar</a>`
             : `<button class="visit-button disabled" disabled>Visitar</button>`;
 
         card.innerHTML = `
-
             <div class="restaurant-content no-image">
-
-                <h3>${restaurante.nome}</h3>
-
-                <p>
-
-                    ⭐ ${restaurante.nota} • ${restaurante.categoria} ${restaurante.preco ? '• ' + restaurante.preco : ''}
-
-                </p>
-
-                ${restaurante.valor_medio ? `<p class="price-info">💰 ${restaurante.valor_medio}</p>` : ''}
-
-                <p>
-
-                    ${restaurante.descricao}
-
-                </p>
-
-                ${restaurante.endereco ? `<p class="endereco-info">📍 ${restaurante.endereco}</p>` : ''}
-
-                <br>
-
+                <h3>${r.nome}</h3>
+                <p class="card-meta">⭐ ${r.nota} • ${r.categoria}${r.preco ? " • " + r.preco : ""}</p>
+                ${r.valor_medio ? `<p class="price-info">💰 ${r.valor_medio}</p>` : ""}
+                <p class="card-desc">${r.descricao || ""}</p>
+                ${r.endereco ? `<p class="endereco-info">📍 ${r.endereco}</p>` : ""}
                 <div class="card-actions">
-                    ${visitButtonHtml}
+                    ${visitButton}
                     <a href="${directionsUrl}" target="_blank" rel="noopener noreferrer" class="map-button">Como Chegar</a>
                 </div>
-
-            </div>
-
-        `;
+            </div>`;
 
         grid.appendChild(card);
-
     });
-
 }
 
-//======================================================
-// PESQUISA
-//======================================================
-
+// ------------------------------------------------------
+// PESQUISA (ativa apenas se existir um campo #searchInput)
+// ------------------------------------------------------
 function pesquisar(texto) {
-
-    texto = texto.toLowerCase();
-
+    texto = (texto || "").toLowerCase();
     restaurantesFiltrados = restaurantes.filter(r =>
-
-        r.nome.toLowerCase().includes(texto)
-
-        ||
-
-        r.categoria.toLowerCase().includes(texto)
-
-        ||
-
-        r.bairro.toLowerCase().includes(texto)
-
+        (r.nome || "").toLowerCase().includes(texto) ||
+        (r.categoria || "").toLowerCase().includes(texto) ||
+        (r.bairro || "").toLowerCase().includes(texto) ||
+        (r.tags || []).some(t => t.toLowerCase().includes(texto))
     );
-
     renderizar(restaurantesFiltrados);
-
 }
 
-//======================================================
-// FILTRO POR TAGS / EXPERIÊNCIA
-//======================================================
-
+// ------------------------------------------------------
+// FILTRO POR EXPERIÊNCIA / CATEGORIA
+// ------------------------------------------------------
 function filtrarPorExperiencia(tag) {
-
-    if (tag === "Todos") {
-
+    if (tag === "Todos" || !tag) {
         restaurantesFiltrados = [...restaurantes];
-
     } else {
-
+        const alvo = tag.toLowerCase();
         restaurantesFiltrados = restaurantes.filter(r =>
-
-            (r.tags && r.tags.some(t => t.toLowerCase() === tag.toLowerCase())) || 
-            (r.categoria && r.categoria.toLowerCase() === tag.toLowerCase())
-
+            (r.tags || []).some(t => t.toLowerCase() === alvo) ||
+            (r.categoria || "").toLowerCase() === alvo
         );
-
     }
-
     renderizar(restaurantesFiltrados);
-
 }
 
-//======================================================
+// ------------------------------------------------------
 // EVENTOS
-//======================================================
-
+// ------------------------------------------------------
 document.addEventListener("DOMContentLoaded", () => {
-
     carregarRestaurantes();
 
-    const pesquisa = document.getElementById("searchInput");
-
-    pesquisa.addEventListener("keyup", e => {
-
-        pesquisar(e.target.value);
-
+    // destaque visual do filtro ativo (o filtro roda pelo onclick inline)
+    const botoes = document.querySelectorAll(".experience-grid button, .intro-features button");
+    botoes.forEach(botao => {
+        botao.addEventListener("click", () => {
+            botoes.forEach(b => b.classList.remove("active"));
+            botao.classList.add("active");
+        });
     });
 
-    document.querySelectorAll(".categories button")
-
-        .forEach(botao => {
-
-            botao.addEventListener("click", () => {
-                
-                document.querySelectorAll(".categories button").forEach(b => b.classList.remove("active"));
-                botao.classList.add("active");
-                
-                const tag = botao.innerText.trim();
-                filtrarPorExperiencia(tag === "Todos" ? "Todos" : tag.toLowerCase());
-            });
-
-        });
-                document.querySelectorAll(".categories button")
-        .forEach(botao => {
-            botao.addEventListener("click", () => {
-                document.querySelectorAll(".categories button").forEach(b => b.classList.remove("active"));
-                botao.classList.add("active");
-                
-                let categoria = botao.textContent
-                    .replace(/[^\wÀ-ÿ ]/g, "")
-                    .trim();
-                filtrarPorExperiencia(categoria === "Todos" ? "Todos" : categoria);
-            });
-        });
+    // busca opcional
+    const pesquisa = document.getElementById("searchInput");
+    if (pesquisa) {
+        pesquisa.addEventListener("keyup", e => pesquisar(e.target.value));
+    }
 });

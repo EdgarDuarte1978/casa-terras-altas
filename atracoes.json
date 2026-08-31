@@ -2,345 +2,796 @@
   {
     "nome": "Parque Amantikir",
     "nota": 4.8,
-    "endereco": "Rodovia Campos do Jordão, 215",
-    "tags": ["natureza"],
-    "descricao": "Jardins inspirados em vários países com vista privilegiada para a serra.",
-    "categoria": "Natureza"
+    "endereco": "Estrada Campos do Jordão–Eugênio Lefèvre, km 269",
+    "descricao": "Jardins temáticos inspirados em vários países, com vista privilegiada para a serra.",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Parque+Amantikir+Campos+do+Jordao"
   },
   {
-    "nome": "Horto Florestal",
+    "nome": "Horto Florestal (Parque Estadual)",
     "nota": 4.7,
-    "endereco": "Av. Pedro Paulo, s/n",
-    "tags": ["natureza"],
-    "descricao": "Um dos parques mais antigos do Brasil, ideal para trilhas e piqueniques.",
-    "categoria": "Natureza"
+    "endereco": "Av. Pedro Paulo, s/n - Horto Florestal",
+    "descricao": "Um dos parques mais antigos do país; trilhas, araucárias, rio e piquenique.",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Horto+Florestal+%28Parque+Estadual%29+Campos+do+Jordao"
   },
   {
     "nome": "Bosque do Silêncio",
-    "nota": 4.7,
+    "nota": 4.6,
     "endereco": "Av. Sen. Roberto Simonsen, 1724",
-    "tags": ["natureza"],
-    "descricao": "Parque com arvorismo e trilhas em meio à mata nativa.",
-    "categoria": "Natureza"
+    "descricao": "Reserva de mata nativa com trilhas leves e atividades de arvorismo.",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bosque+do+Sil%C3%AAncio+Campos+do+Jordao"
   },
   {
-    "nome": "Lagoinha",
-    "nota": 4.6,
-    "endereco": "Estrada da Lagoinha",
-    "tags": ["natureza"],
-    "descricao": "Local para trilhas e contato com a natureza.",
-    "categoria": "Natureza"
+    "nome": "Represa do Lagoinha",
+    "nota": 4.5,
+    "endereco": "Estrada da Lagoinha, s/n",
+    "descricao": "Área tranquila para caminhadas e contato com a natureza, longe do agito.",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Represa+do+Lagoinha+Campos+do+Jordao"
   },
   {
     "nome": "Borboletário Flores que Voam",
     "nota": 4.5,
-    "endereco": "Av. Dr. Paulo Borges de Oliveira",
-    "tags": ["natureza"],
-    "descricao": "Espaço dedicado à preservação e observação de borboletas.",
-    "categoria": "Natureza"
+    "endereco": "Av. Dr. Paulo Ferraz de Camargo, s/n",
+    "descricao": "Espaço de criação e observação de borboletas nativas da Mata Atlântica.",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Borbolet%C3%A1rio+Flores+que+Voam+Campos+do+Jordao"
   },
   {
-    "nome": "Parque da Lagoinha",
-    "nota": 4.5,
-    "endereco": "Av. Pedro Paulo",
-    "tags": ["natureza"],
-    "descricao": "Parque arborizado excelente para caminhadas.",
-    "categoria": "Natureza"
-  },
-  {
-    "nome": "Jardim da Mantiqueira",
+    "nome": "Parque dos Elfos",
     "nota": 4.4,
-    "endereco": "Rodovia Floriano Rodrigues",
-    "tags": ["natureza"],
-    "descricao": "Espaço natural focado em plantas regionais.",
-    "categoria": "Natureza"
+    "endereco": "Estrada do Horto Florestal",
+    "descricao": "Bosque temático familiar com casinhas, trilha e atividades ao ar livre.",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Parque+dos+Elfos+Campos+do+Jordao"
   },
   {
-    "nome": "Capivari",
+    "nome": "Trilha dos Jesuítas",
+    "nota": 4.6,
+    "endereco": "Parque Estadual - Horto Florestal",
+    "descricao": "Trilha histórica em meio à floresta de araucárias dentro do parque estadual.",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Trilha+dos+Jesu%C3%ADtas+Campos+do+Jordao"
+  },
+  {
+    "nome": "Cachoeira dos Amores",
+    "nota": 4.6,
+    "endereco": "Parque Estadual - Horto Florestal",
+    "descricao": "Queda d'água acessível por trilha curta a partir do Horto Florestal.",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Cachoeira+dos+Amores+Campos+do+Jordao"
+  },
+  {
+    "nome": "Vale das Cachoeiras (Eugênio Lefèvre)",
+    "nota": 4.5,
+    "endereco": "Distrito de Eugênio Lefèvre",
+    "descricao": "Conjunto de cachoeiras e poços em área rural, ótimo para o verão.",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Vale+das+Cachoeiras+%28Eug%C3%AAnio+Lef%C3%A8vre%29+Campos+do+Jordao"
+  },
+  {
+    "nome": "Poço do Pito",
+    "nota": 4.4,
+    "endereco": "Parque Estadual - Horto Florestal",
+    "descricao": "Poço de águas geladas do rio Sapucaí-Guaçu, dentro do Horto Florestal.",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Po%C3%A7o+do+Pito+Campos+do+Jordao"
+  },
+  {
+    "nome": "Ninho da Águia (área de mata)",
+    "nota": 4.5,
+    "endereco": "Estrada do Ninho da Águia - Alto da Boa Vista",
+    "descricao": "Mata preservada no ponto mais alto da cidade, com mirante natural.",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Ninho+da+%C3%81guia+%28%C3%A1rea+de+mata%29+Campos+do+Jordao"
+  },
+  {
+    "nome": "Reserva do Trabiju",
+    "nota": 4.4,
+    "endereco": "São Bento do Sapucaí (região)",
+    "descricao": "Área natural de mata e cachoeiras na divisa com São Bento do Sapucaí.",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Reserva+do+Trabiju+Campos+do+Jordao"
+  },
+  {
+    "nome": "Vila Capivari",
     "nota": 4.8,
-    "endereco": "Centro de Capivari",
-    "tags": ["passeios"],
-    "descricao": "O coração de Campos do Jordão, com comércio e vida noturna.",
-    "categoria": "Passeios Clássicos"
+    "endereco": "Av. Macedo Soares - Capivari",
+    "descricao": "O coração turístico da cidade: restaurantes, lojas, chocolaterias e vida noturna.",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Vila+Capivari+Campos+do+Jordao"
   },
   {
     "nome": "Morro do Elefante",
     "nota": 4.7,
-    "endereco": "Av. Alto do Morro do Elefante",
-    "tags": ["passeios", "mirantes"],
-    "descricao": "Um dos pontos mais famosos com vista panorâmica da cidade.",
-    "categoria": "Passeios Clássicos"
+    "endereco": "Alto do Morro do Elefante",
+    "descricao": "Ponto clássico com vista panorâmica; acesso por teleférico, carro ou trilha.",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Morro+do+Elefante+Campos+do+Jordao"
   },
   {
-    "nome": "Teleférico",
+    "nome": "Teleférico do Morro do Elefante",
     "nota": 4.6,
     "endereco": "Parque Capivari",
-    "tags": ["passeios"],
-    "descricao": "O primeiro teleférico do Brasil, levando ao topo do Morro do Elefante.",
-    "categoria": "Passeios Clássicos"
+    "descricao": "Primeiro teleférico do Brasil, liga o Parque Capivari ao topo do morro.",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Telef%C3%A9rico+do+Morro+do+Elefante+Campos+do+Jordao"
   },
   {
-    "nome": "Bondinho",
+    "nome": "Bondinho / Parque Capivari",
     "nota": 4.5,
-    "endereco": "Estação Emílio Ribas",
-    "tags": ["passeios"],
-    "descricao": "Passeio clássico pelo centro de Campos do Jordão.",
-    "categoria": "Passeios Clássicos"
+    "endereco": "Estação Emílio Ribas / Parque Capivari",
+    "descricao": "Parque com lago, pedalinhos, roda-gigante e o embarque do bondinho.",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bondinho+%2F+Parque+Capivari+Campos+do+Jordao"
   },
   {
     "nome": "Ducha de Prata",
-    "nota": 4.4,
-    "endereco": "Av. Roberto Simonsen",
-    "tags": ["passeios"],
-    "descricao": "Quedas d'água artificiais e comércio de artesanato.",
-    "categoria": "Passeios Clássicos"
+    "nota": 4.3,
+    "endereco": "Av. Dr. Roberto Simonsen",
+    "descricao": "Quedas d'água em meio à mata, com quiosques de artesanato no entorno.",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Ducha+de+Prata+Campos+do+Jordao"
   },
   {
     "nome": "Portal da Cidade",
     "nota": 4.5,
-    "endereco": "Entrada da cidade",
-    "tags": ["passeios"],
-    "descricao": "Portal típico da arquitetura alpina, local para fotos.",
-    "categoria": "Passeios Clássicos"
+    "endereco": "Entrada da cidade - Rod. Floriano Rodrigues Pinheiro",
+    "descricao": "Portal monumental em estilo alpino, parada tradicional para fotos na chegada.",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Portal+da+Cidade+Campos+do+Jordao"
   },
   {
-    "nome": "Estrada de Ferro",
+    "nome": "Estrada de Ferro Campos do Jordão",
+    "nota": 4.6,
+    "endereco": "Estação Emílio Ribas - Abernéssia",
+    "descricao": "Passeios turísticos de trem pela ferrovia mais alta do Brasil.",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Estrada+de+Ferro+Campos+do+Jord%C3%A3o+Campos+do+Jordao"
+  },
+  {
+    "nome": "Lago do Parque Capivari",
+    "nota": 4.4,
+    "endereco": "Parque Capivari",
+    "descricao": "Lago central de Capivari com pedalinhos e cafés à beira d'água.",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Lago+do+Parque+Capivari+Campos+do+Jordao"
+  },
+  {
+    "nome": "Praça do Capivari",
     "nota": 4.5,
-    "endereco": "Estação Abernéssia",
-    "tags": ["passeios"],
-    "descricao": "Passeio histórico de trem pela serra.",
-    "categoria": "Passeios Clássicos"
+    "endereco": "Capivari",
+    "descricao": "Praça arborizada no centro de Capivari, com feirinhas nos fins de semana.",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pra%C3%A7a+do+Capivari+Campos+do+Jordao"
+  },
+  {
+    "nome": "Vila Abernéssia",
+    "nota": 4.3,
+    "endereco": "Abernéssia",
+    "descricao": "Centro comercial e histórico da cidade, com o comércio do dia a dia.",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Vila+Abern%C3%A9ssia+Campos+do+Jordao"
+  },
+  {
+    "nome": "Passeio de charrete / jardineira",
+    "nota": 4.2,
+    "endereco": "Capivari",
+    "descricao": "City tour tradicional saindo de Capivari pelos principais pontos da cidade.",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Passeio+de+charrete+%2F+jardineira+Campos+do+Jordao"
+  },
+  {
+    "nome": "Recinto do Festival de Inverno",
+    "nota": 4.4,
+    "endereco": "Av. Dr. Luís Arrobas Martins, 1880",
+    "descricao": "Complexo do Auditório e do Museu, palco do Festival de Inverno em julho.",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Recinto+do+Festival+de+Inverno+Campos+do+Jordao"
   },
   {
     "nome": "Museu Felícia Leirner",
     "nota": 4.9,
     "endereco": "Av. Dr. Luís Arrobas Martins, 1880",
-    "tags": ["cultura"],
-    "descricao": "Museu ao ar livre com esculturas integradas à natureza.",
-    "categoria": "Cultura"
+    "descricao": "Museu ao ar livre com 85 esculturas integradas à paisagem da serra.",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Museu+Fel%C3%ADcia+Leirner+Campos+do+Jordao"
   },
   {
     "nome": "Auditório Cláudio Santoro",
     "nota": 4.9,
     "endereco": "Av. Dr. Luís Arrobas Martins, 1880",
-    "tags": ["cultura"],
-    "descricao": "Sede do Festival de Inverno, um marco arquitetônico e cultural.",
-    "categoria": "Cultura"
+    "descricao": "Sala de concertos sede do Festival de Inverno, referência arquitetônica.",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Audit%C3%B3rio+Cl%C3%A1udio+Santoro+Campos+do+Jordao"
   },
   {
     "nome": "Palácio Boa Vista",
     "nota": 4.7,
     "endereco": "Av. Adhemar de Barros, 3001",
-    "tags": ["cultura"],
-    "descricao": "Residência de inverno do governador com importante acervo de arte.",
-    "categoria": "Cultura"
+    "descricao": "Residência oficial de inverno do governador, com acervo de arte brasileira.",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pal%C3%A1cio+Boa+Vista+Campos+do+Jordao"
   },
   {
-    "nome": "Mosteiro São João",
+    "nome": "Mosteiro São João (Beneditino)",
     "nota": 4.8,
     "endereco": "Av. Dr. Adhemar de Barros, 330",
-    "tags": ["cultura"],
-    "descricao": "Um local de paz e tradição religiosa.",
-    "categoria": "Cultura"
+    "descricao": "Mosteiro beneditino com igreja, canto gregoriano e produtos dos monges.",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mosteiro+S%C3%A3o+Jo%C3%A3o+%28Beneditino%29+Campos+do+Jordao"
   },
   {
     "nome": "Casa da Xilogravura",
     "nota": 4.7,
-    "endereco": "Av. Eduardo Moreira da Cruz, 295",
-    "tags": ["cultura"],
-    "descricao": "Museu dedicado à arte da xilogravura brasileira.",
-    "categoria": "Cultura"
+    "endereco": "Av. Eduardo Moreira da Cruz, 295 - Jaguaribe",
+    "descricao": "Museu dedicado à xilogravura brasileira, com ateliê e jardim.",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Casa+da+Xilogravura+Campos+do+Jordao"
   },
   {
-    "nome": "Centro Cultural",
+    "nome": "Igreja Matriz de Santa Teresinha",
     "nota": 4.5,
-    "endereco": "Praça Pindorama",
-    "tags": ["cultura"],
-    "descricao": "Espaço para exposições e eventos culturais.",
-    "categoria": "Cultura"
+    "endereco": "Praça Prof. Vicente Rizzo - Abernéssia",
+    "descricao": "Principal igreja da cidade, ponto de referência da Vila Abernéssia.",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Igreja+Matriz+de+Santa+Teresinha+Campos+do+Jordao"
   },
   {
     "nome": "Capela de São Pedro",
     "nota": 4.4,
-    "endereco": "Av. Alto da Boa Vista",
-    "tags": ["cultura"],
-    "descricao": "Uma construção histórica com belos vitrais.",
-    "categoria": "Cultura"
+    "endereco": "Alto da Boa Vista",
+    "descricao": "Pequena capela histórica em pedra, com vista para o vale.",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Capela+de+S%C3%A3o+Pedro+Campos+do+Jordao"
   },
   {
-    "nome": "Shopping Pátio Paris",
+    "nome": "Vila Inglesa",
     "nota": 4.5,
-    "endereco": "Av. Macedo Soares",
-    "tags": ["compras"],
-    "descricao": "Opções de lojas e gastronomia no coração de Capivari.",
-    "categoria": "Compras"
+    "endereco": "Alto da Vila Inglesa",
+    "descricao": "Conjunto residencial com arquitetura de inspiração britânica dos anos 1920.",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Vila+Inglesa+Campos+do+Jordao"
+  },
+  {
+    "nome": "Boulevard Genève",
+    "nota": 4.6,
+    "endereco": "Rua Djalma Forjaz - Capivari",
+    "descricao": "Galeria comercial com arquitetura europeia, marco visual de Capivari.",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Boulevard+Gen%C3%A8ve+Campos+do+Jordao"
+  },
+  {
+    "nome": "Estação Ferroviária Emílio Ribas",
+    "nota": 4.4,
+    "endereco": "Abernéssia",
+    "descricao": "Estação histórica da Estrada de Ferro, patrimônio ferroviário da cidade.",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Esta%C3%A7%C3%A3o+Ferrovi%C3%A1ria+Em%C3%ADlio+Ribas+Campos+do+Jordao"
+  },
+  {
+    "nome": "Espaço Cultural Dr. Além",
+    "nota": 4.3,
+    "endereco": "Av. Frei Orestes Girardi - Abernéssia",
+    "descricao": "Centro de eventos e exposições da prefeitura, com agenda cultural.",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Espa%C3%A7o+Cultural+Dr.+Al%C3%A9m+Campos+do+Jordao"
+  },
+  {
+    "nome": "Museu do Automóvel",
+    "nota": 4.4,
+    "endereco": "Capivari (verifique funcionamento)",
+    "descricao": "Acervo de carros antigos e clássicos; confirme se está aberto na temporada.",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Museu+do+Autom%C3%B3vel+Campos+do+Jordao"
+  },
+  {
+    "nome": "Lojas da Vila Capivari",
+    "nota": 4.6,
+    "endereco": "Av. Macedo Soares - Capivari",
+    "descricao": "Grife de inverno, malharias, decoração e chocolates no calçadão de Capivari.",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Lojas+da+Vila+Capivari+Campos+do+Jordao"
+  },
+  {
+    "nome": "Boulevard Genève",
+    "nota": 4.6,
+    "endereco": "Rua Djalma Forjaz - Capivari",
+    "descricao": "Galeria com lojas de moda, presentes e cafés em ambiente europeu.",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Boulevard+Gen%C3%A8ve+Campos+do+Jordao"
+  },
+  {
+    "nome": "Shopping Pátio Capivari",
+    "nota": 4.5,
+    "endereco": "Av. Macedo Soares - Capivari",
+    "descricao": "Shopping a céu aberto com lojas, praça de alimentação e cinema.",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Shopping+P%C3%A1tio+Capivari+Campos+do+Jordao"
   },
   {
     "nome": "Cadij Shopping",
-    "nota": 4.6,
-    "endereco": "Rua Djalma Forjaz",
-    "tags": ["compras"],
-    "descricao": "Espaço clássico de compras em Campos do Jordão.",
-    "categoria": "Compras"
+    "nota": 4.5,
+    "endereco": "Rua Djalma Forjaz - Capivari",
+    "descricao": "Galeria tradicional de Capivari com malharias e artigos regionais.",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Cadij+Shopping+Campos+do+Jordao"
   },
   {
-    "nome": "Boulevard Geneve",
-    "nota": 4.6,
-    "endereco": "Rua Djalma Forjaz",
-    "tags": ["compras"],
-    "descricao": "Shopping com arquitetura europeia e lojas exclusivas.",
-    "categoria": "Compras"
+    "nome": "Malharia Genève",
+    "nota": 4.5,
+    "endereco": "Rua Djalma Forjaz - Capivari",
+    "descricao": "Uma das malharias clássicas da cidade, tricôs e peças de inverno.",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Malharia+Gen%C3%A8ve+Campos+do+Jordao"
+  },
+  {
+    "nome": "Rua das Malhas (Abernéssia)",
+    "nota": 4.4,
+    "endereco": "Av. Frei Orestes Girardi - Abernéssia",
+    "descricao": "Concentração de fábricas e lojas de malha com preço de atacado.",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Rua+das+Malhas+%28Abern%C3%A9ssia%29+Campos+do+Jordao"
+  },
+  {
+    "nome": "Mercado Municipal",
+    "nota": 4.5,
+    "endereco": "Rua Dr. Djalma Forjaz",
+    "descricao": "Produtos regionais, queijos, embutidos, cachaças e artesanato.",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mercado+Municipal+Campos+do+Jordao"
+  },
+  {
+    "nome": "Feira de Artesanato do Capivari",
+    "nota": 4.4,
+    "endereco": "Praça do Capivari (fins de semana)",
+    "descricao": "Barracas de artesanato, malhas e comidas típicas aos fins de semana.",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Feira+de+Artesanato+do+Capivari+Campos+do+Jordao"
   },
   {
     "nome": "Chocolate Araucária",
     "nota": 4.7,
-    "endereco": "Av. Macedo Soares",
-    "tags": ["compras"],
-    "descricao": "Chocolates artesanais típicos da cidade.",
-    "categoria": "Compras"
+    "endereco": "Av. Macedo Soares - Capivari",
+    "descricao": "Fábrica e loja de chocolates artesanais típicos da cidade.",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Chocolate+Arauc%C3%A1ria+Campos+do+Jordao"
   },
   {
-    "nome": "Malharia Geneve",
+    "nome": "Loja Baden Baden",
     "nota": 4.5,
-    "endereco": "Rua Djalma Forjaz",
-    "tags": ["compras"],
-    "descricao": "Tradicional loja de malhas de inverno.",
-    "categoria": "Compras"
+    "endereco": "Rua Djalma Forjaz - Capivari",
+    "descricao": "Loja da cervejaria com rótulos artesanais e kits para presente.",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Loja+Baden+Baden+Campos+do+Jordao"
   },
   {
-    "nome": "Espaço das Malhas",
+    "nome": "Empório Genève",
     "nota": 4.4,
-    "endereco": "Rua Eng. Diogo de Carvalho",
-    "tags": ["compras"],
-    "descricao": "Variedade em moda e malharia.",
-    "categoria": "Compras"
+    "endereco": "Rua Djalma Forjaz - Capivari",
+    "descricao": "Vinhos, azeites, geleias e produtos gourmet da serra.",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Emp%C3%B3rio+Gen%C3%A8ve+Campos+do+Jordao"
   },
   {
-    "nome": "Mercado Municipal",
-    "nota": 4.6,
-    "endereco": "Rua Dr. Djalma Forjaz",
-    "tags": ["compras"],
-    "descricao": "Produtos regionais e artesanato local.",
-    "categoria": "Compras"
+    "nome": "Spinassi Chocolates",
+    "nota": 4.5,
+    "endereco": "Av. Macedo Soares - Capivari",
+    "descricao": "Chocolate quente artesanal, bombons e doces típicos para levar.",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Spinassi+Chocolates+Campos+do+Jordao"
   },
   {
     "nome": "Tarundu",
     "nota": 4.7,
-    "endereco": "Av. José Antônio Manso, 1515",
-    "tags": ["aventura"],
-    "descricao": "Centro de lazer com diversas atividades como arvorismo e tirolesa.",
-    "categoria": "Aventura"
+    "endereco": "Av. José Antônio Manso, 1515 - Jaguaribe",
+    "descricao": "Parque de lazer com arvorismo, tirolesa, tobogã, pesca e trilha.",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Tarundu+Campos+do+Jordao"
   },
   {
-    "nome": "Prana Park",
+    "nome": "Prana Aventura Park",
     "nota": 4.7,
     "endereco": "Estrada do Pico do Itapeva",
-    "tags": ["aventura"],
-    "descricao": "Parque de aventura com balanços radicais e trilhas.",
-    "categoria": "Aventura"
+    "descricao": "Balanços panorâmicos, tirolesa e trilhas com vista para a Mantiqueira.",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Prana+Aventura+Park+Campos+do+Jordao"
   },
   {
-    "nome": "Horto Florestal (Aventura)",
-    "nota": 4.7,
-    "endereco": "Av. Pedro Paulo, s/n",
-    "tags": ["aventura"],
-    "descricao": "Trilhas de mountain bike e percursos desafiadores.",
-    "categoria": "Aventura"
-  },
-  {
-    "nome": "Tirolesa",
-    "nota": 4.6,
-    "endereco": "Parque Capivari",
-    "tags": ["aventura"],
-    "descricao": "Experiência radical com vista para o parque.",
-    "categoria": "Aventura"
-  },
-  {
-    "nome": "Arvorismo",
+    "nome": "Tirolesa do Parque Capivari",
     "nota": 4.5,
-    "endereco": "Parque da Lagoinha",
-    "tags": ["aventura"],
-    "descricao": "Circuito de arvorismo para todas as idades.",
-    "categoria": "Aventura"
+    "endereco": "Parque Capivari",
+    "descricao": "Travessia de tirolesa sobre o parque, no centro de Capivari.",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Tirolesa+do+Parque+Capivari+Campos+do+Jordao"
   },
   {
-    "nome": "Quadriciclo",
+    "nome": "Arvorismo no Bosque do Silêncio",
+    "nota": 4.5,
+    "endereco": "Av. Sen. Roberto Simonsen, 1724",
+    "descricao": "Circuito de arvorismo entre as árvores da reserva, para vários níveis.",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Arvorismo+no+Bosque+do+Sil%C3%AAncio+Campos+do+Jordao"
+  },
+  {
+    "nome": "Mountain bike no Horto Florestal",
+    "nota": 4.6,
+    "endereco": "Parque Estadual - Horto Florestal",
+    "descricao": "Trilhas de bike de nível variado dentro do parque estadual.",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mountain+bike+no+Horto+Florestal+Campos+do+Jordao"
+  },
+  {
+    "nome": "Passeio de quadriciclo",
     "nota": 4.4,
-    "endereco": "Estrada do Pico",
-    "tags": ["aventura"],
-    "descricao": "Passeios guiados de quadriciclo pelas montanhas.",
-    "categoria": "Aventura"
+    "endereco": "Estrada do Pico do Itapeva (operadoras locais)",
+    "descricao": "Roteiros off-road guiados pelas estradas de terra da serra.",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Passeio+de+quadriciclo+Campos+do+Jordao"
   },
   {
     "nome": "Paintball",
     "nota": 4.3,
-    "endereco": "Av. Dr. Luís Arrobas Martins",
-    "tags": ["aventura"],
-    "descricao": "Arena de paintball para grupos de amigos.",
-    "categoria": "Aventura"
+    "endereco": "Jaguaribe (operadoras locais)",
+    "descricao": "Arenas de paintball para grupos e famílias, com equipamento incluso.",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Paintball+Campos+do+Jordao"
   },
   {
-    "nome": "Prana Por do Sol",
-    "nota": 4.9,
-    "endereco": "Estrada do Pico do Itapeva",
-    "tags": ["mirantes", "aventura"],
-    "descricao": "Lugar lindíssimo com um restaurante super charmoso para um pôr do sol inesquecível.",
-    "categoria": "Mirantes"
+    "nome": "Voo de balão",
+    "nota": 4.6,
+    "endereco": "Base em Campos do Jordão / Vale do Paraíba",
+    "descricao": "Voo panorâmico ao amanhecer sobre a serra; depende das condições do tempo.",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Voo+de+bal%C3%A3o+Campos+do+Jordao"
+  },
+  {
+    "nome": "Cavalgada",
+    "nota": 4.4,
+    "endereco": "Estrada do Horto Florestal (haras locais)",
+    "descricao": "Passeios a cavalo guiados por trilhas e campos da região.",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Cavalgada+Campos+do+Jordao"
+  },
+  {
+    "nome": "Escalada e rapel na Pedra do Baú",
+    "nota": 4.8,
+    "endereco": "São Bento do Sapucaí (região)",
+    "descricao": "Via ferrata e rapel na formação rochosa mais famosa da Mantiqueira.",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Escalada+e+rapel+na+Pedra+do+Ba%C3%BA+Campos+do+Jordao"
+  },
+  {
+    "nome": "Trilha ao Pico Agudo",
+    "nota": 4.7,
+    "endereco": "São Bento do Sapucaí (região)",
+    "descricao": "Caminhada até um dos melhores pontos de voo livre e nascer do sol.",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Trilha+ao+Pico+Agudo+Campos+do+Jordao"
+  },
+  {
+    "nome": "Passeio de 4x4 na Serra",
+    "nota": 4.4,
+    "endereco": "Serra da Mantiqueira (operadoras locais)",
+    "descricao": "Expedições de jipe por estradas rurais, cachoeiras e mirantes.",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Passeio+de+4x4+na+Serra+Campos+do+Jordao"
   },
   {
     "nome": "Pico do Itapeva",
     "nota": 4.9,
+    "endereco": "Estrada do Pico do Itapeva - Alto",
+    "descricao": "A 2.030 m, uma das vistas mais altas e amplas da região.",
+    "tags": [
+      "mirantes",
+      "aventura"
+    ],
+    "categoria": "Mirantes",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pico+do+Itapeva+Campos+do+Jordao"
+  },
+  {
+    "nome": "Mirante do Morro do Elefante",
+    "nota": 4.7,
+    "endereco": "Alto do Morro do Elefante",
+    "descricao": "Vista clássica do casario e do vale, ao lado da estação do teleférico.",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mirante+do+Morro+do+Elefante+Campos+do+Jordao"
+  },
+  {
+    "nome": "Prana Pôr do Sol",
+    "nota": 4.9,
     "endereco": "Estrada do Pico do Itapeva",
-    "tags": ["mirantes", "aventura"],
-    "descricao": "Uma das vistas mais altas e impressionantes da região.",
-    "categoria": "Mirantes"
+    "descricao": "Deck e restaurante charmoso voltados para um pôr do sol inesquecível.",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Prana+P%C3%B4r+do+Sol+Campos+do+Jordao"
   },
   {
     "nome": "Vista Chinesa",
     "nota": 4.7,
     "endereco": "Estrada do Pico do Itapeva",
-    "tags": ["mirantes"],
-    "descricao": "Ponto de observação com vistas deslumbrantes da serra.",
-    "categoria": "Mirantes"
+    "descricao": "Mirante à beira da estrada com vista aberta para a Mantiqueira.",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Vista+Chinesa+Campos+do+Jordao"
   },
   {
     "nome": "Mirante Orizonte",
     "nota": 4.8,
     "endereco": "Estrada do Pico do Itapeva",
-    "tags": ["mirantes"],
-    "descricao": "Um mirante moderno com vista panorâmica.",
-    "categoria": "Mirantes"
+    "descricao": "Complexo moderno com deck panorâmico, café e loja.",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mirante+Orizonte+Campos+do+Jordao"
   },
   {
     "nome": "Pedra do Baú",
     "nota": 4.9,
-    "endereco": "São Bento do Sapucaí (próx)",
-    "tags": ["mirantes", "aventura"],
-    "descricao": "Famosa formação rochosa, um dos pontos mais icônicos da região.",
-    "categoria": "Mirantes"
+    "endereco": "São Bento do Sapucaí (região)",
+    "descricao": "Formação rochosa icônica com escadaria e mirantes no topo.",
+    "tags": [
+      "mirantes",
+      "aventura"
+    ],
+    "categoria": "Mirantes",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pedra+do+Ba%C3%BA+Campos+do+Jordao"
   },
   {
-    "nome": "Mirante do Morro do Elefante",
-    "nota": 4.7,
-    "endereco": "Av. Alto do Morro do Elefante",
-    "tags": ["mirantes"],
-    "descricao": "Vista clássica do alto da cidade.",
-    "categoria": "Mirantes"
+    "nome": "Pico Agudo",
+    "nota": 4.8,
+    "endereco": "São Bento do Sapucaí (região)",
+    "descricao": "Rampa de voo livre com vista privilegiada da Pedra do Baú.",
+    "tags": [
+      "mirantes",
+      "aventura"
+    ],
+    "categoria": "Mirantes",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pico+Agudo+Campos+do+Jordao"
+  },
+  {
+    "nome": "Ninho da Águia",
+    "nota": 4.5,
+    "endereco": "Estrada do Ninho da Águia - Alto da Boa Vista",
+    "descricao": "Ponto mais alto da área urbana, com mirante sobre toda a cidade.",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Ninho+da+%C3%81guia+Campos+do+Jordao"
   },
   {
     "nome": "Mirante do Portal",
     "nota": 4.5,
-    "endereco": "Entrada da Cidade",
-    "tags": ["mirantes"],
-    "descricao": "Vista da chegada em Campos.",
-    "categoria": "Mirantes"
+    "endereco": "Entrada da cidade",
+    "descricao": "Vista da chegada em Campos do Jordão, junto ao portal monumental.",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mirante+do+Portal+Campos+do+Jordao"
   },
   {
     "nome": "Mirante das Araucárias",
     "nota": 4.6,
     "endereco": "Av. Dr. Adhemar de Barros",
-    "tags": ["mirantes"],
-    "descricao": "Ponto de observação das araucárias locais.",
-    "categoria": "Mirantes"
+    "descricao": "Deck de observação em meio às araucárias, no caminho do Palácio.",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mirante+das+Arauc%C3%A1rias+Campos+do+Jordao"
+  },
+  {
+    "nome": "Mirante do Alto do Capivari",
+    "nota": 4.5,
+    "endereco": "Alto do Capivari",
+    "descricao": "Vista do casario de Capivari a partir da parte alta do bairro.",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mirante+do+Alto+do+Capivari+Campos+do+Jordao"
+  },
+  {
+    "nome": "Mirante do Cristo Redentor",
+    "nota": 4.4,
+    "endereco": "Alto da Boa Vista",
+    "descricao": "Pequeno mirante junto à imagem do Cristo, bom para o fim de tarde.",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mirante+do+Cristo+Redentor+Campos+do+Jordao"
   }
 ]

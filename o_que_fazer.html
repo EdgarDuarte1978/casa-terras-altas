@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descubra Campos do Jordão • Casa Terras Altas</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <meta name="description"
+        content="Passeios, parques, mirantes e atrações de Campos do Jordão selecionados para hóspedes da Casa Terras Altas.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
     <div class="container">
-        <div class="logo">
+        <a href="index.html" class="logo">
             <h1>🌲 Casa Terras Altas</h1>
             <p>Campos do Jordão</p>
-        </div>
+        </a>
         <nav>
             <a href="index.html">Restaurantes</a>
-            <a href="o_que_fazer.html">Descubra Campos do Jordão</a>
+            <a href="o_que_fazer.html" class="active">Descubra Campos do Jordão</a>
             <a href="sobre_a_casa.html">Sobre a Casa</a>
         </nav>
     </div>
@@ -30,12 +37,14 @@
         <h2>Descubra Campos do Jordão</h2>
         <p>Explore os melhores passeios, parques e atrações turísticas.</p>
     </div>
+    <div class="scroll-down">⌄</div>
 </section>
 
 <section class="intro">
     <div class="container">
         <div class="intro-card">
             <h3>✨ Atrações Imperdíveis</h3>
+            <p>Uma seleção para aproveitar cada dia da sua estadia.</p>
             <div class="intro-features experience-grid" id="filters">
                 <button class="active" onclick="filtrarPorExperiencia('Todos')">Todos</button>
                 <button onclick="filtrarPorExperiencia('natureza')">🌳 Natureza</button>
@@ -51,10 +60,27 @@
 
 <main>
     <div class="container">
-        <section id="attractionGrid" class="restaurant-grid"></section>
+        <section id="attractionGrid" class="restaurant-grid">
+            <!-- Cards gerados por script_atracoes.js -->
+        </section>
     </div>
 </main>
 
+<footer>
+    <div class="container footer-content">
+        <div>
+            <h3>Casa Terras Altas</h3>
+            <p>Guia desenvolvido especialmente para nossos hóspedes.</p>
+        </div>
+        <div>
+            <p>Campos do Jordão • SP</p>
+            <p>© 2026 Casa Terras Altas</p>
+        </div>
+    </div>
+</footer>
+
 <script src="script_atracoes.js"></script>
+
 </body>
+
 </html>
