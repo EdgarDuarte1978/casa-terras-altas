@@ -1,539 +1,773 @@
 [
   {
-    "nome": "Matterhorn",
-    "nota": 4.5,
-    "preco": "$$",
-    "valor_medio": "R$ 120 - R$ 180",
-    "endereco": "Rua Felicíssimo, 145 - Capivari",
-    "tags": [
-      "romantico",
-      "fondue",
-      "vista"
-    ],
-    "descricao": "Tradicional restaurante de fondue com ambiente aconchegante à moda suíça.",
-    "categoria": "Fondue",
-    "subcategoria": "Fondue",
-    "maps": "https://www.google.com/search?q=Matterhorn+Campos+do+Jordao"
-  },
-  {
-    "nome": "Só Queijo",
-    "nota": 4.6,
-    "preco": "$$$",
-    "valor_medio": "R$ 140 - R$ 220",
-    "endereco": "Av. Macedo Soares, 287 - Capivari",
-    "tags": [
-      "romantico",
-      "fondue",
-      "família"
-    ],
-    "descricao": "Especializado em fondue de queijo com seleção premium de queijos europeus.",
-    "categoria": "Fondue",
-    "subcategoria": "Fondue",
-    "maps": "https://www.google.com/search?q=Só+Queijo+Campos+do+Jordao"
-  },
-  {
-    "nome": "Ludwig Restaurant",
+    "nome": "Casa Suíça",
     "nota": 4.7,
-    "preco": "$$$$",
-    "valor_medio": "R$ 180 - R$ 280",
-    "endereco": "Rua Ernesto Dibert, 52 - Capivari",
-    "tags": [
-      "romantico",
-      "fondue",
-      "vista",
-      "sofisticado"
-    ],
-    "descricao": "Requintado restaurante de fondue com vista para a serra.",
-    "categoria": "Fondue",
-    "subcategoria": "Fondue",
-    "maps": "https://www.google.com/search?q=Ludwig+Restaurant+Campos+do+Jordao"
-  },
-  {
-    "nome": "Restaurante Só Queijo (Tradicional)",
-    "nota": 4.4,
-    "preco": "$$",
-    "valor_medio": "R$ 110 - R$ 170",
-    "endereco": "Av. Macedo Soares, 642 - Capivari",
-    "tags": [
-      "fondue",
-      "tradicional"
-    ],
-    "descricao": "Um dos clássicos da cidade para fondues variados.",
-    "categoria": "Fondue",
-    "subcategoria": "Fondue",
-    "maps": "https://www.google.com/search?q=Restaurante+Só+Queijo+(Tradicional)+Campos+do+Jordao"
-  },
-  {
-    "nome": "Fondue Me",
-    "nota": 4.3,
-    "preco": "$$",
-    "valor_medio": "R$ 100 - R$ 160",
-    "endereco": "Av. Januário Miraglia, 1000 - Abernéssia",
+    "avaliacoes": 3470,
+    "endereco": "Rua Djalma Forjaz, 211 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=8480827618755591556&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJeWLqwuaJzJQRhL0_McnzsXU",
     "tags": [
       "fondue"
     ],
-    "descricao": "Ambiente descontraído e ótimo custo-benefício em fondue.",
     "categoria": "Fondue",
     "subcategoria": "Fondue",
-    "maps": "https://www.google.com/search?q=Fondue+Me+Campos+do+Jordao"
-  },
-  {
-    "nome": "Chateau de la Fondue",
-    "nota": 4.5,
-    "preco": "$$$",
-    "valor_medio": "R$ 150 - R$ 210",
-    "endereco": "Rua Djalma Forjaz, 93 - Capivari",
-    "tags": [
-      "fondue",
-      "sofisticado"
-    ],
-    "descricao": "Fondue sofisticado no coração do agito de Capivari.",
-    "categoria": "Fondue",
-    "subcategoria": "Fondue",
-    "maps": "https://www.google.com/search?q=Chateau+de+la+Fondue+Campos+do+Jordao"
-  },
-  {
-    "nome": "Baden Baden Fondue",
-    "nota": 4.2,
-    "preco": "$$$",
-    "valor_medio": "R$ 150 - R$ 210",
-    "endereco": "Rua Djalma Forjaz, 93 - Capivari",
-    "tags": [
-      "fondue",
-      "cervejaria",
-      "amigos"
-    ],
-    "descricao": "A experiência do famoso Baden Baden voltada para o fondue.",
-    "categoria": "Fondue",
-    "subcategoria": "Fondue",
-    "maps": "https://www.google.com/search?q=Baden+Baden+Fondue+Campos+do+Jordao"
-  },
-  {
-    "nome": "Pizzaria Arte da Pizza",
-    "nota": 4.5,
-    "preco": "$$",
-    "valor_medio": "R$ 80 - R$ 130",
-    "endereco": "Av. Macedo Soares, 218 - Capivari",
-    "tags": [
-      "família",
-      "pizza",
-      "casual"
-    ],
-    "descricao": "Pizzas artesanais de fermentação natural em ambiente acolhedor.",
-    "categoria": "Pizzaria",
-    "subcategoria": "Pizzaria",
-    "maps": "https://www.google.com/search?q=Pizzaria+Arte+da+Pizza+Campos+do+Jordao"
-  },
-  {
-    "nome": "Pizza do André",
-    "nota": 4.4,
-    "preco": "$$",
-    "valor_medio": "R$ 70 - R$ 120",
-    "endereco": "Av. Dr. Januário Miraglia, 2500 - Abernéssia",
-    "tags": [
-      "família",
-      "pizza"
-    ],
-    "descricao": "Opção popular com grande variedade de sabores.",
-    "categoria": "Pizzaria",
-    "subcategoria": "Pizzaria",
-    "maps": "https://www.google.com/search?q=Pizza+do+André+Campos+do+Jordao"
-  },
-  {
-    "nome": "Pizzaria Sans Souci",
-    "nota": 4.6,
-    "preco": "$$$",
-    "valor_medio": "R$ 90 - R$ 150",
-    "endereco": "Av. Dr. Januário Miraglia, 3033",
-    "tags": [
-      "família",
-      "pizza",
-      "gourmet"
-    ],
-    "descricao": "Pizza gourmet com ingredientes frescos e massa fina.",
-    "categoria": "Pizzaria",
-    "subcategoria": "Pizzaria",
-    "maps": "https://www.google.com/search?q=Pizzaria+Sans+Souci+Campos+do+Jordao"
-  },
-  {
-    "nome": "Vila Gourmet Pizza",
-    "nota": 4.3,
-    "preco": "$$",
-    "valor_medio": "R$ 75 - R$ 125",
-    "endereco": "Rua Eng. Diogo de Carvalho, 99 - Capivari",
-    "tags": [
-      "pizza",
-      "casual"
-    ],
-    "descricao": "Local central com bom atendimento e pizzas tradicionais.",
-    "categoria": "Pizzaria",
-    "subcategoria": "Pizzaria",
-    "maps": "https://www.google.com/search?q=Vila+Gourmet+Pizza+Campos+do+Jordao"
-  },
-  {
-    "nome": "La Fabbrica di Pizza",
-    "nota": 4.2,
-    "preco": "$$",
-    "valor_medio": "R$ 85 - R$ 140",
-    "endereco": "Av. Emílio Ribas, 600 - Capivari",
-    "tags": [
-      "pizza",
-      "italiano"
-    ],
-    "descricao": "Pizza no estilo napolitano com forno a lenha.",
-    "categoria": "Pizzaria",
-    "subcategoria": "Pizzaria",
-    "maps": "https://www.google.com/search?q=La+Fabbrica+di+Pizza+Campos+do+Jordao"
-  },
-  {
-    "nome": "Forneria Campos",
-    "nota": 4.5,
-    "preco": "$$$",
-    "valor_medio": "R$ 100 - R$ 160",
-    "endereco": "Av. Macedo Soares, 500",
-    "tags": [
-      "pizza",
-      "italiano",
-      "sofisticado"
-    ],
-    "descricao": "Focada em culinária italiana de forno, excelente pizza.",
-    "categoria": "Pizzaria",
-    "subcategoria": "Pizzaria",
-    "maps": "https://www.google.com/search?q=Forneria+Campos+Campos+do+Jordao"
-  },
-  {
-    "nome": "Pizza na Pedra",
-    "nota": 4.1,
-    "preco": "$$",
-    "valor_medio": "R$ 60 - R$ 110",
-    "endereco": "Av. Pedro Paulo, 120",
-    "tags": [
-      "pizza",
-      "casual"
-    ],
-    "descricao": "Conceito diferenciado de assar a pizza diretamente na pedra.",
-    "categoria": "Pizzaria",
-    "subcategoria": "Pizzaria",
-    "maps": "https://www.google.com/search?q=Pizza+na+Pedra+Campos+do+Jordao"
-  },
-  {
-    "nome": "Restaurante Libertango",
-    "nota": 4.7,
-    "preco": "$$$",
-    "valor_medio": "R$ 150 - R$ 250",
-    "endereco": "Rua Djalma Forjaz, 175 - Capivari",
-    "tags": [
-      "carnes",
-      "parrilla",
-      "amigos"
-    ],
-    "descricao": "Carnes nobres ao estilo argentino com excelente adega.",
-    "categoria": "Carnes",
-    "subcategoria": "Carnes",
-    "maps": "https://www.google.com/search?q=Restaurante+Libertango+Campos+do+Jordao"
-  },
-  {
-    "nome": "Harry Pisek",
-    "nota": 4.6,
-    "preco": "$$",
-    "valor_medio": "R$ 90 - R$ 150",
-    "endereco": "Rua Wanderley de Araújo, 350",
-    "tags": [
-      "carnes",
-      "tradicional"
-    ],
-    "descricao": "Famoso pelas carnes curadas, salsichas artesanais e cortes de porco.",
-    "categoria": "Carnes",
-    "subcategoria": "Carnes",
-    "maps": "https://www.google.com/search?q=Harry+Pisek+Campos+do+Jordao"
-  },
-  {
-    "nome": "Festival da Carne",
-    "nota": 4.3,
-    "preco": "$$",
-    "valor_medio": "R$ 100 - R$ 170",
-    "endereco": "Av. Emílio Ribas, 300",
-    "tags": [
-      "carnes",
-      "família"
-    ],
-    "descricao": "Rodízio de carnes com cortes variados.",
-    "categoria": "Carnes",
-    "subcategoria": "Carnes",
-    "maps": "https://www.google.com/search?q=Festival+da+Carne+Campos+do+Jordao"
-  },
-  {
-    "nome": "Restaurante Pontremoli",
-    "nota": 4.8,
-    "preco": "$$$$",
-    "valor_medio": "R$ 200 - R$ 350",
-    "endereco": "Rua das Araucárias, 150",
-    "tags": [
-      "carnes",
-      "romantico",
-      "sofisticado"
-    ],
-    "descricao": "Cozinha sofisticada com foco em carnes e experiência à luz de velas.",
-    "categoria": "Carnes",
-    "subcategoria": "Carnes",
-    "maps": "https://www.google.com/search?q=Restaurante+Pontremoli+Campos+do+Jordao"
+    "nome_google": "Restaurante Casa Suíça \"A Casa do Fondue\""
   },
   {
     "nome": "Krokodillo",
-    "nota": 4.4,
-    "preco": "$$$",
-    "valor_medio": "R$ 120 - R$ 200",
-    "endereco": "Av. Macedo Soares, 800",
-    "tags": [
-      "carnes",
-      "família"
-    ],
-    "descricao": "Grill variado com foco em cortes de carne de alta qualidade.",
-    "categoria": "Carnes",
-    "subcategoria": "Carnes",
-    "maps": "https://www.google.com/search?q=Krokodillo+Campos+do+Jordao"
-  },
-  {
-    "nome": "Restaurante Rost",
-    "nota": 4.5,
-    "preco": "$$$",
-    "valor_medio": "R$ 130 - R$ 210",
-    "endereco": "Av. Dr. Januário Miraglia, 2000",
-    "tags": [
-      "carnes",
-      "sofisticado"
-    ],
-    "descricao": "Cozinha contemporânea com excelente seleção de carnes grelhadas.",
-    "categoria": "Carnes",
-    "subcategoria": "Carnes",
-    "maps": "https://www.google.com/search?q=Restaurante+Rost+Campos+do+Jordao"
-  },
-  {
-    "nome": "Campos Grill",
     "nota": 4.2,
-    "preco": "$$",
-    "valor_medio": "R$ 80 - R$ 140",
-    "endereco": "Av. Emílio Ribas, 450",
-    "tags": [
-      "carnes",
-      "casual"
-    ],
-    "descricao": "Carnes na brasa e pratos rápidos em ambiente informal.",
-    "categoria": "Carnes",
-    "subcategoria": "Carnes",
-    "maps": "https://www.google.com/search?q=Campos+Grill+Campos+do+Jordao"
-  },
-  {
-    "nome": "Baden Baden",
-    "nota": 4.6,
+    "avaliacoes": 6978,
+    "endereco": "Av. Sen. Roberto Simonsen, 1350 - Capivari, Campos do Jordão - SP, 12460-443, Brasil",
+    "descricao": "Restaurante oferece opções que incluem carne de javali e crocodilo, mais variado cardápio, em amplo espaço.",
+    "maps": "https://maps.google.com/?cid=10028497369224864560&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJFfNn_q6JzJQRMGOWWzlhLIs",
     "preco": "$$$",
-    "valor_medio": "R$ 100 - R$ 200",
-    "endereco": "Rua Djalma Forjaz, 93 - Capivari",
     "tags": [
-      "cervejaria",
-      "amigos",
-      "tradicional"
+      "fondue"
     ],
-    "descricao": "O clássico cervejaria da cidade, obrigatório para os amantes de cerveja artesanal.",
-    "categoria": "Cervejaria",
-    "subcategoria": "Cervejaria",
-    "maps": "https://www.google.com/search?q=Baden+Baden+Campos+do+Jordao"
+    "categoria": "Fondue",
+    "subcategoria": "Fondue",
+    "nome_google": "Restaurante Krokodillo I"
   },
   {
-    "nome": "Caroli",
-    "nota": 4.3,
-    "preco": "$$",
-    "valor_medio": "R$ 70 - R$ 120",
-    "endereco": "Av. Macedo Soares, 250",
+    "nome": "Bam Bam Café",
+    "nota": 4.8,
+    "avaliacoes": 2069,
+    "endereco": "Rua Djalma Forjaz, 103 - Capivari, Campos do Jordão - SP, 12460-146, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=6314994992554160892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJYV9tIBCJzJQR_LKPyXxeo1c",
     "tags": [
-      "cervejaria",
-      "amigos",
-      "casual"
+      "fondue"
     ],
-    "descricao": "Pub focado em chopes artesanais locais e petiscos.",
-    "categoria": "Cervejaria",
-    "subcategoria": "Cervejaria",
-    "maps": "https://www.google.com/search?q=Caroli+Campos+do+Jordao"
+    "categoria": "Fondue",
+    "subcategoria": "Fondue"
   },
   {
-    "nome": "Cervejaria Campos do Jordão",
-    "nota": 4.5,
-    "preco": "$$$",
-    "valor_medio": "R$ 90 - R$ 160",
-    "endereco": "Av. Dr. Januário Miraglia, 1500",
-    "tags": [
-      "cervejaria",
-      "amigos",
-      "vista"
-    ],
-    "descricao": "Local de produção própria com um amplo deck e excelente comida.",
-    "categoria": "Cervejaria",
-    "subcategoria": "Cervejaria",
-    "maps": "https://www.google.com/search?q=Cervejaria+Campos+do+Jordão+Campos+do+Jordao"
-  },
-  {
-    "nome": "Bar do Bolinho",
-    "nota": 4.2,
-    "preco": "$",
-    "valor_medio": "R$ 50 - R$ 90",
-    "endereco": "Rua Djalma Forjaz, 50",
-    "tags": [
-      "cervejaria",
-      "casual"
-    ],
-    "descricao": "Ideal para petiscos e chope gelado com ambiente descontraído.",
-    "categoria": "Cervejaria",
-    "subcategoria": "Cervejaria",
-    "maps": "https://www.google.com/search?q=Bar+do+Bolinho+Campos+do+Jordao"
-  },
-  {
-    "nome": "Vila Beer",
+    "nome": "Rostie",
     "nota": 4.4,
-    "preco": "$$",
-    "valor_medio": "R$ 60 - R$ 110",
-    "endereco": "Av. Emílio Ribas, 500",
+    "avaliacoes": 3623,
+    "endereco": "Av. José Manoel Gonçalves, 160 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Espaço casual com culinária suíça, incluindo porções fartas de batata \"rostie\", pizzas e pratos de fondue.",
+    "maps": "https://maps.google.com/?cid=12938981809178177131&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ18NtOFSIzJQRa25O22Z_kLM",
     "tags": [
-      "cervejaria",
-      "amigos"
+      "fondue"
     ],
-    "descricao": "Variedade de rótulos artesanais e música ao vivo.",
-    "categoria": "Cervejaria",
-    "subcategoria": "Cervejaria",
-    "maps": "https://www.google.com/search?q=Vila+Beer+Campos+do+Jordao"
+    "categoria": "Fondue",
+    "subcategoria": "Fondue",
+    "nome_google": "Rostie Restaurante Fondue e Pizzaria"
   },
   {
-    "nome": "Pub 1920",
+    "nome": "Nonna Mimi",
     "nota": 4.3,
-    "preco": "$$",
-    "valor_medio": "R$ 70 - R$ 130",
-    "endereco": "Rua Djalma Forjaz, 110",
+    "avaliacoes": 3149,
+    "endereco": "Av. Dr. Januário Miraglia, 2438 - V Telma, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Além das comidas italianas, fondue, caldos e cremes são boa pedida na casa de clima romântico e confortável.",
+    "maps": "https://maps.google.com/?cid=4961648892731181385&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJZby3LMqJzJQRSclzR2FR20Q",
     "tags": [
-      "cervejaria",
-      "amigos"
+      "fondue"
     ],
-    "descricao": "Pub temático com foco em cervejas especiais e drinques.",
-    "categoria": "Cervejaria",
-    "subcategoria": "Cervejaria",
-    "maps": "https://www.google.com/search?q=Pub+1920+Campos+do+Jordao"
+    "categoria": "Fondue",
+    "subcategoria": "Fondue",
+    "nome_google": "Cantina Italiana di Nonna Mimi"
   },
   {
-    "nome": "Cervejaria do Horto",
-    "nota": 4.6,
-    "preco": "$$",
-    "valor_medio": "R$ 80 - R$ 140",
-    "endereco": "Estrada do Horto Florestal",
+    "nome": "La Gália",
+    "nota": 4.4,
+    "avaliacoes": 2245,
+    "endereco": "Av. Macedo Soares, 340 - Capivari, Campos do Jordão - SP, 12460-128, Brasil",
+    "descricao": "Restaurante serve carnes exóticas e cortes nobres em local parecido com uma estalagem com temas do Asterix.",
+    "maps": "https://maps.google.com/?cid=7965338548683818927&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJwwoQe1SIzJQRr0cGNjWRim4",
     "tags": [
-      "cervejaria",
-      "natureza"
+      "fondue"
     ],
-    "descricao": "Ambiente integrado à natureza com chopes exclusivos.",
-    "categoria": "Cervejaria",
-    "subcategoria": "Cervejaria",
-    "maps": "https://www.google.com/search?q=Cervejaria+do+Horto+Campos+do+Jordao"
+    "categoria": "Fondue",
+    "subcategoria": "Fondue",
+    "nome_google": "Restaurante La Gália"
   },
   {
-    "nome": "Chocolate Montanhês",
+    "nome": "Avestruz",
     "nota": 4.5,
-    "preco": "$$",
-    "valor_medio": "R$ 40 - R$ 80",
-    "endereco": "Rua Djalma Forjaz, 150",
+    "avaliacoes": 1638,
+    "endereco": "Véu das Noivas - Av. Pedro Paulo, 144 - Jardim do Emb., Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=11061185836196527960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJHzou4-aIzJQRWH8T0ek5gZk",
+    "preco": "$$$",
     "tags": [
-      "cafés",
-      "tradicional"
+      "fondue"
     ],
-    "descricao": "Café, chocolate quente cremoso e tortas irresistíveis.",
-    "categoria": "Cafés",
-    "subcategoria": "Cafés",
-    "maps": "https://www.google.com/search?q=Chocolate+Montanhês+Campos+do+Jordao"
+    "categoria": "Fondue",
+    "subcategoria": "Fondue",
+    "nome_google": "Restaurante Avestruz"
   },
   {
-    "nome": "Sans Souci Bistro",
-    "nota": 4.7,
-    "preco": "$$$",
-    "valor_medio": "R$ 60 - R$ 120",
-    "endereco": "Av. Dr. Januário Miraglia, 3033",
+    "nome": "Cantinho Suiço",
+    "nota": 4.5,
+    "avaliacoes": 1478,
+    "endereco": "Av. Macedo Soares, 457 - Capivari, Campos do Jordão - SP, 12460-128, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=10044310161176073864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ40r3FO-JzJQRiBa_4t-OZIs",
     "tags": [
-      "cafés",
-      "sofisticado"
+      "fondue"
     ],
-    "descricao": "Café da manhã de luxo e confeitaria fina em ambiente bucólico.",
-    "categoria": "Cafés",
-    "subcategoria": "Cafés",
-    "maps": "https://www.google.com/search?q=Sans+Souci+Bistro+Campos+do+Jordao"
+    "categoria": "Fondue",
+    "subcategoria": "Fondue"
+  },
+  {
+    "nome": "Matterhorn",
+    "nota": 4.5,
+    "avaliacoes": 1477,
+    "endereco": "Rua Djalma Forjaz, 93 - Lj 20 - Capivari, Campos do Jordão - SP, 12460-146, Brasil",
+    "descricao": "Culinária suíça, incluindo fondues, além de carnes, trutas e vinhos, em espaço intimista com música e empório.",
+    "maps": "https://maps.google.com/?cid=4740306430952856801&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJNXNbbFSIzJQR4dxxb5XzyEE",
+    "preco": "$$$$",
+    "tags": [
+      "fondue"
+    ],
+    "categoria": "Fondue",
+    "subcategoria": "Fondue",
+    "nome_google": "Matterhorn - Empório e Restaurante"
+  },
+  {
+    "nome": "Mercearia Campos",
+    "nota": 4.2,
+    "avaliacoes": 2419,
+    "endereco": "Rua Djalma Forjaz, 130 - Capivari, Campos do Jordão - SP, 12460-146, Brasil",
+    "descricao": "Restaurante decorado tem cardápio variado de porções, massas, sanduíches e fondues, em ambiente climatizado.",
+    "maps": "https://maps.google.com/?cid=4467050395629598133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ0SFTC1SIzJQRtTVF2aom_j0",
+    "preco": "$$$$",
+    "tags": [
+      "fondue"
+    ],
+    "categoria": "Fondue",
+    "subcategoria": "Fondue"
   },
   {
     "nome": "Café Terraço",
-    "nota": 4.4,
-    "preco": "$$",
-    "valor_medio": "R$ 50 - R$ 90",
-    "endereco": "Av. Macedo Soares, 100",
+    "nota": 4.8,
+    "avaliacoes": 1995,
+    "endereco": "R. Eng. Gustavo Kaiser, 855 - Vila Natal, Campos do Jordão - SP, 12472-359, Brasil",
+    "descricao": "Pizza gourmet, almoço estilo bistrô com opções à la carte, espaço intimista com lareira e vista para o lago.",
+    "maps": "https://maps.google.com/?cid=6343973895477628115&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ80DHNtCJzJQR04xLaKVSClg",
+    "preco": "$$$",
     "tags": [
-      "cafés",
-      "vista"
+      "pizza"
     ],
-    "descricao": "Ótima vista para o movimento de Capivari.",
-    "categoria": "Cafés",
-    "subcategoria": "Cafés",
-    "maps": "https://www.google.com/search?q=Café+Terraço+Campos+do+Jordao"
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "nome_google": "Café Terraço Pizzaria Artesanal e Bistrô"
   },
   {
-    "nome": "Spinassi Chocolate",
+    "nome": "Arte da Pizza",
+    "nota": 4.7,
+    "avaliacoes": 1925,
+    "endereco": "Av. Frei Orestes Girardi, 3549 - Capivari, Campos do Jordão - SP, 12475-020, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=13865899333225028703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJdyn2zcuJzJQRXxw0mPqRbcA",
+    "preco": "$$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "nome_google": "Arte da Pizza - Grande Hotel Campos do Jordão"
+  },
+  {
+    "nome": "Nonno Degga Pizzaria",
+    "nota": 4.7,
+    "avaliacoes": 1502,
+    "endereco": "Av. Frei Orestes Girardi, 3159 - Jaguaribe, Campos do Jordão - SP, 12472-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=7421097149549233152&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJy_OMz_2JzJQRAMSL8okI_WY",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria"
+  },
+  {
+    "nome": "Levare Pizzaria",
     "nota": 4.6,
+    "avaliacoes": 1692,
+    "endereco": "Av. Frei Orestes Girardi, 489 - Abernéssia, Campos do Jordão - SP, 12467-012, Brasil",
+    "descricao": "Variedade em sabores de esfihas e pizzas, opções tradicionais e especiais, em espaço simples com delivery.",
+    "maps": "https://maps.google.com/?cid=14545263198786419064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJc80TxdmJzJQRePk5sNAn28k",
     "preco": "$$",
-    "valor_medio": "R$ 40 - R$ 70",
-    "endereco": "Av. Macedo Soares, 200",
     "tags": [
-      "cafés",
-      "tradicional"
+      "pizza"
     ],
-    "descricao": "Conhecido pelo chocolate quente artesanal e doces típicos.",
-    "categoria": "Cafés",
-    "subcategoria": "Cafés",
-    "maps": "https://www.google.com/search?q=Spinassi+Chocolate+Campos+do+Jordao"
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "nome_google": "Di Marcelo Cecconi | Levare Pizzaria em Campos do Jordão"
   },
   {
-    "nome": "Le Bon Café",
-    "nota": 4.3,
+    "nome": "Sabor de Campos",
+    "nota": 4.4,
+    "avaliacoes": 1412,
+    "endereco": "Av. Frei Orestes Girardi, 1281 - Abernéssia, Campos do Jordão - SP, 12467-012, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=15727591941617559516&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ70rXS9CJzJQR3Cdp5IqhQ9o",
     "preco": "$$",
-    "valor_medio": "R$ 30 - R$ 60",
-    "endereco": "Rua Eng. Diogo de Carvalho, 150",
     "tags": [
-      "cafés",
-      "casual"
+      "pizza"
     ],
-    "descricao": "Café aconchegante, ideal para um descanso durante o passeio.",
-    "categoria": "Cafés",
-    "subcategoria": "Cafés",
-    "maps": "https://www.google.com/search?q=Le+Bon+Café+Campos+do+Jordao"
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria"
   },
   {
-    "nome": "Confeitaria Itália",
-    "nota": 4.2,
+    "nome": "La Fortezza",
+    "nota": 4.5,
+    "avaliacoes": 1060,
+    "endereco": "Av. Dr. Januário Miraglia, 3194 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Pizzas assadas no forno a lenha, mais vinhos, em casa tradicional e acolhedora com lareira e obras artísticas.",
+    "maps": "https://maps.google.com/?cid=15466208897735257834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ9dgaLcqJzJQR6u5-iwwDo9Y",
     "preco": "$$",
-    "valor_medio": "R$ 35 - R$ 70",
-    "endereco": "Av. Emílio Ribas, 400",
     "tags": [
-      "cafés",
-      "italiano"
+      "pizza"
     ],
-    "descricao": "Tortas, salgados e cafés com estilo europeu.",
-    "categoria": "Cafés",
-    "subcategoria": "Cafés",
-    "maps": "https://www.google.com/search?q=Confeitaria+Itália+Campos+do+Jordao"
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "nome_google": "La Fortezza Restaurante e Pizzaria"
   },
   {
-    "nome": "Café do Zé",
+    "nome": "Maná",
     "nota": 4.1,
-    "preco": "$",
-    "valor_medio": "R$ 20 - R$ 50",
-    "endereco": "Av. Dr. Januário Miraglia, 800",
+    "avaliacoes": 1947,
+    "endereco": "Av. Macedo Soares, 187 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Fondues, truta e picanha, além de massas, pizzas e vinhos, em casa com decoração rústica e música ambiente.",
+    "maps": "https://maps.google.com/?cid=10931461828201032829&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ-ZzSZFSIzJQRfSyqiZ1atJc",
     "tags": [
-      "cafés",
-      "casual"
+      "pizza"
     ],
-    "descricao": "Café simples e direto, excelente custo-benefício.",
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "nome_google": "Maná Restaurante e Pizzaria - Campos do Jordão"
+  },
+  {
+    "nome": "Artesão",
+    "nota": 4.7,
+    "avaliacoes": 483,
+    "endereco": "Av. Frei Orestes Girardi, 2093 - Abernéssia, Campos do Jordão - SP, 12472-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=17928240584374886879&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJNV-IvG6JzJQR3yFo19Lnzfg",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "nome_google": "Artesão Restaurante e Pizzaria"
+  },
+  {
+    "nome": "La Pizza",
+    "nota": 4.5,
+    "avaliacoes": 613,
+    "endereco": "R. Orivaldo Lima Cardoso - Jardim Andira, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Rede de pizzarias onde pizzaiolos de camiseta listrada abrem as massas no ar.",
+    "maps": "https://maps.google.com/?cid=12024734070433662654&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ80DHNtCJzJQRvka8Yu1v4KY",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "nome_google": "la pizza"
+  },
+  {
+    "nome": "TI.co Gastronomia Descomplicada",
+    "nota": 4.4,
+    "avaliacoes": 507,
+    "endereco": "R. Altíno Arantes, 145 - Abernéssia, Campos do Jordão - SP, 12466-012, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=18035462974911521409&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJe9fvLpSJzJQRgaJPCwXWSvo",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria"
+  },
+  {
+    "nome": "Libertango Parrilla Argentina",
+    "nota": 4.6,
+    "avaliacoes": 1994,
+    "endereco": "Av. José Manoel Gonçalves, 160 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "O salão decorado com inúmeras referências ao tango é cenário para apreciar pratos da culinária argentina.",
+    "maps": "https://maps.google.com/?cid=16163003961036142849&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJTWjJT1SIzJQRAXnKoHeGTuA",
+    "preco": "$$$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "nome_google": "Restaurante Libertango Parrilla Argentina | Campos do Jordão"
+  },
+  {
+    "nome": "Kanguru's Boliche",
+    "nota": 4.7,
+    "avaliacoes": 1547,
+    "endereco": "Av. Dr. Vítor Godinho, 215 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=11907632081041712009&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJNaECJZuJzJQRiWOJ0kloQKU",
+    "preco": "$$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes"
+  },
+  {
+    "nome": "Cacerola",
+    "nota": 4.5,
+    "avaliacoes": 2106,
+    "endereco": "R. Dep. Claro César, 15 - Vila Telma, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Cardápio de grelhados, massas e pratos vegetarianos, além de buffet variado, em espacinho rústico e familiar.",
+    "maps": "https://maps.google.com/?cid=960881778642082630&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ5XwKfcmJzJQRRlsb_-K8VQ0",
+    "preco": "$$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "nome_google": "Restaurante Cacerola | Carnes Nobres e Cortes Argentinos | Massas Artesanais | Parmegiana | Campos do Jordão"
+  },
+  {
+    "nome": "Bonanza Grill",
+    "nota": 4.6,
+    "avaliacoes": 1455,
+    "endereco": "Est. Municipal Aurora Nogueira Barros Vasconcellos, 1360 - Alto do Lajeado, Campos do Jordão - SP, 12467-604, Brasil",
+    "descricao": "Diversos cortes de carnes na grelha, acompanhamentos gourmets e vinhos, espaço rústico com montanhas à vista.",
+    "maps": "https://maps.google.com/?cid=15372583466831007015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJHbNUbu5hzJQRJ02BNDdjVtU",
+    "preco": "$$$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "nome_google": "Restaurante Bonanza Grill"
+  },
+  {
+    "nome": "Cantinho da Serra Grill",
+    "nota": 4.4,
+    "avaliacoes": 1724,
+    "endereco": "Av. Macedo Soares, 457 - Capivari, Campos do Jordão - SP, 12460-128, Brasil",
+    "descricao": "Carnes na chapa, truta e fondues, além de vinhos, drinques e sobremesas, em ambiente rústico e aconchegante.",
+    "maps": "https://maps.google.com/?cid=9740964433543547102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJj_pqn1OIzJQR3sgT34rbLoc",
+    "preco": "$$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes"
+  },
+  {
+    "nome": "Na Brasa",
+    "nota": 4.7,
+    "avaliacoes": 1067,
+    "endereco": "R. Francisco Castro, 104 - Abernéssia, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=15282576046031496099&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJLwkbnPeJzJQRo-OZfPGdFtQ",
+    "preco": "$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "nome_google": "Na Brasa Restaurante e Choperia"
+  },
+  {
+    "nome": "Krokodillo III",
+    "nota": 4,
+    "avaliacoes": 3085,
+    "endereco": "R. Sylvio da Costa Rios, 133 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Destaque à truta com amêndoas, fondue e carnes, decoração kitsch com porta em formato de boca de crocodilo.",
+    "maps": "https://maps.google.com/?cid=11503437161034480361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJAW1ToVWIzJQR6fp8byZrpJ8",
+    "preco": "$$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "nome_google": "Restaurante Krokodillo III"
+  },
+  {
+    "nome": "Jardim Plátanos",
+    "nota": 4.7,
+    "avaliacoes": 764,
+    "endereco": "Rua Dona Eliza , 163 - Vila Baker fonte simão - Capivari, Campos do Jordão - SP, 12460-478, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=6540488972216997767&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJXwUT44KJzJQRh5daNhF8xFo",
+    "preco": "$$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "nome_google": "Jardim Plátanos | Gastronomia | Fondue | Restaurante | Campos do Jordão"
+  },
+  {
+    "nome": "Churrasco ao Vivo",
+    "nota": 4.2,
+    "avaliacoes": 1606,
+    "endereco": "R. Heitor Penteado, 82 - Capivari, Campos do Jordão - SP, 12460-138, Brasil",
+    "descricao": "Restaurante tem ambiente animado e descontraído onde o churrasco e os grelhados nobres correm de mesa em mesa.",
+    "maps": "https://maps.google.com/?cid=12506461955570176426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJfSW5W1OIzJQRqpGy8uLgj60",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes"
+  },
+  {
+    "nome": "Chico Rei",
+    "nota": 4.6,
+    "avaliacoes": 703,
+    "endereco": "Av. Dr. Vítor Godinho - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=14495320241176068476&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJIw--DQCJzJQRfEHUuPW4Kck",
+    "preco": "$$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "nome_google": "Chico Rei - Gastronomia e Bar"
+  },
+  {
+    "nome": "Caras de Malte",
+    "nota": 4.5,
+    "avaliacoes": 4241,
+    "endereco": "Av. Pedro Paulo, 1500 - Descansópolis, Campos do Jordão - SP, 12462-040, Brasil",
+    "descricao": "Boemia intimista com lareira central e cozinha variada de chapas de carnes em pratos europeus encorpados.",
+    "maps": "https://maps.google.com/?cid=18286893218933295283&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJofxSveaIzJQRs8gEmH4YyP0",
+    "preco": "$$",
+    "tags": [
+      "cervejaria"
+    ],
+    "categoria": "Cervejaria",
+    "subcategoria": "Cervejaria"
+  },
+  {
+    "nome": "Choperia Baden Baden",
+    "nota": 4.2,
+    "avaliacoes": 4535,
+    "endereco": "Rua Djalma Forjaz, 93 - 10 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Cervejaria regional tradicional oferece visitas com guia para degustação de chopes e dicas de harmonização.",
+    "maps": "https://maps.google.com/?cid=14792735235029707562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJH1VoC1SIzJQRKqtZLFJaSs0",
+    "preco": "$$$",
+    "tags": [
+      "cervejaria"
+    ],
+    "categoria": "Cervejaria",
+    "subcategoria": "Cervejaria"
+  },
+  {
+    "nome": "Vemaguet 67",
+    "nota": 4.4,
+    "avaliacoes": 2824,
+    "endereco": "Av. Dr. Vítor Godinho, 206 - Capivari, Campos do Jordão - SP, 12460-130, Brasil",
+    "descricao": "Fondues, pratos alemães, pizzas e buffet no fogão a lenha, mais cervejas especiais, em ambientes acolhedores.",
+    "maps": "https://maps.google.com/?cid=9397285799001805561&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJQePWuFOIzJQR-VJTLqXdaYI",
+    "preco": "$$",
+    "tags": [
+      "cervejaria"
+    ],
+    "categoria": "Cervejaria",
+    "subcategoria": "Cervejaria",
+    "nome_google": "Vemaguet 67 Microcervejaria e Choperia"
+  },
+  {
+    "nome": "Iceland Aventura",
+    "nota": 4.3,
+    "avaliacoes": 2792,
+    "endereco": "R. Eng. Diogo José de Carvalho - J Elizabete, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Bar de gelo peculiar que serve drinks alcoólicos e sem álcool em copos de gelo.",
+    "maps": "https://maps.google.com/?cid=813295593923672264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJx4IqalSIzJQRyPg1nQhoSQs",
+    "preco": "$$",
+    "tags": [
+      "cervejaria"
+    ],
+    "categoria": "Cervejaria",
+    "subcategoria": "Cervejaria",
+    "nome_google": "Iceland Aventura - Bar de Gelo"
+  },
+  {
+    "nome": "Cervejaria Baden Baden",
+    "nota": 4.5,
+    "avaliacoes": 1757,
+    "endereco": "Av. Matheus da Costa Pinto, 1653 - Vila Santa Cruz, Campos do Jordão - SP, 12470-290, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=5000524959353809912&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJPz7fAXBizJQR-CvC5PRuZUU",
+    "tags": [
+      "cervejaria"
+    ],
+    "categoria": "Cervejaria",
+    "subcategoria": "Cervejaria"
+  },
+  {
+    "nome": "Choperia Don Juan",
+    "nota": 4.7,
+    "avaliacoes": 917,
+    "endereco": "Av. Dr. Januário Miraglia, 2616 - Vila Telma, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Cervejas e chopes, wraps, hambúrgueres, tacos e carnes grelhadas, atmosfera descontraída com mesas na calçada.",
+    "maps": "https://maps.google.com/?cid=8216831171929759140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJfbY7icqJzJQRpN06jmoMCHI",
+    "preco": "$$",
+    "tags": [
+      "cervejaria"
+    ],
+    "categoria": "Cervejaria",
+    "subcategoria": "Cervejaria"
+  },
+  {
+    "nome": "Boteco Itapeva",
+    "nota": 4.3,
+    "avaliacoes": 1718,
+    "endereco": "R. Orivaldo Lima Cardoso, 141 - Loja 1 - Jaguaribe, Campos do Jordão - SP, 12472-004, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=9084670172462993350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJMYqfzPCJzJQRxk8-o2M7E34",
+    "preco": "$$",
+    "tags": [
+      "cervejaria"
+    ],
+    "categoria": "Cervejaria",
+    "subcategoria": "Cervejaria"
+  },
+  {
+    "nome": "Esquina do Djalma",
+    "nota": 4,
+    "avaliacoes": 1866,
+    "endereco": "Rua Djalma Forjaz, 149 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=9241995556458161089&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJu32mFLeJzJQRwWNtDv4pQoA",
+    "tags": [
+      "cervejaria"
+    ],
+    "categoria": "Cervejaria",
+    "subcategoria": "Cervejaria"
+  },
+  {
+    "nome": "Luss Cervejaria & Restaurante",
+    "nota": 4.7,
+    "avaliacoes": 551,
+    "endereco": "Av. Sen. Roberto Simonsen, 1724 - Vila Inglesa, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=16845195603724996862&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJPcDfgyKJzJQR_hAA5CYoxuk",
+    "tags": [
+      "cervejaria"
+    ],
+    "categoria": "Cervejaria",
+    "subcategoria": "Cervejaria",
+    "nome_google": "Luss Cervejaria & Restaurante - Campos do Jordão"
+  },
+  {
+    "nome": "Gård Cervejaria",
+    "nota": 4.8,
+    "avaliacoes": 441,
+    "endereco": "Parque Estadual Campos do Jordão (Horto Florestal) - Av. Pedro Paulo, s/n, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=12684923850205210356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJT4glmwaPzJQR9KZcvgjnCbA",
+    "tags": [
+      "cervejaria"
+    ],
+    "categoria": "Cervejaria",
+    "subcategoria": "Cervejaria"
+  },
+  {
+    "nome": "Sans Souci",
+    "nota": 4.5,
+    "avaliacoes": 7480,
+    "endereco": "Av. Dr. Januário Miraglia, 3260 - Vila Everest, Campos do Jordão - SP, 12460-001, Brasil",
+    "descricao": "Cafés, croissants e doces artesanais, além de comida de bistrô, em ambiente requintado com toque francês.",
+    "maps": "https://maps.google.com/?cid=6404998464112196199&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJyf-O3EqIzJQRZ3pUACsg41g",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
     "categoria": "Cafés",
     "subcategoria": "Cafés",
-    "maps": "https://www.google.com/search?q=Café+do+Zé+Campos+do+Jordao"
+    "nome_google": "Sans Souci Café e Confeitaria"
+  },
+  {
+    "nome": "Café No Bosque",
+    "nota": 4.8,
+    "avaliacoes": 2438,
+    "endereco": "Av. Sen. Roberto Simonsen, 1724 - Vila Inglesa, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=5203302137563070544&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJN7OASluJzJQRUEB60LnXNUg",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés",
+    "subcategoria": "Cafés",
+    "nome_google": "Café No Bosque ®"
+  },
+  {
+    "nome": "Dona Belandira Confeitaria & Café",
+    "nota": 4.8,
+    "avaliacoes": 1531,
+    "endereco": "R. Arlindo da Silva, 45 - Jardim Manancial, Campos do Jordão - SP, 12460-403, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=6370703428468670857&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJWZnLmgaJzJQRiQE9xwNJaVg",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés",
+    "subcategoria": "Cafés",
+    "nome_google": "Dona Belandira Confeitaria & Café em Campos do Jordão"
+  },
+  {
+    "nome": "Pepita Café",
+    "nota": 4.9,
+    "avaliacoes": 1192,
+    "endereco": "R. Brg. Jordão, 1199 - Lj 2 - Abernéssia, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=2556250297127233283&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJWevStIWJzJQRA2dBBRqgeSM",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés",
+    "subcategoria": "Cafés",
+    "nome_google": "Pepita Café em Campos do Jordão"
+  },
+  {
+    "nome": "Struderia Café",
+    "nota": 3.9,
+    "avaliacoes": 2479,
+    "endereco": "Av. Dr. Januário Miraglia, 2818 - Vila Jaguaribe, Campos do Jordão - SP, 12460-001, Brasil",
+    "descricao": "Especializada em tortas de maçã, a casa também oferece cafés e biscoitos, em espaço descontraído e familiar.",
+    "maps": "https://maps.google.com/?cid=16370350732106526137&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJQ5KAhcqJzJQRue3Dy0ErL-M",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés",
+    "subcategoria": "Cafés",
+    "nome_google": "Struderia Café da Elaine Coffee Roasters"
+  },
+  {
+    "nome": "Myriam Café",
+    "nota": 4.2,
+    "avaliacoes": 1336,
+    "endereco": "Av. Macedo Soares, 191 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Café com doces, bolos, lanches e sopas em espaço charmoso e calmo de tijolos brancos e luminárias de palha.",
+    "maps": "https://maps.google.com/?cid=13391296599010754&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ7XPMZFSIzJQRwq3dNFCTLwA",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés",
+    "subcategoria": "Cafés",
+    "nome_google": "Myriam Café em Campos do Jordão"
+  },
+  {
+    "nome": "Um Pé de Café",
+    "nota": 4.8,
+    "avaliacoes": 413,
+    "endereco": "Av. Dr. Januário Miraglia, 2030 - Lj 01 - Abernéssia, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=15300458344475274847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJj_jB6zGJzJQRXy4ci8wlVtQ",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés",
+    "subcategoria": "Cafés",
+    "nome_google": "Um Pé de Café em Campos do Jordão"
+  },
+  {
+    "nome": "Empório Recanto de Minas",
+    "nota": 4.7,
+    "avaliacoes": 465,
+    "endereco": "Av. Frei Orestes Girardi, 3139 - Jaguaribe, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=17387645910169090556&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJv4gt9r-JzJQR_Pnm49RTTfE",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés",
+    "subcategoria": "Cafés",
+    "nome_google": "Empório Recanto de Minas – Cafeteria em Campos do Jordão"
+  },
+  {
+    "nome": "Café Da Ane",
+    "nota": 4.7,
+    "avaliacoes": 347,
+    "endereco": "R. Brg. Jordão, 404 - Abernéssia, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=15501201552786796106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJn3ZecNCJzJQRSi6X8a5UH9c",
+    "preco": "$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés",
+    "subcategoria": "Cafés"
+  },
+  {
+    "nome": "Café Ferraz",
+    "nota": 4.2,
+    "avaliacoes": 660,
+    "endereco": "Rua Neme Saloun - Nejar ,57 - Jaguaribe, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=17114397704595854567&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJh25UPLaJzJQR51QyTwmOgu0",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés",
+    "subcategoria": "Cafés",
+    "nome_google": "Restaurante e café Ferraz"
   }
 ]

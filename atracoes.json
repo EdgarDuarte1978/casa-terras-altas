@@ -1,797 +1,905 @@
 [
   {
     "nome": "Parque Amantikir",
-    "nota": 4.8,
-    "endereco": "Estrada Campos do Jordão–Eugênio Lefèvre, km 269",
-    "descricao": "Jardins temáticos inspirados em vários países, com vista privilegiada para a serra.",
+    "nota": 4.7,
+    "avaliacoes": 26663,
+    "endereco": "R. Simplício Ribeiro de Toledo Neto, 2200 - Gavião Gonzaga, Campos do Jordão - SP, 12467-610, Brasil",
+    "descricao": "Sereno jardim botânico com flora e fauna variadas, além de labirintos, restaurantes e eventos.",
+    "maps": "https://maps.google.com/?cid=15785979331207035573&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJj5e31_phzJQRtfpAZJAQE9s",
     "tags": [
       "natureza"
     ],
-    "categoria": "Natureza",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Parque+Amantikir+Campos+do+Jordao"
+    "categoria": "Natureza"
   },
   {
-    "nome": "Horto Florestal (Parque Estadual)",
-    "nota": 4.7,
-    "endereco": "Av. Pedro Paulo, s/n - Horto Florestal",
-    "descricao": "Um dos parques mais antigos do país; trilhas, araucárias, rio e piquenique.",
+    "nome": "Morro do Elefante",
+    "nota": 4.4,
+    "avaliacoes": 41121,
+    "endereco": "Morro do Elefante - Av. da Vila Médica - Jardim Belvedere, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Cume de morro, parque temático de elefantes com vista panorâmica da cidade e acesso por carro ou teleférico.",
+    "maps": "https://maps.google.com/?cid=8546061340672567414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJmw_HQ1eIzJQRdqh8p4K1mXY",
     "tags": [
       "natureza"
     ],
-    "categoria": "Natureza",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Horto+Florestal+%28Parque+Estadual%29+Campos+do+Jordao"
+    "categoria": "Natureza"
+  },
+  {
+    "nome": "Parque Estadual Campos do Jordão (Horto Florestal)",
+    "nota": 4.7,
+    "avaliacoes": 12064,
+    "endereco": "Av. Pedro Paulo, s/n, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Bosques para piquenique com churrasqueiras, trilhas, lanchonete, ateliê ambiental, lagos e viveiro de plantas.",
+    "maps": "https://maps.google.com/?cid=8258635596623264091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJCy9mv9KLzJQRWzkgqlGRnHI",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza"
   },
   {
     "nome": "Bosque do Silêncio",
+    "nota": 4.7,
+    "avaliacoes": 11448,
+    "endereco": "Av. Sen. Roberto Simonsen, 1724 - Jardim Alpestre, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Parque tropical com caminhada e trilhas naturais, espaços para paintball, peteca e outras opções de lazer.",
+    "maps": "https://maps.google.com/?cid=14038295185780890425&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJG3guiK-JzJQROduL6BcL0sI",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza"
+  },
+  {
+    "nome": "Mirante Lajeado",
+    "nota": 4.7,
+    "avaliacoes": 3178,
+    "endereco": "Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=5688030360818071153&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJc-r4OPlhzJQRcbYyCHrx704",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza"
+  },
+  {
+    "nome": "Parque da Cerejeira de Campos do Jordão",
     "nota": 4.6,
-    "endereco": "Av. Sen. Roberto Simonsen, 1724",
-    "descricao": "Reserva de mata nativa com trilhas leves e atividades de arvorismo.",
+    "avaliacoes": 3590,
+    "endereco": "Av. Tassaburo Yamaguchi, 2173 - Vila Albertina, Campos do Jordão - SP, 12470-492, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=3025178067756987749&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJfdHasz9izJQRZTX1rmyX-yk",
     "tags": [
       "natureza"
     ],
-    "categoria": "Natureza",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Bosque+do+Sil%C3%AAncio+Campos+do+Jordao"
+    "categoria": "Natureza"
   },
   {
-    "nome": "Represa do Lagoinha",
+    "nome": "Parque Tarundu",
+    "nota": 4,
+    "avaliacoes": 9326,
+    "endereco": "Av. José A. Manso, 1515 - Toriba, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Hospedaria estilo campestre em um parque de recreação, com quartos, terraço e café da manhã gratuito.",
+    "maps": "https://maps.google.com/?cid=11467278020447039977&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJLWhA5AZizJQR6fFjdZr0I58",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza"
+  },
+  {
+    "nome": "Parque da Floresta Encantada",
+    "nota": 4.3,
+    "avaliacoes": 3626,
+    "endereco": "R. Arandi, 270 - Vila Poran, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Casas pequenas inspiradas em histórias e contos infantis, com funcionários fantasiados nos fins de semana.",
+    "maps": "https://maps.google.com/?cid=4309150977152399227&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJa5dTM5yJzJQRezeynPstzTs",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza"
+  },
+  {
+    "nome": "Parque da Lagoinha",
+    "nota": 4.8,
+    "avaliacoes": 1487,
+    "endereco": "Av. Pedro Paulo, 1455 - Lot. Veu da Noiva, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=2593825685412266920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJtWeyZA-JzJQRqENI3Lce_yM",
+    "tags": [
+      "natureza"
+    ],
+    "categoria": "Natureza"
+  },
+  {
+    "nome": "Fazendinha Toriba",
     "nota": 4.5,
-    "endereco": "Estrada da Lagoinha, s/n",
-    "descricao": "Área tranquila para caminhadas e contato com a natureza, longe do agito.",
+    "avaliacoes": 1891,
+    "endereco": "Estr. Mun. Paulo Costa Lenz Cesar, 630, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=7591077479679032677&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJMRORaf5hzJQRZX28nr_sWGk",
     "tags": [
       "natureza"
     ],
-    "categoria": "Natureza",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Represa+do+Lagoinha+Campos+do+Jordao"
+    "categoria": "Natureza"
   },
   {
-    "nome": "Borboletário Flores que Voam",
-    "nota": 4.5,
-    "endereco": "Av. Dr. Paulo Ferraz de Camargo, s/n",
-    "descricao": "Espaço de criação e observação de borboletas nativas da Mata Atlântica.",
-    "tags": [
-      "natureza"
-    ],
-    "categoria": "Natureza",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Borbolet%C3%A1rio+Flores+que+Voam+Campos+do+Jordao"
-  },
-  {
-    "nome": "Parque dos Elfos",
-    "nota": 4.4,
-    "endereco": "Estrada do Horto Florestal",
-    "descricao": "Bosque temático familiar com casinhas, trilha e atividades ao ar livre.",
-    "tags": [
-      "natureza"
-    ],
-    "categoria": "Natureza",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Parque+dos+Elfos+Campos+do+Jordao"
-  },
-  {
-    "nome": "Trilha dos Jesuítas",
+    "nome": "Parque Capivari",
     "nota": 4.6,
-    "endereco": "Parque Estadual - Horto Florestal",
-    "descricao": "Trilha histórica em meio à floresta de araucárias dentro do parque estadual.",
+    "avaliacoes": 60784,
+    "endereco": "R. Eng. Diogo José de Carvalho, 1291 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Parque famoso em frente ao lago. Oferece pedalinho e teleférico, com vistas panorâmicas incríveis da montanha.",
+    "maps": "https://maps.google.com/?cid=10040371099237650440&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJpTVWdFeIzJQRCJAoj1GQVos",
     "tags": [
-      "natureza"
+      "passeios"
     ],
-    "categoria": "Natureza",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Trilha+dos+Jesu%C3%ADtas+Campos+do+Jordao"
+    "categoria": "Passeios Clássicos"
   },
   {
-    "nome": "Cachoeira dos Amores",
+    "nome": "Ducha de Prata",
+    "nota": 4.5,
+    "avaliacoes": 53787,
+    "endereco": "Av. Mariane Baungart, 2485 - Vila Izabel, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Diversas cachoeiras e quedas d'água artificiais acessadas por decks cercados de lojinhas de artesanato.",
+    "maps": "https://maps.google.com/?cid=13984005074664773149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJz7kyiaOJzJQRHVanZIYqEcI",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos"
+  },
+  {
+    "nome": "Portal de Campos do Jordão",
+    "nota": 4.7,
+    "avaliacoes": 33187,
+    "endereco": "Rod. Floriano Rodrigues Pinheiro, km 43 - Vista Alegre, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Em estilo alpino, uma edificação marcando o acesso à zona urbana da cidade serrana de Campos do Jordão.",
+    "maps": "https://maps.google.com/?cid=14683374065384588360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJmTOsmHJizJQRSIRup-rSxcs",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos"
+  },
+  {
+    "nome": "Palácio Boa Vista",
     "nota": 4.6,
-    "endereco": "Parque Estadual - Horto Florestal",
-    "descricao": "Queda d'água acessível por trilha curta a partir do Horto Florestal.",
+    "avaliacoes": 10631,
+    "endereco": "Av. Adhemar Pereira de Barros, 3001 - Jardim Dirce, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Antigo palácio do governador, atualmente exibe arte e objetos históricos junto com obras contemporâneas.",
+    "maps": "https://maps.google.com/?cid=7840669418331014098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJcSlAFwMCzpQR0oPjWEunz2w",
     "tags": [
-      "natureza"
+      "passeios"
     ],
-    "categoria": "Natureza",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Cachoeira+dos+Amores+Campos+do+Jordao"
+    "categoria": "Passeios Clássicos"
   },
   {
-    "nome": "Vale das Cachoeiras (Eugênio Lefèvre)",
-    "nota": 4.5,
-    "endereco": "Distrito de Eugênio Lefèvre",
-    "descricao": "Conjunto de cachoeiras e poços em área rural, ótimo para o verão.",
+    "nome": "Praça do Capivari",
+    "nota": 4.8,
+    "avaliacoes": 6364,
+    "endereco": "Rua Djalma Forjaz - Jardim Elizabete, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=7715404083387511253&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJS-eDcVSIzJQR1THpyCKfEms",
     "tags": [
-      "natureza"
+      "passeios"
     ],
-    "categoria": "Natureza",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Vale+das+Cachoeiras+%28Eug%C3%AAnio+Lef%C3%A8vre%29+Campos+do+Jordao"
+    "categoria": "Passeios Clássicos",
+    "nome_google": "Praça do Capivari - Campos do Jordão"
   },
   {
-    "nome": "Poço do Pito",
-    "nota": 4.4,
-    "endereco": "Parque Estadual - Horto Florestal",
-    "descricao": "Poço de águas geladas do rio Sapucaí-Guaçu, dentro do Horto Florestal.",
+    "nome": "Ponte dos Guarda-Chuvas",
+    "nota": 4.6,
+    "avaliacoes": 3345,
+    "endereco": "Av. José de Oliveira Damas, 582 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=10287677361773075353&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJbyKeNOSJzJQRmdtP2A0sxY4",
     "tags": [
-      "natureza"
+      "passeios"
     ],
-    "categoria": "Natureza",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Po%C3%A7o+do+Pito+Campos+do+Jordao"
+    "categoria": "Passeios Clássicos"
   },
   {
-    "nome": "Ninho da Águia (área de mata)",
-    "nota": 4.5,
-    "endereco": "Estrada do Ninho da Águia - Alto da Boa Vista",
-    "descricao": "Mata preservada no ponto mais alto da cidade, com mirante natural.",
+    "nome": "Cachoeira Véu da Noiva",
+    "nota": 4.3,
+    "avaliacoes": 3320,
+    "endereco": "Lot. Veu da Noiva, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=7511735883005967360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJicNFLx2JzJQRADwgmfwLP2g",
     "tags": [
-      "natureza"
+      "passeios"
     ],
-    "categoria": "Natureza",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Ninho+da+%C3%81guia+%28%C3%A1rea+de+mata%29+Campos+do+Jordao"
-  },
-  {
-    "nome": "Reserva do Trabiju",
-    "nota": 4.4,
-    "endereco": "São Bento do Sapucaí (região)",
-    "descricao": "Área natural de mata e cachoeiras na divisa com São Bento do Sapucaí.",
-    "tags": [
-      "natureza"
-    ],
-    "categoria": "Natureza",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Reserva+do+Trabiju+Campos+do+Jordao"
+    "categoria": "Passeios Clássicos"
   },
   {
     "nome": "Vila Capivari",
     "nota": 4.8,
-    "endereco": "Av. Macedo Soares - Capivari",
-    "descricao": "O coração turístico da cidade: restaurantes, lojas, chocolaterias e vida noturna.",
+    "avaliacoes": 418,
+    "endereco": "Av. Macedo Soares, 399-389 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=4666082259150434891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJM_PQMQCJzJQRS_JpvRdBwUA",
     "tags": [
       "passeios"
     ],
     "categoria": "Passeios Clássicos",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Vila+Capivari+Campos+do+Jordao"
+    "nome_google": "Vila capivari"
   },
   {
-    "nome": "Morro do Elefante",
-    "nota": 4.7,
-    "endereco": "Alto do Morro do Elefante",
-    "descricao": "Ponto clássico com vista panorâmica; acesso por teleférico, carro ou trilha.",
+    "nome": "Mercado Municipal de Campos do Jordão",
+    "nota": 3.4,
+    "avaliacoes": 3570,
+    "endereco": "Av. Dr. Adhemar de Barros, 26 - Abernéssia, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=14324684122319402837&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJWyjCW9CJzJQRVbeGVlCAy8Y",
     "tags": [
       "passeios"
     ],
-    "categoria": "Passeios Clássicos",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Morro+do+Elefante+Campos+do+Jordao"
+    "categoria": "Passeios Clássicos"
   },
   {
     "nome": "Teleférico do Morro do Elefante",
-    "nota": 4.6,
-    "endereco": "Parque Capivari",
-    "descricao": "Primeiro teleférico do Brasil, liga o Parque Capivari ao topo do morro.",
-    "tags": [
-      "passeios"
-    ],
-    "categoria": "Passeios Clássicos",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Telef%C3%A9rico+do+Morro+do+Elefante+Campos+do+Jordao"
-  },
-  {
-    "nome": "Bondinho / Parque Capivari",
-    "nota": 4.5,
-    "endereco": "Estação Emílio Ribas / Parque Capivari",
-    "descricao": "Parque com lago, pedalinhos, roda-gigante e o embarque do bondinho.",
-    "tags": [
-      "passeios"
-    ],
-    "categoria": "Passeios Clássicos",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Bondinho+%2F+Parque+Capivari+Campos+do+Jordao"
-  },
-  {
-    "nome": "Ducha de Prata",
-    "nota": 4.3,
-    "endereco": "Av. Dr. Roberto Simonsen",
-    "descricao": "Quedas d'água em meio à mata, com quiosques de artesanato no entorno.",
-    "tags": [
-      "passeios"
-    ],
-    "categoria": "Passeios Clássicos",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Ducha+de+Prata+Campos+do+Jordao"
-  },
-  {
-    "nome": "Portal da Cidade",
-    "nota": 4.5,
-    "endereco": "Entrada da cidade - Rod. Floriano Rodrigues Pinheiro",
-    "descricao": "Portal monumental em estilo alpino, parada tradicional para fotos na chegada.",
-    "tags": [
-      "passeios"
-    ],
-    "categoria": "Passeios Clássicos",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Portal+da+Cidade+Campos+do+Jordao"
-  },
-  {
-    "nome": "Estrada de Ferro Campos do Jordão",
-    "nota": 4.6,
-    "endereco": "Estação Emílio Ribas - Abernéssia",
-    "descricao": "Passeios turísticos de trem pela ferrovia mais alta do Brasil.",
-    "tags": [
-      "passeios"
-    ],
-    "categoria": "Passeios Clássicos",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Estrada+de+Ferro+Campos+do+Jord%C3%A3o+Campos+do+Jordao"
-  },
-  {
-    "nome": "Lago do Parque Capivari",
-    "nota": 4.4,
-    "endereco": "Parque Capivari",
-    "descricao": "Lago central de Capivari com pedalinhos e cafés à beira d'água.",
-    "tags": [
-      "passeios"
-    ],
-    "categoria": "Passeios Clássicos",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Lago+do+Parque+Capivari+Campos+do+Jordao"
-  },
-  {
-    "nome": "Praça do Capivari",
-    "nota": 4.5,
-    "endereco": "Capivari",
-    "descricao": "Praça arborizada no centro de Capivari, com feirinhas nos fins de semana.",
-    "tags": [
-      "passeios"
-    ],
-    "categoria": "Passeios Clássicos",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Pra%C3%A7a+do+Capivari+Campos+do+Jordao"
-  },
-  {
-    "nome": "Vila Abernéssia",
-    "nota": 4.3,
-    "endereco": "Abernéssia",
-    "descricao": "Centro comercial e histórico da cidade, com o comércio do dia a dia.",
-    "tags": [
-      "passeios"
-    ],
-    "categoria": "Passeios Clássicos",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Vila+Abern%C3%A9ssia+Campos+do+Jordao"
-  },
-  {
-    "nome": "Passeio de charrete / jardineira",
     "nota": 4.2,
-    "endereco": "Capivari",
-    "descricao": "City tour tradicional saindo de Capivari pelos principais pontos da cidade.",
+    "avaliacoes": 506,
+    "endereco": "Rua Ype - Jardim Elizabete, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=2368731371712976686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJx99L7S6JzJQRLpdG66Fs3yA",
     "tags": [
       "passeios"
     ],
     "categoria": "Passeios Clássicos",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Passeio+de+charrete+%2F+jardineira+Campos+do+Jordao"
-  },
-  {
-    "nome": "Recinto do Festival de Inverno",
-    "nota": 4.4,
-    "endereco": "Av. Dr. Luís Arrobas Martins, 1880",
-    "descricao": "Complexo do Auditório e do Museu, palco do Festival de Inverno em julho.",
-    "tags": [
-      "passeios"
-    ],
-    "categoria": "Passeios Clássicos",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Recinto+do+Festival+de+Inverno+Campos+do+Jordao"
+    "nome_google": "Teleférico do Morro do Elefante - WebCampos"
   },
   {
     "nome": "Museu Felícia Leirner",
-    "nota": 4.9,
-    "endereco": "Av. Dr. Luís Arrobas Martins, 1880",
-    "descricao": "Museu ao ar livre com 85 esculturas integradas à paisagem da serra.",
-    "tags": [
-      "cultura"
-    ],
-    "categoria": "Cultura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Museu+Fel%C3%ADcia+Leirner+Campos+do+Jordao"
-  },
-  {
-    "nome": "Auditório Cláudio Santoro",
-    "nota": 4.9,
-    "endereco": "Av. Dr. Luís Arrobas Martins, 1880",
-    "descricao": "Sala de concertos sede do Festival de Inverno, referência arquitetônica.",
-    "tags": [
-      "cultura"
-    ],
-    "categoria": "Cultura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Audit%C3%B3rio+Cl%C3%A1udio+Santoro+Campos+do+Jordao"
-  },
-  {
-    "nome": "Palácio Boa Vista",
     "nota": 4.7,
-    "endereco": "Av. Adhemar de Barros, 3001",
-    "descricao": "Residência oficial de inverno do governador, com acervo de arte brasileira.",
+    "avaliacoes": 8262,
+    "endereco": "Av. Dr. Luis Arrobas Martins, 1880 - Alto Boa Vista, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Museu de arte com as obras de um escultor polonês. Também tem um jardim e um espaço para apresentações.",
+    "maps": "https://maps.google.com/?cid=8244003876058973187&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJn5Y80fhizJQRA0Rwv9iVaHI",
     "tags": [
       "cultura"
     ],
-    "categoria": "Cultura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Pal%C3%A1cio+Boa+Vista+Campos+do+Jordao"
+    "categoria": "Cultura"
   },
   {
-    "nome": "Mosteiro São João (Beneditino)",
+    "nome": "Museu Casa da Xilogravura",
     "nota": 4.8,
-    "endereco": "Av. Dr. Adhemar de Barros, 330",
-    "descricao": "Mosteiro beneditino com igreja, canto gregoriano e produtos dos monges.",
+    "avaliacoes": 2179,
+    "endereco": "Av. Eduardo Moreira da Cruz, 295 - Jaguaribe, Campos do Jordão - SP, 12472-028, Brasil",
+    "descricao": "Museu em um antigo monastério, dedicado a xilogravuras e entalhes em madeira, com biblioteca e oficinas.",
+    "maps": "https://maps.google.com/?cid=106169374807386363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJy0Ec1y2IzJQR-2hr33sweQE",
     "tags": [
       "cultura"
     ],
-    "categoria": "Cultura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Mosteiro+S%C3%A3o+Jo%C3%A3o+%28Beneditino%29+Campos+do+Jordao"
+    "categoria": "Cultura"
   },
   {
-    "nome": "Casa da Xilogravura",
-    "nota": 4.7,
-    "endereco": "Av. Eduardo Moreira da Cruz, 295 - Jaguaribe",
-    "descricao": "Museu dedicado à xilogravura brasileira, com ateliê e jardim.",
-    "tags": [
-      "cultura"
-    ],
-    "categoria": "Cultura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Casa+da+Xilogravura+Campos+do+Jordao"
-  },
-  {
-    "nome": "Igreja Matriz de Santa Teresinha",
-    "nota": 4.5,
-    "endereco": "Praça Prof. Vicente Rizzo - Abernéssia",
-    "descricao": "Principal igreja da cidade, ponto de referência da Vila Abernéssia.",
-    "tags": [
-      "cultura"
-    ],
-    "categoria": "Cultura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Igreja+Matriz+de+Santa+Teresinha+Campos+do+Jordao"
-  },
-  {
-    "nome": "Capela de São Pedro",
-    "nota": 4.4,
-    "endereco": "Alto da Boa Vista",
-    "descricao": "Pequena capela histórica em pedra, com vista para o vale.",
-    "tags": [
-      "cultura"
-    ],
-    "categoria": "Cultura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Capela+de+S%C3%A3o+Pedro+Campos+do+Jordao"
-  },
-  {
-    "nome": "Vila Inglesa",
-    "nota": 4.5,
-    "endereco": "Alto da Vila Inglesa",
-    "descricao": "Conjunto residencial com arquitetura de inspiração britânica dos anos 1920.",
-    "tags": [
-      "cultura"
-    ],
-    "categoria": "Cultura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Vila+Inglesa+Campos+do+Jordao"
-  },
-  {
-    "nome": "Boulevard Genève",
-    "nota": 4.6,
-    "endereco": "Rua Djalma Forjaz - Capivari",
-    "descricao": "Galeria comercial com arquitetura europeia, marco visual de Capivari.",
-    "tags": [
-      "cultura"
-    ],
-    "categoria": "Cultura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Boulevard+Gen%C3%A8ve+Campos+do+Jordao"
-  },
-  {
-    "nome": "Estação Ferroviária Emílio Ribas",
-    "nota": 4.4,
-    "endereco": "Abernéssia",
-    "descricao": "Estação histórica da Estrada de Ferro, patrimônio ferroviário da cidade.",
-    "tags": [
-      "cultura"
-    ],
-    "categoria": "Cultura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Esta%C3%A7%C3%A3o+Ferrovi%C3%A1ria+Em%C3%ADlio+Ribas+Campos+do+Jordao"
-  },
-  {
-    "nome": "Espaço Cultural Dr. Além",
-    "nota": 4.3,
-    "endereco": "Av. Frei Orestes Girardi - Abernéssia",
-    "descricao": "Centro de eventos e exposições da prefeitura, com agenda cultural.",
-    "tags": [
-      "cultura"
-    ],
-    "categoria": "Cultura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Espa%C3%A7o+Cultural+Dr.+Al%C3%A9m+Campos+do+Jordao"
-  },
-  {
-    "nome": "Museu do Automóvel",
-    "nota": 4.4,
-    "endereco": "Capivari (verifique funcionamento)",
-    "descricao": "Acervo de carros antigos e clássicos; confirme se está aberto na temporada.",
-    "tags": [
-      "cultura"
-    ],
-    "categoria": "Cultura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Museu+do+Autom%C3%B3vel+Campos+do+Jordao"
-  },
-  {
-    "nome": "Lojas da Vila Capivari",
-    "nota": 4.6,
-    "endereco": "Av. Macedo Soares - Capivari",
-    "descricao": "Grife de inverno, malharias, decoração e chocolates no calçadão de Capivari.",
-    "tags": [
-      "compras"
-    ],
-    "categoria": "Compras",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Lojas+da+Vila+Capivari+Campos+do+Jordao"
-  },
-  {
-    "nome": "Boulevard Genève",
-    "nota": 4.6,
-    "endereco": "Rua Djalma Forjaz - Capivari",
-    "descricao": "Galeria com lojas de moda, presentes e cafés em ambiente europeu.",
-    "tags": [
-      "compras"
-    ],
-    "categoria": "Compras",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Boulevard+Gen%C3%A8ve+Campos+do+Jordao"
-  },
-  {
-    "nome": "Shopping Pátio Capivari",
-    "nota": 4.5,
-    "endereco": "Av. Macedo Soares - Capivari",
-    "descricao": "Shopping a céu aberto com lojas, praça de alimentação e cinema.",
-    "tags": [
-      "compras"
-    ],
-    "categoria": "Compras",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Shopping+P%C3%A1tio+Capivari+Campos+do+Jordao"
-  },
-  {
-    "nome": "Cadij Shopping",
-    "nota": 4.5,
-    "endereco": "Rua Djalma Forjaz - Capivari",
-    "descricao": "Galeria tradicional de Capivari com malharias e artigos regionais.",
-    "tags": [
-      "compras"
-    ],
-    "categoria": "Compras",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Cadij+Shopping+Campos+do+Jordao"
-  },
-  {
-    "nome": "Malharia Genève",
-    "nota": 4.5,
-    "endereco": "Rua Djalma Forjaz - Capivari",
-    "descricao": "Uma das malharias clássicas da cidade, tricôs e peças de inverno.",
-    "tags": [
-      "compras"
-    ],
-    "categoria": "Compras",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Malharia+Gen%C3%A8ve+Campos+do+Jordao"
-  },
-  {
-    "nome": "Rua das Malhas (Abernéssia)",
-    "nota": 4.4,
-    "endereco": "Av. Frei Orestes Girardi - Abernéssia",
-    "descricao": "Concentração de fábricas e lojas de malha com preço de atacado.",
-    "tags": [
-      "compras"
-    ],
-    "categoria": "Compras",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Rua+das+Malhas+%28Abern%C3%A9ssia%29+Campos+do+Jordao"
-  },
-  {
-    "nome": "Mercado Municipal",
-    "nota": 4.5,
-    "endereco": "Rua Dr. Djalma Forjaz",
-    "descricao": "Produtos regionais, queijos, embutidos, cachaças e artesanato.",
-    "tags": [
-      "compras"
-    ],
-    "categoria": "Compras",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Mercado+Municipal+Campos+do+Jordao"
-  },
-  {
-    "nome": "Feira de Artesanato do Capivari",
-    "nota": 4.4,
-    "endereco": "Praça do Capivari (fins de semana)",
-    "descricao": "Barracas de artesanato, malhas e comidas típicas aos fins de semana.",
-    "tags": [
-      "compras"
-    ],
-    "categoria": "Compras",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Feira+de+Artesanato+do+Capivari+Campos+do+Jordao"
-  },
-  {
-    "nome": "Chocolate Araucária",
-    "nota": 4.7,
-    "endereco": "Av. Macedo Soares - Capivari",
-    "descricao": "Fábrica e loja de chocolates artesanais típicos da cidade.",
-    "tags": [
-      "compras"
-    ],
-    "categoria": "Compras",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Chocolate+Arauc%C3%A1ria+Campos+do+Jordao"
-  },
-  {
-    "nome": "Loja Baden Baden",
-    "nota": 4.5,
-    "endereco": "Rua Djalma Forjaz - Capivari",
-    "descricao": "Loja da cervejaria com rótulos artesanais e kits para presente.",
-    "tags": [
-      "compras"
-    ],
-    "categoria": "Compras",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Loja+Baden+Baden+Campos+do+Jordao"
-  },
-  {
-    "nome": "Empório Genève",
-    "nota": 4.4,
-    "endereco": "Rua Djalma Forjaz - Capivari",
-    "descricao": "Vinhos, azeites, geleias e produtos gourmet da serra.",
-    "tags": [
-      "compras"
-    ],
-    "categoria": "Compras",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Emp%C3%B3rio+Gen%C3%A8ve+Campos+do+Jordao"
-  },
-  {
-    "nome": "Spinassi Chocolates",
-    "nota": 4.5,
-    "endereco": "Av. Macedo Soares - Capivari",
-    "descricao": "Chocolate quente artesanal, bombons e doces típicos para levar.",
-    "tags": [
-      "compras"
-    ],
-    "categoria": "Compras",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Spinassi+Chocolates+Campos+do+Jordao"
-  },
-  {
-    "nome": "Tarundu",
-    "nota": 4.7,
-    "endereco": "Av. José Antônio Manso, 1515 - Jaguaribe",
-    "descricao": "Parque de lazer com arvorismo, tirolesa, tobogã, pesca e trilha.",
-    "tags": [
-      "aventura"
-    ],
-    "categoria": "Aventura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Tarundu+Campos+do+Jordao"
-  },
-  {
-    "nome": "Prana Aventura Park",
-    "nota": 4.7,
-    "endereco": "Estrada do Pico do Itapeva",
-    "descricao": "Balanços panorâmicos, tirolesa e trilhas com vista para a Mantiqueira.",
-    "tags": [
-      "aventura"
-    ],
-    "categoria": "Aventura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Prana+Aventura+Park+Campos+do+Jordao"
-  },
-  {
-    "nome": "Tirolesa do Parque Capivari",
-    "nota": 4.5,
-    "endereco": "Parque Capivari",
-    "descricao": "Travessia de tirolesa sobre o parque, no centro de Capivari.",
-    "tags": [
-      "aventura"
-    ],
-    "categoria": "Aventura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Tirolesa+do+Parque+Capivari+Campos+do+Jordao"
-  },
-  {
-    "nome": "Arvorismo no Bosque do Silêncio",
-    "nota": 4.5,
-    "endereco": "Av. Sen. Roberto Simonsen, 1724",
-    "descricao": "Circuito de arvorismo entre as árvores da reserva, para vários níveis.",
-    "tags": [
-      "aventura"
-    ],
-    "categoria": "Aventura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Arvorismo+no+Bosque+do+Sil%C3%AAncio+Campos+do+Jordao"
-  },
-  {
-    "nome": "Mountain bike no Horto Florestal",
-    "nota": 4.6,
-    "endereco": "Parque Estadual - Horto Florestal",
-    "descricao": "Trilhas de bike de nível variado dentro do parque estadual.",
-    "tags": [
-      "aventura"
-    ],
-    "categoria": "Aventura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Mountain+bike+no+Horto+Florestal+Campos+do+Jordao"
-  },
-  {
-    "nome": "Passeio de quadriciclo",
-    "nota": 4.4,
-    "endereco": "Estrada do Pico do Itapeva (operadoras locais)",
-    "descricao": "Roteiros off-road guiados pelas estradas de terra da serra.",
-    "tags": [
-      "aventura"
-    ],
-    "categoria": "Aventura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Passeio+de+quadriciclo+Campos+do+Jordao"
-  },
-  {
-    "nome": "Paintball",
-    "nota": 4.3,
-    "endereco": "Jaguaribe (operadoras locais)",
-    "descricao": "Arenas de paintball para grupos e famílias, com equipamento incluso.",
-    "tags": [
-      "aventura"
-    ],
-    "categoria": "Aventura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Paintball+Campos+do+Jordao"
-  },
-  {
-    "nome": "Voo de balão",
-    "nota": 4.6,
-    "endereco": "Base em Campos do Jordão / Vale do Paraíba",
-    "descricao": "Voo panorâmico ao amanhecer sobre a serra; depende das condições do tempo.",
-    "tags": [
-      "aventura"
-    ],
-    "categoria": "Aventura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Voo+de+bal%C3%A3o+Campos+do+Jordao"
-  },
-  {
-    "nome": "Cavalgada",
-    "nota": 4.4,
-    "endereco": "Estrada do Horto Florestal (haras locais)",
-    "descricao": "Passeios a cavalo guiados por trilhas e campos da região.",
-    "tags": [
-      "aventura"
-    ],
-    "categoria": "Aventura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Cavalgada+Campos+do+Jordao"
-  },
-  {
-    "nome": "Escalada e rapel na Pedra do Baú",
-    "nota": 4.8,
-    "endereco": "São Bento do Sapucaí (região)",
-    "descricao": "Via ferrata e rapel na formação rochosa mais famosa da Mantiqueira.",
-    "tags": [
-      "aventura"
-    ],
-    "categoria": "Aventura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Escalada+e+rapel+na+Pedra+do+Ba%C3%BA+Campos+do+Jordao"
-  },
-  {
-    "nome": "Trilha ao Pico Agudo",
-    "nota": 4.7,
-    "endereco": "São Bento do Sapucaí (região)",
-    "descricao": "Caminhada até um dos melhores pontos de voo livre e nascer do sol.",
-    "tags": [
-      "aventura"
-    ],
-    "categoria": "Aventura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Trilha+ao+Pico+Agudo+Campos+do+Jordao"
-  },
-  {
-    "nome": "Passeio de 4x4 na Serra",
-    "nota": 4.4,
-    "endereco": "Serra da Mantiqueira (operadoras locais)",
-    "descricao": "Expedições de jipe por estradas rurais, cachoeiras e mirantes.",
-    "tags": [
-      "aventura"
-    ],
-    "categoria": "Aventura",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Passeio+de+4x4+na+Serra+Campos+do+Jordao"
-  },
-  {
-    "nome": "Pico do Itapeva",
+    "nome": "CARDE",
     "nota": 4.9,
-    "endereco": "Estrada do Pico do Itapeva - Alto",
-    "descricao": "A 2.030 m, uma das vistas mais altas e amplas da região.",
+    "avaliacoes": 1524,
+    "endereco": "Rua Benedito Olímpio Miranda - Av. Alto da Boa Vista, 280, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=16792905998218471067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJgd_R1zljzJQRm6ZWYghjDOk",
     "tags": [
-      "mirantes",
-      "aventura"
+      "cultura"
     ],
-    "categoria": "Mirantes",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Pico+do+Itapeva+Campos+do+Jordao"
+    "categoria": "Cultura",
+    "nome_google": "CARDE | Arte Design Museu"
   },
   {
-    "nome": "Mirante do Morro do Elefante",
-    "nota": 4.7,
-    "endereco": "Alto do Morro do Elefante",
-    "descricao": "Vista clássica do casario e do vale, ao lado da estação do teleférico.",
+    "nome": "Auditório Claudio Santoro",
+    "nota": 4.8,
+    "avaliacoes": 1759,
+    "endereco": "Av. Dr. Luis Arrobas Martins, 1800 - Alto Boa Vista, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=9127194937866432024&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJww6HNfhizJQRGK5FI3BPqn4",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura"
+  },
+  {
+    "nome": "Museu Medieval Campos",
+    "nota": 5,
+    "avaliacoes": 545,
+    "endereco": "R. João Batista Leopoldo Figueiredo, 77 - prédio B - Vila Izabel, Campos do Jordão - SP, 12460-572, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=2305514791744556281&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJFYnRFr2JzJQR-cxX6nzV_h8",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura"
+  },
+  {
+    "nome": "Parque dos Elefantes",
+    "nota": 3.8,
+    "avaliacoes": 1627,
+    "endereco": "R. N \" Cinco \", 97 - Jd Belvedere, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Parque com diversas esculturas de elefantes, em modelos coloridos e podes variadas, e pôsteres nas paredes.",
+    "maps": "https://maps.google.com/?cid=13066553833060192331&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJPSDgZleIzJQRS1ASSnu5VbU",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura"
+  },
+  {
+    "nome": "Dreams House",
+    "nota": 4.2,
+    "avaliacoes": 586,
+    "endereco": "R. Roberto Jeffery, 30 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=17587665596397748589&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJmZr6SACJzJQRbYGlLa3wE_Q",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura",
+    "nome_google": "Dreams House | Campos do Jordão"
+  },
+  {
+    "nome": "Mirante Lageado 2",
+    "nota": 4.8,
+    "avaliacoes": 131,
+    "endereco": "Est. Municipal Aurora Nogueira Barros Vasconcellos, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=9201055625958729037&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJhwPpyOxhzJQRTSXhr1e3sH8",
     "tags": [
       "mirantes"
     ],
-    "categoria": "Mirantes",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Mirante+do+Morro+do+Elefante+Campos+do+Jordao"
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Fundação Lia Maria Aguiar",
+    "nota": 4.9,
+    "avaliacoes": 107,
+    "endereco": "Av. Dr. Vítor Godinho, 455 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=16731833162081692960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ86LhrsuJzJQRIO36opxpM-g",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura"
+  },
+  {
+    "nome": "Praça das Artes",
+    "nota": 4.3,
+    "avaliacoes": 156,
+    "endereco": "Rod. Federal, 353 - Vila Matilde, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=15975479360074412018&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ5fW9psqJzJQR8u_RFdZNtN0",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Cultura"
+  },
+  {
+    "nome": "Galeria Villa Capivari",
+    "nota": 4.6,
+    "avaliacoes": 6252,
+    "endereco": "Av. José de Oliveira Damas, 582 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=18180783386329859149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJS_ahSlGIzJQRTcSD-CkeT_w",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Boulevard Geneve",
+    "nota": 4.6,
+    "avaliacoes": 5486,
+    "endereco": "Rua Djalma Forjaz, 93 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=14092459655503128973&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJAw4EDVSIzJQRjanJQWR5ksM",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Guido Couros",
+    "nota": 4.9,
+    "avaliacoes": 690,
+    "endereco": "Rua Dr - Rua Djalma Forjaz, 103 - Lj 07 e 09 - Capivari, Campos do Jordão - SP, 12460-146, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=16917942495886236426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ2TzPiFSIzJQRCtvInRCbyOo",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Center Suíço",
+    "nota": 4.4,
+    "avaliacoes": 1176,
+    "endereco": "Av. Macedo Soares, 457 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=1487771462491098133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJswbwClOIzJQRFcy-OEOgpRQ",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "nome_google": "Center Suíço - Flats & Shopping"
+  },
+  {
+    "nome": "Shopping Center Capivari",
+    "nota": 4.4,
+    "avaliacoes": 1027,
+    "endereco": "Av. Macedo Soares, 99 - J Elizabete, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=16699153588704830642&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJS3yAQVSIzJQRsuRwiLZPv-c",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Pernambucanas",
+    "nota": 4.2,
+    "avaliacoes": 1341,
+    "endereco": "Av. Dr. Januário Miraglia, 938 - Fracalanza, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=3468238404264202380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ51d0TMmJzJQRjBCJAnSoITA",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Malharia Jordão Tricot",
+    "nota": 4.3,
+    "avaliacoes": 1027,
+    "endereco": "R. Profa. Dora Lygia Richieri, 110 - Abernéssia, Campos do Jordão - SP, 12467-016, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=3224433252473383464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJeS5fKs-JzJQRKCqil_V8vyw",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Shopping Cadij Plaza",
+    "nota": 4.4,
+    "avaliacoes": 670,
+    "endereco": "Av. Macedo Soares, 340 - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=9106336951518240224&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJM8iZTFSIzJQR4B1CwDU1YH4",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Galeria Suíça",
+    "nota": 4.5,
+    "avaliacoes": 204,
+    "endereco": "Av. Emílio Lang Júnior - J Elizabete, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=4799908650396201270&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJaaymelaIzJQRNrEwjXyznEI",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Santa Cruz Center",
+    "nota": 4.5,
+    "avaliacoes": 187,
+    "endereco": "Santa cruz, Campos do Jordão - SP, 12470-290, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=6106379375659039001&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJI0wWVWRizJQRGbntbbA3vlQ",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras"
+  },
+  {
+    "nome": "Campos do Jordão Quadriciclos (Capivari)",
+    "nota": 4.7,
+    "avaliacoes": 1349,
+    "endereco": "Av. Emílio Lang Júnior, 500 - Capivari, Campos do Jordão - SP, 12460-287, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=9315149506905294583&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJnf-XNOWIzJQR98a-bB8PRoE",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Campos do Jordão Quadriciclos (Recanto Feliz)",
+    "nota": 4.9,
+    "avaliacoes": 657,
+    "endereco": "Avenida doutor - Av. Emílio Lang Júnior, 1200 - Recanto Feliz, Campos do Jordão - SP, 12477-190, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=12837791283060174710&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJKXZ2M1SIzJQRdm9ohyf_KLI",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Zoom Bike Park",
+    "nota": 4.8,
+    "avaliacoes": 732,
+    "endereco": "Av. Pedro Paulo, 7997, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Parque recreativo com trilhas para mountain bike de diferentes graus de dificuldade, além de um café.",
+    "maps": "https://maps.google.com/?cid=5427159829304180243&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJj6p5RhiPzJQRE_7xRBwlUUs",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Pico do Imbiri",
+    "nota": 4.6,
+    "avaliacoes": 965,
+    "endereco": "Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Mirante pitoresco a mais de 1.800 metros com deck de madeira e vista da floresta da Serra da Mantiqueira.",
+    "maps": "https://maps.google.com/?cid=6276058308330437047&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJlU-99Q2IzJQRt7msiccJGVc",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Parque Estadual Campos do Jordão",
+    "nota": 4.7,
+    "avaliacoes": 459,
+    "endereco": "Av. Pedro Paulo - Lot Véu da Noiva, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=18074868538766665041&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJhwH01waPzJQRUSUS1yvV1vo",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Parque Bambuí",
+    "nota": 4.4,
+    "avaliacoes": 675,
+    "endereco": "R. Fausi Rachid, 871 - Jardim Toriba, Campos do Jordão - SP, 12466-700, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=9835765617915963409&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ3351OWqJzJQREajhpbeof4g",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Aventura no Rancho",
+    "nota": 4.8,
+    "avaliacoes": 314,
+    "endereco": "Av. Pedro Paulo, 7997 - Horto Florestal, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=9316616590345252032&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ4fDByRmPzJQRwCwKaG1FS4E",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Prana Park",
+    "nota": 3.6,
+    "avaliacoes": 880,
+    "endereco": "AV. Gustavo Biagioni - Estr. p/ O Pico do Itapeva, 7900 - ITAPEVA, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=11684096996461032177&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJMVuWL2mLzJQR8bJEM1BAJqI",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Trenó de Montanha",
+    "nota": 3.7,
+    "avaliacoes": 394,
+    "endereco": "7CPM+H98 - Jardim Belvedere, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=7901137882033597813&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJAZY7fsSJzJQRda3-qwp7pm0",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura",
+    "nome_google": "Trenó de Montanha - Campos do Jordão"
+  },
+  {
+    "nome": "Mirante Mantiqueira",
+    "nota": 4.8,
+    "avaliacoes": 52,
+    "endereco": "699Q+JR, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=14157086709165952140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJPc6gPABhzJQRjIw9wloTeMQ",
+    "tags": [
+      "aventura"
+    ],
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Mirante Belvedere",
+    "nota": 4.7,
+    "avaliacoes": 8035,
+    "endereco": "Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Mirante com vistas deslumbrantes das montanhas ao redor e vendedores ambulantes de comida.",
+    "maps": "https://maps.google.com/?cid=1619706745653988238&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJdbnyPx5izJQRjosCH7RaehY",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Mirante Home Green",
+    "nota": 4.7,
+    "avaliacoes": 1799,
+    "endereco": "Av. Itapeva, 106 - V Poran, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=5438275909942694817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJyWTol0eJzJQRodOyeiCjeEs",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Mirante - Parque Amantikir",
+    "nota": 4.8,
+    "avaliacoes": 316,
+    "endereco": "Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=8286649727312555799&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJJYn5TUJhzJQRF2-NvgUYAHM",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Trenzinho da Montanha",
+    "nota": 4.2,
+    "avaliacoes": 699,
+    "endereco": "Praça Castro Alves, s/n - Capivari, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Excursões de ônibus, trem e bonde pelos principais pontos turísticos, com vistas panorâmicas das paisagens.",
+    "maps": "https://maps.google.com/?cid=2391333357503654539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJU5GO0VWIzJQRiyqM0QS5LyE",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Mirante Pau Arcado",
+    "nota": 4.8,
+    "avaliacoes": 234,
+    "endereco": "Unnamed Road, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=6104922815859566133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJtWKR2IyPzJQRNaZ8rPQKuVQ",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Mirante Alto do Capivari",
+    "nota": 4.5,
+    "avaliacoes": 112,
+    "endereco": "R. Doze, 270 - V Inglesa, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=12561190454309293675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJKewDMaOJzJQRaw4iiSpQUq4",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Mirante de Vidro AME Campos",
+    "nota": 3.5,
+    "avaliacoes": 173,
+    "endereco": "Av. Ernesto Diederichsen - V Matilde, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=567572585738967106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ0WkUE52LzJQRQpg4dUJs4Ac",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Circuito Turístico Alto Lajeado",
+    "nota": 5,
+    "avaliacoes": 5,
+    "endereco": "Estr. Mun. Paulo Costa Lenz Cesar - Vila Matilde, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=16831072304274633040&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJP6fJ2ldhzJQRUHE0_RX7k-k",
+    "tags": [
+      "mirantes"
+    ],
+    "categoria": "Mirantes"
+  },
+  {
+    "nome": "Mercadinho Piratininga",
+    "nota": 4.4,
+    "avaliacoes": 5300,
+    "endereco": "Av. Dr. Januário Miraglia, 608 - Abernéssia, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=11754391892918099096&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJAWRM79mJzJQRmFwdMCb9H6M",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados",
+    "nome_google": "Mercadinho Piratininga - Campos do Jordão"
+  },
+  {
+    "nome": "Supermercado Roma",
+    "nota": 4,
+    "avaliacoes": 2295,
+    "endereco": "Av. Dr. Januário Miraglia, 2784 - Jaguaribe, Campos do Jordão - SP, 12460-971, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=7134518692569935771&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJP9tfhdCJzJQRm-8DWvPmAmM",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados"
+  },
+  {
+    "nome": "Pão de Açúcar",
+    "nota": 4.2,
+    "avaliacoes": 1415,
+    "endereco": "Av. Dr. Januário Miraglia, 1772 - Abernéssia, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=17250708163586874507&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJVaKQXBWJzJQRi9yGNq3TZu8",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados"
+  },
+  {
+    "nome": "Villa Rita Supermercados",
+    "nota": 4.3,
+    "avaliacoes": 827,
+    "endereco": "Av. Dr. Januário Miraglia, 2054 - Abernéssia, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=12284540573307840264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJcb_zT8mJzJQRCCfjrJB0e6o",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados"
+  },
+  {
+    "nome": "Supermercado Máximo",
+    "nota": 4.1,
+    "avaliacoes": 815,
+    "endereco": "Av. Dr. Januário Miraglia, 2114 - Abernéssia, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=17001540977318834933&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJz9qgYMmJzJQR9TJW23Cb8es",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados"
+  },
+  {
+    "nome": "Supermercado Bacana",
+    "nota": 4.4,
+    "avaliacoes": 512,
+    "endereco": "R. Felício Raimundo, 15 - Jaguaribe, Campos do Jordão - SP, 12472-006, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=6429236214428115615&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJt7WvjIuJzJQRn6IQAkY8OVk",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados"
+  },
+  {
+    "nome": "Mercadinho Capivari",
+    "nota": 4.2,
+    "avaliacoes": 660,
+    "endereco": "Av. José Manoel Gonçalves, 250 - Capivari, Campos do Jordão - SP, 12460-148, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=7831637801094577747&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ1zrUZFSIzJQRU37DFxaRr2w",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados"
+  },
+  {
+    "nome": "Panecampos",
+    "nota": 4.5,
+    "avaliacoes": 425,
+    "endereco": "Av. Tassaburo Yamaguchi, 800 - Vila Albertina, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=16313509437301767886&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJY3qUkW1izJQRzr5aimY6ZeI",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados"
+  },
+  {
+    "nome": "Mercado Supimpa Abernéssia",
+    "nota": 4.4,
+    "avaliacoes": 417,
+    "endereco": "R. Tadeu Rangel Pestana, 440 - Abernéssia, Campos do Jordão - SP, 12467-056, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=13137411586116699025&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJZ9PZnNqJzJQRkUOWijt2UbY",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados"
+  },
+  {
+    "nome": "Supercampos",
+    "nota": 4.4,
+    "avaliacoes": 410,
+    "endereco": "Av. Emílio Lang Júnior, 1245 - Recanto Feliz, Campos do Jordão - SP, 12477-190, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=7633540510013176749&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ5bRZhvmIzJQRrbvjTabI72k",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados"
   },
   {
     "nome": "Prana Pôr do Sol",
-    "nota": 4.9,
-    "endereco": "Estrada do Pico do Itapeva",
-    "descricao": "Deck e restaurante charmoso voltados para um pôr do sol inesquecível.",
+    "nota": 4.1,
+    "endereco": "Av. Gustavo Biagioni - Estr. p/ o Pico do Itapeva, 7900, Campos do Jordão - SP, 12460-000, Brasil",
+    "descricao": "Mirante e café bistrô com vista para a Serra da Mantiqueira, famoso pelos balanços e pela escultura \"Mão de Deus\"; cobra entrada (consumação mínima). Confirme funcionamento antes de ir.",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Prana+P%C3%B4r+do+Sol+Campos+do+Jordao",
     "tags": [
       "mirantes"
     ],
-    "categoria": "Mirantes",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Prana+P%C3%B4r+do+Sol+Campos+do+Jordao"
-  },
-  {
-    "nome": "Vista Chinesa",
-    "nota": 4.7,
-    "endereco": "Estrada do Pico do Itapeva",
-    "descricao": "Mirante à beira da estrada com vista aberta para a Mantiqueira.",
-    "tags": [
-      "mirantes"
-    ],
-    "categoria": "Mirantes",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Vista+Chinesa+Campos+do+Jordao"
-  },
-  {
-    "nome": "Mirante Orizonte",
-    "nota": 4.8,
-    "endereco": "Estrada do Pico do Itapeva",
-    "descricao": "Complexo moderno com deck panorâmico, café e loja.",
-    "tags": [
-      "mirantes"
-    ],
-    "categoria": "Mirantes",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Mirante+Orizonte+Campos+do+Jordao"
-  },
-  {
-    "nome": "Pedra do Baú",
-    "nota": 4.9,
-    "endereco": "São Bento do Sapucaí (região)",
-    "descricao": "Formação rochosa icônica com escadaria e mirantes no topo.",
-    "tags": [
-      "mirantes",
-      "aventura"
-    ],
-    "categoria": "Mirantes",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Pedra+do+Ba%C3%BA+Campos+do+Jordao"
-  },
-  {
-    "nome": "Pico Agudo",
-    "nota": 4.8,
-    "endereco": "São Bento do Sapucaí (região)",
-    "descricao": "Rampa de voo livre com vista privilegiada da Pedra do Baú.",
-    "tags": [
-      "mirantes",
-      "aventura"
-    ],
-    "categoria": "Mirantes",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Pico+Agudo+Campos+do+Jordao"
-  },
-  {
-    "nome": "Ninho da Águia",
-    "nota": 4.5,
-    "endereco": "Estrada do Ninho da Águia - Alto da Boa Vista",
-    "descricao": "Ponto mais alto da área urbana, com mirante sobre toda a cidade.",
-    "tags": [
-      "mirantes"
-    ],
-    "categoria": "Mirantes",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Ninho+da+%C3%81guia+Campos+do+Jordao"
-  },
-  {
-    "nome": "Mirante do Portal",
-    "nota": 4.5,
-    "endereco": "Entrada da cidade",
-    "descricao": "Vista da chegada em Campos do Jordão, junto ao portal monumental.",
-    "tags": [
-      "mirantes"
-    ],
-    "categoria": "Mirantes",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Mirante+do+Portal+Campos+do+Jordao"
-  },
-  {
-    "nome": "Mirante das Araucárias",
-    "nota": 4.6,
-    "endereco": "Av. Dr. Adhemar de Barros",
-    "descricao": "Deck de observação em meio às araucárias, no caminho do Palácio.",
-    "tags": [
-      "mirantes"
-    ],
-    "categoria": "Mirantes",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Mirante+das+Arauc%C3%A1rias+Campos+do+Jordao"
-  },
-  {
-    "nome": "Mirante do Alto do Capivari",
-    "nota": 4.5,
-    "endereco": "Alto do Capivari",
-    "descricao": "Vista do casario de Capivari a partir da parte alta do bairro.",
-    "tags": [
-      "mirantes"
-    ],
-    "categoria": "Mirantes",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Mirante+do+Alto+do+Capivari+Campos+do+Jordao"
-  },
-  {
-    "nome": "Mirante do Cristo Redentor",
-    "nota": 4.4,
-    "endereco": "Alto da Boa Vista",
-    "descricao": "Pequeno mirante junto à imagem do Cristo, bom para o fim de tarde.",
-    "tags": [
-      "mirantes"
-    ],
-    "categoria": "Mirantes",
-    "maps": "https://www.google.com/maps/search/?api=1&query=Mirante+do+Cristo+Redentor+Campos+do+Jordao"
+    "categoria": "Mirantes"
   }
 ]

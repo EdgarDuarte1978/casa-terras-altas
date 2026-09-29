@@ -7,7 +7,7 @@
 //  - template com classes explícitas (.card-meta / .card-desc)
 // =====================================================
 
-const ORIGEM_CASA = "Rua K, 400 - Jardim Primavera, Campos do Jordão, SP";
+const ORIGEM_CASA = "Rua K, 225 - Jardim Primavera, Campos do Jordão, SP"; // endereço confirmado no Google Business da casa
 
 let atracoes = [];
 
