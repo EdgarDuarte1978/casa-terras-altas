@@ -1,0 +1,5 @@
+LEGADO - NAO USE PARA GERAR O SITE
+Estes scripts sao da primeira versao do projeto (dados curados a mao, nao verificados).
+Rodar gerar_atracoes.py ou gerar_restaurantes.py SOBRESCREVE as listas reais do Google
+(atracoes.json / restaurantes.json) por dados antigos. Foram mantidos apenas como historico.
+O processo atual esta descrito em LEIA-ME.md (na pasta acima).

@@ -24,3 +24,6 @@ _candidatas/
 *_backup_*.json
 *_google_fontes.csv
 restaurantes_relatorio.csv
+
+# backups gerados por fazer_backup.py
+backup/
