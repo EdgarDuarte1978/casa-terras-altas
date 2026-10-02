@@ -141,7 +141,8 @@
     ],
     "categoria": "Fondue",
     "subcategoria": "Fondue",
-    "nome_google": "Matterhorn - Empório e Restaurante"
+    "nome_google": "Matterhorn - Empório e Restaurante",
+    "foto": "restaurantes_fotos/matterhorn.jpg"
   },
   {
     "nome": "Mercearia Campos",
@@ -173,7 +174,8 @@
     ],
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
-    "nome_google": "Café Terraço Pizzaria Artesanal e Bistrô"
+    "nome_google": "Café Terraço Pizzaria Artesanal e Bistrô",
+    "foto": "restaurantes_fotos/cafe-terraco.jpg"
   },
   {
     "nome": "Arte da Pizza",
@@ -205,7 +207,8 @@
       "pizza"
     ],
     "categoria": "Pizzaria",
-    "subcategoria": "Pizzaria"
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/nonno-degga-pizzaria.jpg"
   },
   {
     "nome": "Levare Pizzaria",
@@ -287,7 +290,8 @@
     ],
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
-    "nome_google": "Artesão Restaurante e Pizzaria"
+    "nome_google": "Artesão Restaurante e Pizzaria",
+    "foto": "restaurantes_fotos/artesao.jpg"
   },
   {
     "nome": "La Pizza",
@@ -369,7 +373,8 @@
     ],
     "categoria": "Carnes",
     "subcategoria": "Carnes",
-    "nome_google": "Restaurante Cacerola | Carnes Nobres e Cortes Argentinos | Massas Artesanais | Parmegiana | Campos do Jordão"
+    "nome_google": "Restaurante Cacerola | Carnes Nobres e Cortes Argentinos | Massas Artesanais | Parmegiana | Campos do Jordão",
+    "foto": "restaurantes_fotos/cacerola.jpg"
   },
   {
     "nome": "Bonanza Grill",
@@ -779,7 +784,8 @@
     ],
     "categoria": "Cafés",
     "subcategoria": "Cafés",
-    "nome_google": "Empório Recanto de Minas – Cafeteria em Campos do Jordão"
+    "nome_google": "Empório Recanto de Minas – Cafeteria em Campos do Jordão",
+    "foto": "restaurantes_fotos/emporio-recanto-de-minas.jpg"
   },
   {
     "nome": "Café Da Ane",
@@ -813,5 +819,20 @@
     "subcategoria": "Cafés",
     "nome_google": "Restaurante e café Ferraz",
     "foto": "restaurantes_fotos/cafe-ferraz.jpg"
+  },
+  {
+    "nome": "Cantinho do Fauno",
+    "nota": 4.9,
+    "avaliacoes": 37,
+    "endereco": "Avenida Vítor Godinho - Rua Djalma Forjaz, 78 - Capivari, Campos do Jordão - SP, 12460-146, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=2154139124606600845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJlYjmEZqJzJQRjYby5h4K5R0",
+    "tags": [
+      "cervejaria"
+    ],
+    "categoria": "Cervejaria",
+    "subcategoria": "Cervejaria",
+    "foto": "restaurantes_fotos/cantinho-do-fauno.jpg"
   }
 ]

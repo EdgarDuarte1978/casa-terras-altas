@@ -30,7 +30,7 @@ from pathlib import Path
 
 import requests
 
-from _places_utils import obter_api_key_validada, escolher_foto_sem_rosto, tem_rosto
+from _places_utils import obter_api_key_validada, escolher_foto_sem_rosto, rosto_identificavel
 
 ROOT = Path(__file__).resolve().parent
 PASTA_FOTOS = ROOT / "atracoes_fotos"
@@ -86,7 +86,7 @@ def main():
         try:
             if it.get("foto") and args.revisar:
                 # ja tem foto: so reexamina o arquivo que ja esta no disco
-                if destino.exists() and not tem_rosto(destino.read_bytes()):
+                if destino.exists() and not rosto_identificavel(destino.read_bytes()):
                     continue  # ok, sem rosto, nao mexe
                 print(f"  REVISAR  {nome}: foto atual tem rosto (ou sumiu) - buscando outra...")
 

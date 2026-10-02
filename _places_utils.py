@@ -173,23 +173,41 @@ def _carregar_detectores():
     return _detectores
 
 
-def tem_rosto(dados_da_imagem):
-    """Recebe os bytes de uma foto (jpeg/png) e diz se ha chance de ter rosto nela.
-    Regra do projeto: NUNCA publicar foto com pessoa reconhecivel, entao o criterio e
-    conservador: 3 detectores (rosto de frente x2 e de perfil, nos dois lados) e
-    sensibilidade alta. Isso gera falsos positivos (prato, textura) - o custo e so
-    escolher outra foto candidata. Se a imagem nao decodificar, assume que TEM rosto."""
+# Regra do projeto: pode aparecer gente na foto, desde que NENHUM rosto seja identificavel.
+# Na pratica: rosto detectado com largura >= 5% da largura da foto e considerado identificavel
+# (grande/nitido o bastante). Pessoa de costas, de longe ou minuscula passa. Crianca fora
+# nunca e decidido aqui - o detector nao sabe; por isso toda foto aprovada passa por
+# conferencia visual antes de ir ao ar.
+LIMITE_ROSTO_PCT = 0.05
+
+
+def maior_rosto_pct(dados_da_imagem):
+    """Largura do MAIOR rosto detectado, como fracao da largura da foto (0 = nenhum).
+    Usa 3 detectores (frente x2 e perfil, nos dois lados) com sensibilidade alta, entao
+    superestima: prato/textura podem virar 'rosto' pequeno. Se a imagem nao decodificar,
+    devolve 1.0 (assume o pior)."""
     import cv2
     import numpy as np
     img = cv2.imdecode(np.frombuffer(dados_da_imagem, dtype=np.uint8), cv2.IMREAD_GRAYSCALE)
     if img is None:
-        return True
-    espelhada = cv2.flip(img, 1)
+        return 1.0
+    largura = img.shape[1]
+    maior = 0
     for det in _carregar_detectores():
-        for versao in (img, espelhada):
-            if len(det.detectMultiScale(versao, scaleFactor=1.1, minNeighbors=4, minSize=(30, 30))) > 0:
-                return True
-    return False
+        for versao in (img, cv2.flip(img, 1)):
+            for (_, _, w, _) in det.detectMultiScale(versao, scaleFactor=1.1, minNeighbors=4, minSize=(30, 30)):
+                maior = max(maior, w)
+    return maior / largura
+
+
+def tem_rosto(dados_da_imagem):
+    """Qualquer rosto detectado, de qualquer tamanho (criterio antigo, mais rigido)."""
+    return maior_rosto_pct(dados_da_imagem) > 0
+
+
+def rosto_identificavel(dados_da_imagem):
+    """True se algum rosto e grande o bastante para identificar a pessoa."""
+    return maior_rosto_pct(dados_da_imagem) >= LIMITE_ROSTO_PCT
 
 
 def listar_fotos_do_lugar(place_id, api_key, maximo=10):
@@ -211,17 +229,25 @@ def baixar_bytes_da_foto(photo_name, api_key, largura_max_px=1000):
 
 
 def escolher_foto_sem_rosto(place_id, api_key, tentativas=10):
-    """Percorre as fotos do lugar (na ordem de relevancia do Google) e devolve os
-    bytes da PRIMEIRA que nao tiver rosto detectavel. Nunca inventa foto - so pula
-    as que tem gente reconhecivel. Devolve (bytes, motivo_se_nao_achou)."""
+    """Percorre as fotos do lugar (na ordem de relevancia do Google). Prefere a primeira
+    sem NENHUM rosto detectado; se nao houver, aceita a primeira cujo maior rosto seja
+    pequeno demais para identificar (< LIMITE_ROSTO_PCT) e avisa para conferir visualmente.
+    Nunca inventa foto. Devolve (bytes, motivo_se_nao_achou)."""
     nomes = listar_fotos_do_lugar(place_id, api_key, maximo=tentativas)
     if not nomes:
         return None, "Google nao tem foto cadastrada para este lugar"
+    aceitavel = None
     for nome_da_foto in nomes:
         dados = baixar_bytes_da_foto(nome_da_foto, api_key)
-        if not tem_rosto(dados):
+        pct = maior_rosto_pct(dados)
+        if pct == 0:
             return dados, None
-    return None, f"todas as {len(nomes)} fotos candidatas tinham rosto detectado"
+        if pct < LIMITE_ROSTO_PCT and aceitavel is None:
+            aceitavel = (dados, pct)
+    if aceitavel:
+        print(f"    aviso: foto escolhida tem rosto pequeno ({aceitavel[1]:.1%} da largura) - conferir visualmente")
+        return aceitavel[0], None
+    return None, f"todas as {len(nomes)} fotos candidatas tinham rosto identificavel"
 
 
 def montar_item_comum(lugar):

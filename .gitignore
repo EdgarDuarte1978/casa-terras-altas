@@ -18,3 +18,9 @@ venv/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# fotos candidatas temporarias (revisao manual)
+_candidatas/
+*_backup_*.json
+*_google_fontes.csv
+restaurantes_relatorio.csv

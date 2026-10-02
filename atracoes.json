@@ -24,7 +24,8 @@
     "tags": [
       "natureza"
     ],
-    "categoria": "Natureza"
+    "categoria": "Natureza",
+    "foto": "atracoes_fotos/morro-do-elefante.jpg"
   },
   {
     "nome": "Parque Estadual Campos do Jordão (Horto Florestal)",
@@ -249,7 +250,8 @@
       "passeios"
     ],
     "categoria": "Passeios Clássicos",
-    "nome_google": "Vila capivari"
+    "nome_google": "Vila capivari",
+    "foto": "atracoes_fotos/vila-capivari.jpg"
   },
   {
     "nome": "Mercado Municipal de Campos do Jordão",
@@ -348,7 +350,8 @@
     "tags": [
       "cultura"
     ],
-    "categoria": "Cultura"
+    "categoria": "Cultura",
+    "foto": "atracoes_fotos/museu-medieval-campos.jpg"
   },
   {
     "nome": "Parque dos Elefantes",
@@ -404,7 +407,8 @@
     "tags": [
       "cultura"
     ],
-    "categoria": "Cultura"
+    "categoria": "Cultura",
+    "foto": "atracoes_fotos/fundacao-lia-maria-aguiar.jpg"
   },
   {
     "nome": "Praça das Artes",
@@ -530,7 +534,8 @@
     "tags": [
       "compras"
     ],
-    "categoria": "Compras"
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/shopping-cadij-plaza.jpg"
   },
   {
     "nome": "Galeria Suíça",
@@ -613,7 +618,8 @@
     "tags": [
       "aventura"
     ],
-    "categoria": "Aventura"
+    "categoria": "Aventura",
+    "foto": "atracoes_fotos/pico-do-imbiri.jpg"
   },
   {
     "nome": "Parque Estadual Campos do Jordão",
@@ -908,7 +914,8 @@
     "tags": [
       "supermercados"
     ],
-    "categoria": "Supermercados"
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/mercadinho-capivari.jpg"
   },
   {
     "nome": "Panecampos",
@@ -961,6 +968,7 @@
     "tags": [
       "mirantes"
     ],
-    "categoria": "Mirantes"
+    "categoria": "Mirantes",
+    "foto": "atracoes_fotos/prana-por-do-sol.jpg"
   }
 ]
