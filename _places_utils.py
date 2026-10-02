@@ -157,6 +157,73 @@ def selecionar_top_n(candidatos, n, usados_globalmente):
     return base[:n], FAIXAS_MIN_AVALIACOES[-1]
 
 
+DETAILS_URL = "https://places.googleapis.com/v1/places/{place_id}"
+PHOTO_MEDIA_URL = "https://places.googleapis.com/v1/{photo_name}/media"
+
+_detectores = None
+
+
+def _carregar_detectores():
+    global _detectores
+    if _detectores is None:
+        import cv2
+        base = cv2.data.haarcascades
+        nomes = ("haarcascade_frontalface_default.xml", "haarcascade_frontalface_alt2.xml", "haarcascade_profileface.xml")
+        _detectores = [cv2.CascadeClassifier(base + n) for n in nomes]
+    return _detectores
+
+
+def tem_rosto(dados_da_imagem):
+    """Recebe os bytes de uma foto (jpeg/png) e diz se ha chance de ter rosto nela.
+    Regra do projeto: NUNCA publicar foto com pessoa reconhecivel, entao o criterio e
+    conservador: 3 detectores (rosto de frente x2 e de perfil, nos dois lados) e
+    sensibilidade alta. Isso gera falsos positivos (prato, textura) - o custo e so
+    escolher outra foto candidata. Se a imagem nao decodificar, assume que TEM rosto."""
+    import cv2
+    import numpy as np
+    img = cv2.imdecode(np.frombuffer(dados_da_imagem, dtype=np.uint8), cv2.IMREAD_GRAYSCALE)
+    if img is None:
+        return True
+    espelhada = cv2.flip(img, 1)
+    for det in _carregar_detectores():
+        for versao in (img, espelhada):
+            if len(det.detectMultiScale(versao, scaleFactor=1.1, minNeighbors=4, minSize=(30, 30))) > 0:
+                return True
+    return False
+
+
+def listar_fotos_do_lugar(place_id, api_key, maximo=10):
+    """Devolve os 'names' das fotos cadastradas pelo Google para esse place_id
+    (mais famosas/relevantes primeiro, na ordem que o proprio Google devolve)."""
+    headers = {"X-Goog-Api-Key": api_key, "X-Goog-FieldMask": "photos"}
+    resp = requests.get(DETAILS_URL.format(place_id=place_id), headers=headers, timeout=20)
+    if not resp.ok:
+        raise requests.HTTPError(f"{resp.status_code} {resp.reason}: {resp.text}")
+    fotos = resp.json().get("photos", [])
+    return [f["name"] for f in fotos[:maximo]]
+
+
+def baixar_bytes_da_foto(photo_name, api_key, largura_max_px=1000):
+    params = {"key": api_key, "maxWidthPx": largura_max_px, "skipHttpRedirect": "false"}
+    resp = requests.get(PHOTO_MEDIA_URL.format(photo_name=photo_name), params=params, timeout=30)
+    resp.raise_for_status()
+    return resp.content
+
+
+def escolher_foto_sem_rosto(place_id, api_key, tentativas=10):
+    """Percorre as fotos do lugar (na ordem de relevancia do Google) e devolve os
+    bytes da PRIMEIRA que nao tiver rosto detectavel. Nunca inventa foto - so pula
+    as que tem gente reconhecivel. Devolve (bytes, motivo_se_nao_achou)."""
+    nomes = listar_fotos_do_lugar(place_id, api_key, maximo=tentativas)
+    if not nomes:
+        return None, "Google nao tem foto cadastrada para este lugar"
+    for nome_da_foto in nomes:
+        dados = baixar_bytes_da_foto(nome_da_foto, api_key)
+        if not tem_rosto(dados):
+            return dados, None
+    return None, f"todas as {len(nomes)} fotos candidatas tinham rosto detectado"
+
+
 def montar_item_comum(lugar):
     preco = PRICE_LEVEL_MAP.get(lugar.get("priceLevel"), "")
     descricao = (lugar.get("editorialSummary") or {}).get("text", "")

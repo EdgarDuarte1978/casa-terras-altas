@@ -10,7 +10,8 @@
     "tags": [
       "natureza"
     ],
-    "categoria": "Natureza"
+    "categoria": "Natureza",
+    "foto": "atracoes_fotos/parque-amantikir.jpg"
   },
   {
     "nome": "Morro do Elefante",
@@ -36,7 +37,8 @@
     "tags": [
       "natureza"
     ],
-    "categoria": "Natureza"
+    "categoria": "Natureza",
+    "foto": "atracoes_fotos/parque-estadual-campos-do-jordao-horto-florestal.jpg"
   },
   {
     "nome": "Bosque do Silêncio",
@@ -49,7 +51,8 @@
     "tags": [
       "natureza"
     ],
-    "categoria": "Natureza"
+    "categoria": "Natureza",
+    "foto": "atracoes_fotos/bosque-do-silencio.jpg"
   },
   {
     "nome": "Mirante Lajeado",
@@ -62,7 +65,8 @@
     "tags": [
       "natureza"
     ],
-    "categoria": "Natureza"
+    "categoria": "Natureza",
+    "foto": "atracoes_fotos/mirante-lajeado.jpg"
   },
   {
     "nome": "Parque da Cerejeira de Campos do Jordão",
@@ -75,7 +79,8 @@
     "tags": [
       "natureza"
     ],
-    "categoria": "Natureza"
+    "categoria": "Natureza",
+    "foto": "atracoes_fotos/parque-da-cerejeira-de-campos-do-jordao.jpg"
   },
   {
     "nome": "Parque Tarundu",
@@ -88,7 +93,8 @@
     "tags": [
       "natureza"
     ],
-    "categoria": "Natureza"
+    "categoria": "Natureza",
+    "foto": "atracoes_fotos/parque-tarundu.jpg"
   },
   {
     "nome": "Parque da Floresta Encantada",
@@ -101,7 +107,8 @@
     "tags": [
       "natureza"
     ],
-    "categoria": "Natureza"
+    "categoria": "Natureza",
+    "foto": "atracoes_fotos/parque-da-floresta-encantada.jpg"
   },
   {
     "nome": "Parque da Lagoinha",
@@ -114,7 +121,8 @@
     "tags": [
       "natureza"
     ],
-    "categoria": "Natureza"
+    "categoria": "Natureza",
+    "foto": "atracoes_fotos/parque-da-lagoinha.jpg"
   },
   {
     "nome": "Fazendinha Toriba",
@@ -127,7 +135,8 @@
     "tags": [
       "natureza"
     ],
-    "categoria": "Natureza"
+    "categoria": "Natureza",
+    "foto": "atracoes_fotos/fazendinha-toriba.jpg"
   },
   {
     "nome": "Parque Capivari",
@@ -140,7 +149,8 @@
     "tags": [
       "passeios"
     ],
-    "categoria": "Passeios Clássicos"
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/parque-capivari.jpg"
   },
   {
     "nome": "Ducha de Prata",
@@ -153,7 +163,8 @@
     "tags": [
       "passeios"
     ],
-    "categoria": "Passeios Clássicos"
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/ducha-de-prata.jpg"
   },
   {
     "nome": "Portal de Campos do Jordão",
@@ -166,7 +177,8 @@
     "tags": [
       "passeios"
     ],
-    "categoria": "Passeios Clássicos"
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/portal-de-campos-do-jordao.jpg"
   },
   {
     "nome": "Palácio Boa Vista",
@@ -179,7 +191,8 @@
     "tags": [
       "passeios"
     ],
-    "categoria": "Passeios Clássicos"
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/palacio-boa-vista.jpg"
   },
   {
     "nome": "Praça do Capivari",
@@ -193,7 +206,8 @@
       "passeios"
     ],
     "categoria": "Passeios Clássicos",
-    "nome_google": "Praça do Capivari - Campos do Jordão"
+    "nome_google": "Praça do Capivari - Campos do Jordão",
+    "foto": "atracoes_fotos/praca-do-capivari.jpg"
   },
   {
     "nome": "Ponte dos Guarda-Chuvas",
@@ -206,7 +220,8 @@
     "tags": [
       "passeios"
     ],
-    "categoria": "Passeios Clássicos"
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/ponte-dos-guarda-chuvas.jpg"
   },
   {
     "nome": "Cachoeira Véu da Noiva",
@@ -219,7 +234,8 @@
     "tags": [
       "passeios"
     ],
-    "categoria": "Passeios Clássicos"
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/cachoeira-veu-da-noiva.jpg"
   },
   {
     "nome": "Vila Capivari",
@@ -246,7 +262,8 @@
     "tags": [
       "passeios"
     ],
-    "categoria": "Passeios Clássicos"
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/mercado-municipal-de-campos-do-jordao.jpg"
   },
   {
     "nome": "Teleférico do Morro do Elefante",
@@ -260,7 +277,8 @@
       "passeios"
     ],
     "categoria": "Passeios Clássicos",
-    "nome_google": "Teleférico do Morro do Elefante - WebCampos"
+    "nome_google": "Teleférico do Morro do Elefante - WebCampos",
+    "foto": "atracoes_fotos/teleferico-do-morro-do-elefante.jpg"
   },
   {
     "nome": "Museu Felícia Leirner",
@@ -273,7 +291,8 @@
     "tags": [
       "cultura"
     ],
-    "categoria": "Cultura"
+    "categoria": "Cultura",
+    "foto": "atracoes_fotos/museu-felicia-leirner.jpg"
   },
   {
     "nome": "Museu Casa da Xilogravura",
@@ -286,7 +305,8 @@
     "tags": [
       "cultura"
     ],
-    "categoria": "Cultura"
+    "categoria": "Cultura",
+    "foto": "atracoes_fotos/museu-casa-da-xilogravura.jpg"
   },
   {
     "nome": "CARDE",
@@ -300,7 +320,8 @@
       "cultura"
     ],
     "categoria": "Cultura",
-    "nome_google": "CARDE | Arte Design Museu"
+    "nome_google": "CARDE | Arte Design Museu",
+    "foto": "atracoes_fotos/carde.jpg"
   },
   {
     "nome": "Auditório Claudio Santoro",
@@ -313,7 +334,8 @@
     "tags": [
       "cultura"
     ],
-    "categoria": "Cultura"
+    "categoria": "Cultura",
+    "foto": "atracoes_fotos/auditorio-claudio-santoro.jpg"
   },
   {
     "nome": "Museu Medieval Campos",
@@ -339,7 +361,8 @@
     "tags": [
       "cultura"
     ],
-    "categoria": "Cultura"
+    "categoria": "Cultura",
+    "foto": "atracoes_fotos/parque-dos-elefantes.jpg"
   },
   {
     "nome": "Dreams House",
@@ -353,7 +376,8 @@
       "cultura"
     ],
     "categoria": "Cultura",
-    "nome_google": "Dreams House | Campos do Jordão"
+    "nome_google": "Dreams House | Campos do Jordão",
+    "foto": "atracoes_fotos/dreams-house.jpg"
   },
   {
     "nome": "Mirante Lageado 2",
@@ -366,7 +390,8 @@
     "tags": [
       "mirantes"
     ],
-    "categoria": "Mirantes"
+    "categoria": "Mirantes",
+    "foto": "atracoes_fotos/mirante-lageado-2.jpg"
   },
   {
     "nome": "Fundação Lia Maria Aguiar",
@@ -392,7 +417,8 @@
     "tags": [
       "cultura"
     ],
-    "categoria": "Cultura"
+    "categoria": "Cultura",
+    "foto": "atracoes_fotos/praca-das-artes.jpg"
   },
   {
     "nome": "Galeria Villa Capivari",
@@ -405,7 +431,8 @@
     "tags": [
       "compras"
     ],
-    "categoria": "Compras"
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/galeria-villa-capivari.jpg"
   },
   {
     "nome": "Boulevard Geneve",
@@ -418,7 +445,8 @@
     "tags": [
       "compras"
     ],
-    "categoria": "Compras"
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/boulevard-geneve.jpg"
   },
   {
     "nome": "Guido Couros",
@@ -431,7 +459,8 @@
     "tags": [
       "compras"
     ],
-    "categoria": "Compras"
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/guido-couros.jpg"
   },
   {
     "nome": "Center Suíço",
@@ -445,7 +474,8 @@
       "compras"
     ],
     "categoria": "Compras",
-    "nome_google": "Center Suíço - Flats & Shopping"
+    "nome_google": "Center Suíço - Flats & Shopping",
+    "foto": "atracoes_fotos/center-suico.jpg"
   },
   {
     "nome": "Shopping Center Capivari",
@@ -458,7 +488,8 @@
     "tags": [
       "compras"
     ],
-    "categoria": "Compras"
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/shopping-center-capivari.jpg"
   },
   {
     "nome": "Pernambucanas",
@@ -471,7 +502,8 @@
     "tags": [
       "compras"
     ],
-    "categoria": "Compras"
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/pernambucanas.jpg"
   },
   {
     "nome": "Malharia Jordão Tricot",
@@ -484,7 +516,8 @@
     "tags": [
       "compras"
     ],
-    "categoria": "Compras"
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/malharia-jordao-tricot.jpg"
   },
   {
     "nome": "Shopping Cadij Plaza",
@@ -510,7 +543,8 @@
     "tags": [
       "compras"
     ],
-    "categoria": "Compras"
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/galeria-suica.jpg"
   },
   {
     "nome": "Santa Cruz Center",
@@ -523,7 +557,8 @@
     "tags": [
       "compras"
     ],
-    "categoria": "Compras"
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/santa-cruz-center.jpg"
   },
   {
     "nome": "Campos do Jordão Quadriciclos (Capivari)",
@@ -536,7 +571,8 @@
     "tags": [
       "aventura"
     ],
-    "categoria": "Aventura"
+    "categoria": "Aventura",
+    "foto": "atracoes_fotos/campos-do-jordao-quadriciclos-capivari.jpg"
   },
   {
     "nome": "Campos do Jordão Quadriciclos (Recanto Feliz)",
@@ -549,7 +585,8 @@
     "tags": [
       "aventura"
     ],
-    "categoria": "Aventura"
+    "categoria": "Aventura",
+    "foto": "atracoes_fotos/campos-do-jordao-quadriciclos-recanto-feliz.jpg"
   },
   {
     "nome": "Zoom Bike Park",
@@ -562,7 +599,8 @@
     "tags": [
       "aventura"
     ],
-    "categoria": "Aventura"
+    "categoria": "Aventura",
+    "foto": "atracoes_fotos/zoom-bike-park.jpg"
   },
   {
     "nome": "Pico do Imbiri",
@@ -588,7 +626,8 @@
     "tags": [
       "aventura"
     ],
-    "categoria": "Aventura"
+    "categoria": "Aventura",
+    "foto": "atracoes_fotos/parque-estadual-campos-do-jordao.jpg"
   },
   {
     "nome": "Parque Bambuí",
@@ -601,7 +640,8 @@
     "tags": [
       "aventura"
     ],
-    "categoria": "Aventura"
+    "categoria": "Aventura",
+    "foto": "atracoes_fotos/parque-bambui.jpg"
   },
   {
     "nome": "Aventura no Rancho",
@@ -614,7 +654,8 @@
     "tags": [
       "aventura"
     ],
-    "categoria": "Aventura"
+    "categoria": "Aventura",
+    "foto": "atracoes_fotos/aventura-no-rancho.jpg"
   },
   {
     "nome": "Prana Park",
@@ -627,7 +668,8 @@
     "tags": [
       "aventura"
     ],
-    "categoria": "Aventura"
+    "categoria": "Aventura",
+    "foto": "atracoes_fotos/prana-park.jpg"
   },
   {
     "nome": "Trenó de Montanha",
@@ -641,7 +683,8 @@
       "aventura"
     ],
     "categoria": "Aventura",
-    "nome_google": "Trenó de Montanha - Campos do Jordão"
+    "nome_google": "Trenó de Montanha - Campos do Jordão",
+    "foto": "atracoes_fotos/treno-de-montanha.jpg"
   },
   {
     "nome": "Mirante Mantiqueira",
@@ -654,7 +697,8 @@
     "tags": [
       "aventura"
     ],
-    "categoria": "Aventura"
+    "categoria": "Aventura",
+    "foto": "atracoes_fotos/mirante-mantiqueira.jpg"
   },
   {
     "nome": "Mirante Belvedere",
@@ -667,7 +711,8 @@
     "tags": [
       "mirantes"
     ],
-    "categoria": "Mirantes"
+    "categoria": "Mirantes",
+    "foto": "atracoes_fotos/mirante-belvedere.jpg"
   },
   {
     "nome": "Mirante Home Green",
@@ -680,7 +725,8 @@
     "tags": [
       "mirantes"
     ],
-    "categoria": "Mirantes"
+    "categoria": "Mirantes",
+    "foto": "atracoes_fotos/mirante-home-green.jpg"
   },
   {
     "nome": "Mirante - Parque Amantikir",
@@ -693,7 +739,8 @@
     "tags": [
       "mirantes"
     ],
-    "categoria": "Mirantes"
+    "categoria": "Mirantes",
+    "foto": "atracoes_fotos/mirante-parque-amantikir.jpg"
   },
   {
     "nome": "Trenzinho da Montanha",
@@ -706,7 +753,8 @@
     "tags": [
       "mirantes"
     ],
-    "categoria": "Mirantes"
+    "categoria": "Mirantes",
+    "foto": "atracoes_fotos/trenzinho-da-montanha.jpg"
   },
   {
     "nome": "Mirante Pau Arcado",
@@ -719,7 +767,8 @@
     "tags": [
       "mirantes"
     ],
-    "categoria": "Mirantes"
+    "categoria": "Mirantes",
+    "foto": "atracoes_fotos/mirante-pau-arcado.jpg"
   },
   {
     "nome": "Mirante Alto do Capivari",
@@ -732,7 +781,8 @@
     "tags": [
       "mirantes"
     ],
-    "categoria": "Mirantes"
+    "categoria": "Mirantes",
+    "foto": "atracoes_fotos/mirante-alto-do-capivari.jpg"
   },
   {
     "nome": "Mirante de Vidro AME Campos",
@@ -745,7 +795,8 @@
     "tags": [
       "mirantes"
     ],
-    "categoria": "Mirantes"
+    "categoria": "Mirantes",
+    "foto": "atracoes_fotos/mirante-de-vidro-ame-campos.jpg"
   },
   {
     "nome": "Circuito Turístico Alto Lajeado",
@@ -758,7 +809,8 @@
     "tags": [
       "mirantes"
     ],
-    "categoria": "Mirantes"
+    "categoria": "Mirantes",
+    "foto": "atracoes_fotos/circuito-turistico-alto-lajeado.jpg"
   },
   {
     "nome": "Mercadinho Piratininga",
@@ -772,7 +824,8 @@
       "supermercados"
     ],
     "categoria": "Supermercados",
-    "nome_google": "Mercadinho Piratininga - Campos do Jordão"
+    "nome_google": "Mercadinho Piratininga - Campos do Jordão",
+    "foto": "atracoes_fotos/mercadinho-piratininga.jpg"
   },
   {
     "nome": "Supermercado Roma",
@@ -785,7 +838,8 @@
     "tags": [
       "supermercados"
     ],
-    "categoria": "Supermercados"
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/supermercado-roma.jpg"
   },
   {
     "nome": "Pão de Açúcar",
@@ -798,7 +852,8 @@
     "tags": [
       "supermercados"
     ],
-    "categoria": "Supermercados"
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/pao-de-acucar.jpg"
   },
   {
     "nome": "Villa Rita Supermercados",
@@ -811,7 +866,8 @@
     "tags": [
       "supermercados"
     ],
-    "categoria": "Supermercados"
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/villa-rita-supermercados.jpg"
   },
   {
     "nome": "Supermercado Máximo",
@@ -824,7 +880,8 @@
     "tags": [
       "supermercados"
     ],
-    "categoria": "Supermercados"
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/supermercado-maximo.jpg"
   },
   {
     "nome": "Supermercado Bacana",
@@ -837,7 +894,8 @@
     "tags": [
       "supermercados"
     ],
-    "categoria": "Supermercados"
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/supermercado-bacana.jpg"
   },
   {
     "nome": "Mercadinho Capivari",
@@ -863,7 +921,8 @@
     "tags": [
       "supermercados"
     ],
-    "categoria": "Supermercados"
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/panecampos.jpg"
   },
   {
     "nome": "Mercado Supimpa Abernéssia",
@@ -876,7 +935,8 @@
     "tags": [
       "supermercados"
     ],
-    "categoria": "Supermercados"
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/mercado-supimpa-abernessia.jpg"
   },
   {
     "nome": "Supercampos",
@@ -889,7 +949,8 @@
     "tags": [
       "supermercados"
     ],
-    "categoria": "Supermercados"
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/supercampos.jpg"
   },
   {
     "nome": "Prana Pôr do Sol",

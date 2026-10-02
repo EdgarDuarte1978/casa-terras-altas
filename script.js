@@ -63,8 +63,15 @@ function renderizar(lista) {
             ? `<a href="${visitLink}" target="_blank" rel="noopener noreferrer" class="visit-button">Visitar</a>`
             : `<button class="visit-button disabled" disabled>Visitar</button>`;
 
+        const foto = r.foto
+            ? `<a href="${r.foto}" target="_blank" rel="noopener noreferrer" title="Ver foto em tamanho maior">
+                   <img src="${r.foto}" alt="Foto real de ${r.nome}" loading="lazy">
+               </a>`
+            : "";
+
         card.innerHTML = `
-            <div class="restaurant-content no-image">
+            ${foto}
+            <div class="restaurant-content${r.foto ? "" : " no-image"}">
                 <h3>${r.nome}</h3>
                 <p class="card-meta">⭐ ${r.nota} • ${r.categoria}${r.preco ? " • " + r.preco : ""}</p>
                 ${r.valor_medio ? `<p class="price-info">💰 ${r.valor_medio}</p>` : ""}

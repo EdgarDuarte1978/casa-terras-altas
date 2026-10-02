@@ -48,8 +48,15 @@ function renderizar(lista) {
         const visitLink = a.maps ||
             `https://www.google.com/maps/search/${encodeURIComponent(a.nome + " Campos do Jordão")}`;
 
+        const foto = a.foto
+            ? `<a href="${a.foto}" target="_blank" rel="noopener noreferrer" title="Ver foto em tamanho maior">
+                   <img src="${a.foto}" alt="Foto real de ${a.nome}" loading="lazy">
+               </a>`
+            : "";
+
         card.innerHTML = `
-            <div class="restaurant-content no-image">
+            ${foto}
+            <div class="restaurant-content${a.foto ? "" : " no-image"}">
                 <h3>${a.nome}</h3>
                 <p class="card-meta">⭐ ${a.nota} • ${a.categoria}</p>
                 ${a.valor_entrada ? `<p class="price-info">💰 ${a.valor_entrada}</p>` : ""}

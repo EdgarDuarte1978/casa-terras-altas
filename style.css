@@ -83,6 +83,7 @@ nav a.active{color:var(--accent)}
 }
 .social-links a:hover{background:var(--accent);color:var(--primary-dark)}
 .social-links .g-badge{font-family:Arial,sans-serif;font-weight:700;font-size:15px;line-height:1}
+.social-links .airbnb-badge{object-fit:contain}
 
 /* ---------- Hero ---------- */
 .hero{
@@ -315,6 +316,14 @@ main{padding:10px 0 40px}
 }
 
 .grid-images img:hover{transform:scale(1.02)}
+
+/* imagem unica (colagem) nao deve ser cortada por object-fit:cover em telas largas */
+.grid-images img:only-child{
+  height:auto;
+  max-height:820px;
+  object-fit:contain;
+  background:#fff;
+}
 
 .lembretes-box{
   background:#fff;

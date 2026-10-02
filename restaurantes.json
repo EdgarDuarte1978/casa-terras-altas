@@ -12,7 +12,8 @@
     ],
     "categoria": "Fondue",
     "subcategoria": "Fondue",
-    "nome_google": "Restaurante Casa Suíça \"A Casa do Fondue\""
+    "nome_google": "Restaurante Casa Suíça \"A Casa do Fondue\"",
+    "foto": "restaurantes_fotos/casa-suica.jpg"
   },
   {
     "nome": "Krokodillo",
@@ -28,7 +29,8 @@
     ],
     "categoria": "Fondue",
     "subcategoria": "Fondue",
-    "nome_google": "Restaurante Krokodillo I"
+    "nome_google": "Restaurante Krokodillo I",
+    "foto": "restaurantes_fotos/krokodillo.jpg"
   },
   {
     "nome": "Bam Bam Café",
@@ -42,7 +44,8 @@
       "fondue"
     ],
     "categoria": "Fondue",
-    "subcategoria": "Fondue"
+    "subcategoria": "Fondue",
+    "foto": "restaurantes_fotos/bam-bam-cafe.jpg"
   },
   {
     "nome": "Rostie",
@@ -57,7 +60,8 @@
     ],
     "categoria": "Fondue",
     "subcategoria": "Fondue",
-    "nome_google": "Rostie Restaurante Fondue e Pizzaria"
+    "nome_google": "Rostie Restaurante Fondue e Pizzaria",
+    "foto": "restaurantes_fotos/rostie.jpg"
   },
   {
     "nome": "Nonna Mimi",
@@ -72,7 +76,8 @@
     ],
     "categoria": "Fondue",
     "subcategoria": "Fondue",
-    "nome_google": "Cantina Italiana di Nonna Mimi"
+    "nome_google": "Cantina Italiana di Nonna Mimi",
+    "foto": "restaurantes_fotos/nonna-mimi.jpg"
   },
   {
     "nome": "La Gália",
@@ -87,7 +92,8 @@
     ],
     "categoria": "Fondue",
     "subcategoria": "Fondue",
-    "nome_google": "Restaurante La Gália"
+    "nome_google": "Restaurante La Gália",
+    "foto": "restaurantes_fotos/la-galia.jpg"
   },
   {
     "nome": "Avestruz",
@@ -103,7 +109,8 @@
     ],
     "categoria": "Fondue",
     "subcategoria": "Fondue",
-    "nome_google": "Restaurante Avestruz"
+    "nome_google": "Restaurante Avestruz",
+    "foto": "restaurantes_fotos/avestruz.jpg"
   },
   {
     "nome": "Cantinho Suiço",
@@ -117,7 +124,8 @@
       "fondue"
     ],
     "categoria": "Fondue",
-    "subcategoria": "Fondue"
+    "subcategoria": "Fondue",
+    "foto": "restaurantes_fotos/cantinho-suico.jpg"
   },
   {
     "nome": "Matterhorn",
@@ -148,7 +156,8 @@
       "fondue"
     ],
     "categoria": "Fondue",
-    "subcategoria": "Fondue"
+    "subcategoria": "Fondue",
+    "foto": "restaurantes_fotos/mercearia-campos.jpg"
   },
   {
     "nome": "Café Terraço",
@@ -180,7 +189,8 @@
     ],
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
-    "nome_google": "Arte da Pizza - Grande Hotel Campos do Jordão"
+    "nome_google": "Arte da Pizza - Grande Hotel Campos do Jordão",
+    "foto": "restaurantes_fotos/arte-da-pizza.jpg"
   },
   {
     "nome": "Nonno Degga Pizzaria",
@@ -211,7 +221,8 @@
     ],
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
-    "nome_google": "Di Marcelo Cecconi | Levare Pizzaria em Campos do Jordão"
+    "nome_google": "Di Marcelo Cecconi | Levare Pizzaria em Campos do Jordão",
+    "foto": "restaurantes_fotos/levare-pizzaria.jpg"
   },
   {
     "nome": "Sabor de Campos",
@@ -226,7 +237,8 @@
       "pizza"
     ],
     "categoria": "Pizzaria",
-    "subcategoria": "Pizzaria"
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/sabor-de-campos.jpg"
   },
   {
     "nome": "La Fortezza",
@@ -242,7 +254,8 @@
     ],
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
-    "nome_google": "La Fortezza Restaurante e Pizzaria"
+    "nome_google": "La Fortezza Restaurante e Pizzaria",
+    "foto": "restaurantes_fotos/la-fortezza.jpg"
   },
   {
     "nome": "Maná",
@@ -257,7 +270,8 @@
     ],
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
-    "nome_google": "Maná Restaurante e Pizzaria - Campos do Jordão"
+    "nome_google": "Maná Restaurante e Pizzaria - Campos do Jordão",
+    "foto": "restaurantes_fotos/mana.jpg"
   },
   {
     "nome": "Artesão",
@@ -289,7 +303,8 @@
     ],
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
-    "nome_google": "la pizza"
+    "nome_google": "la pizza",
+    "foto": "restaurantes_fotos/la-pizza.jpg"
   },
   {
     "nome": "TI.co Gastronomia Descomplicada",
@@ -304,7 +319,8 @@
       "pizza"
     ],
     "categoria": "Pizzaria",
-    "subcategoria": "Pizzaria"
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/ti-co-gastronomia-descomplicada.jpg"
   },
   {
     "nome": "Libertango Parrilla Argentina",
@@ -320,7 +336,8 @@
     ],
     "categoria": "Carnes",
     "subcategoria": "Carnes",
-    "nome_google": "Restaurante Libertango Parrilla Argentina | Campos do Jordão"
+    "nome_google": "Restaurante Libertango Parrilla Argentina | Campos do Jordão",
+    "foto": "restaurantes_fotos/libertango-parrilla-argentina.jpg"
   },
   {
     "nome": "Kanguru's Boliche",
@@ -335,7 +352,8 @@
       "carnes"
     ],
     "categoria": "Carnes",
-    "subcategoria": "Carnes"
+    "subcategoria": "Carnes",
+    "foto": "restaurantes_fotos/kanguru-s-boliche.jpg"
   },
   {
     "nome": "Cacerola",
@@ -367,7 +385,8 @@
     ],
     "categoria": "Carnes",
     "subcategoria": "Carnes",
-    "nome_google": "Restaurante Bonanza Grill"
+    "nome_google": "Restaurante Bonanza Grill",
+    "foto": "restaurantes_fotos/bonanza-grill.jpg"
   },
   {
     "nome": "Cantinho da Serra Grill",
@@ -382,7 +401,8 @@
       "carnes"
     ],
     "categoria": "Carnes",
-    "subcategoria": "Carnes"
+    "subcategoria": "Carnes",
+    "foto": "restaurantes_fotos/cantinho-da-serra-grill.jpg"
   },
   {
     "nome": "Na Brasa",
@@ -398,7 +418,8 @@
     ],
     "categoria": "Carnes",
     "subcategoria": "Carnes",
-    "nome_google": "Na Brasa Restaurante e Choperia"
+    "nome_google": "Na Brasa Restaurante e Choperia",
+    "foto": "restaurantes_fotos/na-brasa.jpg"
   },
   {
     "nome": "Krokodillo III",
@@ -414,7 +435,8 @@
     ],
     "categoria": "Carnes",
     "subcategoria": "Carnes",
-    "nome_google": "Restaurante Krokodillo III"
+    "nome_google": "Restaurante Krokodillo III",
+    "foto": "restaurantes_fotos/krokodillo-iii.jpg"
   },
   {
     "nome": "Jardim Plátanos",
@@ -430,7 +452,8 @@
     ],
     "categoria": "Carnes",
     "subcategoria": "Carnes",
-    "nome_google": "Jardim Plátanos | Gastronomia | Fondue | Restaurante | Campos do Jordão"
+    "nome_google": "Jardim Plátanos | Gastronomia | Fondue | Restaurante | Campos do Jordão",
+    "foto": "restaurantes_fotos/jardim-platanos.jpg"
   },
   {
     "nome": "Churrasco ao Vivo",
@@ -444,7 +467,8 @@
       "carnes"
     ],
     "categoria": "Carnes",
-    "subcategoria": "Carnes"
+    "subcategoria": "Carnes",
+    "foto": "restaurantes_fotos/churrasco-ao-vivo.jpg"
   },
   {
     "nome": "Chico Rei",
@@ -460,7 +484,8 @@
     ],
     "categoria": "Carnes",
     "subcategoria": "Carnes",
-    "nome_google": "Chico Rei - Gastronomia e Bar"
+    "nome_google": "Chico Rei - Gastronomia e Bar",
+    "foto": "restaurantes_fotos/chico-rei.jpg"
   },
   {
     "nome": "Caras de Malte",
@@ -475,7 +500,8 @@
       "cervejaria"
     ],
     "categoria": "Cervejaria",
-    "subcategoria": "Cervejaria"
+    "subcategoria": "Cervejaria",
+    "foto": "restaurantes_fotos/caras-de-malte.jpg"
   },
   {
     "nome": "Choperia Baden Baden",
@@ -490,7 +516,8 @@
       "cervejaria"
     ],
     "categoria": "Cervejaria",
-    "subcategoria": "Cervejaria"
+    "subcategoria": "Cervejaria",
+    "foto": "restaurantes_fotos/choperia-baden-baden.jpg"
   },
   {
     "nome": "Vemaguet 67",
@@ -506,7 +533,8 @@
     ],
     "categoria": "Cervejaria",
     "subcategoria": "Cervejaria",
-    "nome_google": "Vemaguet 67 Microcervejaria e Choperia"
+    "nome_google": "Vemaguet 67 Microcervejaria e Choperia",
+    "foto": "restaurantes_fotos/vemaguet-67.jpg"
   },
   {
     "nome": "Iceland Aventura",
@@ -522,7 +550,8 @@
     ],
     "categoria": "Cervejaria",
     "subcategoria": "Cervejaria",
-    "nome_google": "Iceland Aventura - Bar de Gelo"
+    "nome_google": "Iceland Aventura - Bar de Gelo",
+    "foto": "restaurantes_fotos/iceland-aventura.jpg"
   },
   {
     "nome": "Cervejaria Baden Baden",
@@ -536,7 +565,8 @@
       "cervejaria"
     ],
     "categoria": "Cervejaria",
-    "subcategoria": "Cervejaria"
+    "subcategoria": "Cervejaria",
+    "foto": "restaurantes_fotos/cervejaria-baden-baden.jpg"
   },
   {
     "nome": "Choperia Don Juan",
@@ -551,7 +581,8 @@
       "cervejaria"
     ],
     "categoria": "Cervejaria",
-    "subcategoria": "Cervejaria"
+    "subcategoria": "Cervejaria",
+    "foto": "restaurantes_fotos/choperia-don-juan.jpg"
   },
   {
     "nome": "Boteco Itapeva",
@@ -566,7 +597,8 @@
       "cervejaria"
     ],
     "categoria": "Cervejaria",
-    "subcategoria": "Cervejaria"
+    "subcategoria": "Cervejaria",
+    "foto": "restaurantes_fotos/boteco-itapeva.jpg"
   },
   {
     "nome": "Esquina do Djalma",
@@ -580,7 +612,8 @@
       "cervejaria"
     ],
     "categoria": "Cervejaria",
-    "subcategoria": "Cervejaria"
+    "subcategoria": "Cervejaria",
+    "foto": "restaurantes_fotos/esquina-do-djalma.jpg"
   },
   {
     "nome": "Luss Cervejaria & Restaurante",
@@ -595,7 +628,8 @@
     ],
     "categoria": "Cervejaria",
     "subcategoria": "Cervejaria",
-    "nome_google": "Luss Cervejaria & Restaurante - Campos do Jordão"
+    "nome_google": "Luss Cervejaria & Restaurante - Campos do Jordão",
+    "foto": "restaurantes_fotos/luss-cervejaria-restaurante.jpg"
   },
   {
     "nome": "Gård Cervejaria",
@@ -609,7 +643,8 @@
       "cervejaria"
     ],
     "categoria": "Cervejaria",
-    "subcategoria": "Cervejaria"
+    "subcategoria": "Cervejaria",
+    "foto": "restaurantes_fotos/gard-cervejaria.jpg"
   },
   {
     "nome": "Sans Souci",
@@ -625,7 +660,8 @@
     ],
     "categoria": "Cafés",
     "subcategoria": "Cafés",
-    "nome_google": "Sans Souci Café e Confeitaria"
+    "nome_google": "Sans Souci Café e Confeitaria",
+    "foto": "restaurantes_fotos/sans-souci.jpg"
   },
   {
     "nome": "Café No Bosque",
@@ -641,7 +677,8 @@
     ],
     "categoria": "Cafés",
     "subcategoria": "Cafés",
-    "nome_google": "Café No Bosque ®"
+    "nome_google": "Café No Bosque ®",
+    "foto": "restaurantes_fotos/cafe-no-bosque.jpg"
   },
   {
     "nome": "Dona Belandira Confeitaria & Café",
@@ -657,7 +694,8 @@
     ],
     "categoria": "Cafés",
     "subcategoria": "Cafés",
-    "nome_google": "Dona Belandira Confeitaria & Café em Campos do Jordão"
+    "nome_google": "Dona Belandira Confeitaria & Café em Campos do Jordão",
+    "foto": "restaurantes_fotos/dona-belandira-confeitaria-cafe.jpg"
   },
   {
     "nome": "Pepita Café",
@@ -673,7 +711,8 @@
     ],
     "categoria": "Cafés",
     "subcategoria": "Cafés",
-    "nome_google": "Pepita Café em Campos do Jordão"
+    "nome_google": "Pepita Café em Campos do Jordão",
+    "foto": "restaurantes_fotos/pepita-cafe.jpg"
   },
   {
     "nome": "Struderia Café",
@@ -689,7 +728,8 @@
     ],
     "categoria": "Cafés",
     "subcategoria": "Cafés",
-    "nome_google": "Struderia Café da Elaine Coffee Roasters"
+    "nome_google": "Struderia Café da Elaine Coffee Roasters",
+    "foto": "restaurantes_fotos/struderia-cafe.jpg"
   },
   {
     "nome": "Myriam Café",
@@ -705,7 +745,8 @@
     ],
     "categoria": "Cafés",
     "subcategoria": "Cafés",
-    "nome_google": "Myriam Café em Campos do Jordão"
+    "nome_google": "Myriam Café em Campos do Jordão",
+    "foto": "restaurantes_fotos/myriam-cafe.jpg"
   },
   {
     "nome": "Um Pé de Café",
@@ -721,7 +762,8 @@
     ],
     "categoria": "Cafés",
     "subcategoria": "Cafés",
-    "nome_google": "Um Pé de Café em Campos do Jordão"
+    "nome_google": "Um Pé de Café em Campos do Jordão",
+    "foto": "restaurantes_fotos/um-pe-de-cafe.jpg"
   },
   {
     "nome": "Empório Recanto de Minas",
@@ -752,7 +794,8 @@
       "cafés"
     ],
     "categoria": "Cafés",
-    "subcategoria": "Cafés"
+    "subcategoria": "Cafés",
+    "foto": "restaurantes_fotos/cafe-da-ane.jpg"
   },
   {
     "nome": "Café Ferraz",
@@ -768,6 +811,7 @@
     ],
     "categoria": "Cafés",
     "subcategoria": "Cafés",
-    "nome_google": "Restaurante e café Ferraz"
+    "nome_google": "Restaurante e café Ferraz",
+    "foto": "restaurantes_fotos/cafe-ferraz.jpg"
   }
 ]
