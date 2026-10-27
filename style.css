@@ -405,3 +405,15 @@ footer a{color:#d8e6de;text-decoration:underline}
 @media (max-width:420px){
   .card-actions{flex-direction:column}
 }
+
+/* fotos dos anfitrioes: mostrar inteiras (retrato), sem cortar rostos */
+.grid-hosts{
+  grid-template-columns:repeat(auto-fit,minmax(240px,360px));
+  justify-content:center;
+  align-items:start;
+}
+
+.grid-hosts img{
+  height:auto;
+  object-fit:contain;
+}
