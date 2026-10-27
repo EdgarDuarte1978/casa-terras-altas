@@ -17,6 +17,14 @@ import unicodedata
 
 import requests
 
+# Windows grava saida redirecionada (> arquivo.txt) em cp1252, que nao tem acentos/simbolos
+# como a estrela. Forca UTF-8 para nenhum script quebrar ao imprimir nomes de lugares.
+for _fluxo in (sys.stdout, sys.stderr):
+    try:
+        _fluxo.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 
 def obter_api_key_validada():
     """Le GOOGLE_PLACES_API_KEY do ambiente e valida que e' um valor limpo
