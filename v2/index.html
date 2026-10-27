@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terras Altas v2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+
+/* Layout: a estadia contada em ordem (chegar, viver, partir). Marca do site atual: verde-serra, dourado, Playfair + Inter. */
+:root{
+  --primary:#234b36;
+  --primary-dark:#173426;
+  --accent:#d4af37;
+  --accent-ink:#6b5410;
+  --bg:#f7f6f2;
+  --surface:#ffffff;
+  --text:#2c2c2c;
+  --muted:#5f625c;
+  --line:#e4e2da;
+  --chip:#edf3ee;
+  --warn-bg:#fff6d6;
+  --warn-ink:#5b4600;
+  --shadow:0 14px 32px rgba(0,0,0,.10);
+  --radius:18px;
+  --display:"Playfair Display",Georgia,serif;
+  --body:Inter,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --primary:#8fc3a2; --primary-dark:#0f2218; --accent:#e0bc4a; --accent-ink:#f0d98a;
+    --bg:#121a15; --surface:#1b261f; --text:#ecefe9; --muted:#a8b0a6; --line:#2c3a31;
+    --chip:#243329; --warn-bg:#3a3110; --warn-ink:#f3e3a6; --shadow:0 14px 32px rgba(0,0,0,.4);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --primary:#8fc3a2; --primary-dark:#0f2218; --accent:#e0bc4a; --accent-ink:#f0d98a;
+  --bg:#121a15; --surface:#1b261f; --text:#ecefe9; --muted:#a8b0a6; --line:#2c3a31;
+  --chip:#243329; --warn-bg:#3a3110; --warn-ink:#f3e3a6; --shadow:0 14px 32px rgba(0,0,0,.4);
+  color-scheme:dark;
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--body);background:var(--bg);color:var(--text);line-height:1.6;padding-inline:0;padding-block:0}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{width:min(100% - 32px,1120px);margin-inline:auto}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.2}
+h2{font-size:clamp(1.5rem,3.2vw,2.1rem);color:var(--primary)}
+p{max-width:68ch}
+.eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink);font-weight:600}
+
+.banner{background:var(--warn-bg);color:var(--warn-ink);font-size:.9rem;padding:10px 16px;text-align:center}
+.banner strong{font-weight:700}
+
+header.top{background:#173426;color:#fff;position:sticky;top:0;z-index:5}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:12px;flex-wrap:wrap}
+.brand{font-family:var(--display);font-size:1.25rem;font-weight:700}
+.brand small{display:block;font-family:var(--body);font-weight:400;font-size:.72rem;opacity:.8}
+nav.top{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+nav.top a{white-space:nowrap;text-decoration:none;font-weight:600;font-size:.92rem;padding:8px 14px;border-radius:999px;color:#fff}
+nav.top a:hover,nav.top a:focus-visible{background:rgba(255,255,255,.14);outline:none}
+nav.top a[aria-current="page"]{color:#f0d98a}
+
+.hero{position:relative;color:#fff;isolation:isolate;min-height:460px;display:grid;align-items:end}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,22,15,.25),rgba(10,22,15,.78));z-index:-1}
+.hero .wrap{padding-block:56px 40px}
+.hero h1{font-size:clamp(2rem,5.2vw,3.4rem);max-width:18ch;text-shadow:0 2px 14px rgba(0,0,0,.5)}
+.hero p{margin-top:14px;font-size:1.1rem;max-width:46ch;text-shadow:0 2px 10px rgba(0,0,0,.5)}
+.hero .cta{display:flex;gap:12px;margin-top:24px;flex-wrap:wrap}
+.btn{display:inline-block;text-decoration:none;font-weight:600;padding:12px 20px;border-radius:12px;border:2px solid transparent;font-size:.95rem;cursor:pointer;font-family:var(--body)}
+.btn.solid{background:var(--accent);color:#1a1a1a}
+.btn.ghost{border-color:rgba(255,255,255,.7);color:#fff}
+.btn:focus-visible{outline:3px solid #fff;outline-offset:2px}
+
+section.block{padding-block:56px}
+section.block + section.block{border-top:1px solid var(--line)}
+.head{display:grid;gap:8px;margin-bottom:28px}
+.head p{color:var(--muted)}
+
+/* primeiras 24h */
+.timeline{list-style:none;padding:0;display:grid;gap:0;position:relative}
+.timeline li{display:grid;grid-template-columns:120px 1fr;gap:20px;padding-block:18px;border-bottom:1px solid var(--line)}
+.timeline li:last-child{border-bottom:0}
+.timeline .when{font-weight:700;color:var(--primary);font-variant-numeric:tabular-nums}
+.timeline .when small{display:block;font-weight:500;color:var(--muted);font-size:.8rem}
+.timeline h3{font-family:var(--body);font-size:1.05rem;font-weight:700;margin-bottom:4px}
+.timeline p{color:var(--muted);font-size:.96rem}
+.timeline .tag{display:inline-block;margin-top:8px;font-size:.78rem;background:var(--chip);color:var(--primary);padding:3px 10px;border-radius:999px;font-weight:600}
+
+/* entradas */
+.doors{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.door{position:relative;border-radius:var(--radius);overflow:hidden;min-height:260px;color:#fff;text-decoration:none;display:grid;align-items:end;isolation:isolate;box-shadow:var(--shadow)}
+.door img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .4s}
+.door::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(8,18,12,.85));z-index:-1}
+.door:hover img{transform:scale(1.04)}
+.door div{padding:20px}
+.door h3{font-size:1.5rem}
+.door p{font-size:.92rem;opacity:.92}
+.door:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+
+/* roteiros */
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.tabs button{font-family:var(--body);font-weight:600;font-size:.92rem;padding:10px 16px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--text);cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--primary);color:#fff;border-color:var(--primary)}
+:root[data-theme="dark"] .tabs button[aria-selected="true"]{color:#0f2218}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .tabs button[aria-selected="true"]{color:#0f2218}}
+.tabs button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.route{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.stop{background:var(--surface);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.stop img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.stop .in{padding:18px;display:grid;gap:6px;align-content:start}
+.stop .slot{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--accent-ink)}
+.stop h3{font-size:1.25rem;color:var(--primary)}
+.stop p{font-size:.94rem;color:var(--muted)}
+.meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.meta span{font-size:.78rem;font-weight:600;background:var(--chip);color:var(--primary);padding:4px 10px;border-radius:999px}
+.note{font-size:.84rem;color:var(--muted);margin-top:16px}
+
+/* escolha dos anfitrioes */
+.picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.pick{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;display:grid;gap:12px;align-content:start}
+.pick .label{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--accent-ink)}
+.pick blockquote{font-family:var(--display);font-size:1.2rem;line-height:1.4;color:var(--text)}
+.pick cite{font-style:normal;font-size:.9rem;color:var(--muted)}
+.pick .where{font-weight:700;color:var(--primary)}
+
+/* antes e depois do cartao */
+.compare{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:24px;align-items:start}
+.compare h3{font-family:var(--body);font-size:.85rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.card{background:var(--surface);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.card img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.card .in{padding:18px;display:grid;gap:8px}
+.card h4{font-family:var(--body);font-size:1.15rem;font-weight:700;color:var(--primary)}
+.card .addr{font-size:.88rem;color:var(--muted);font-style:italic}
+.card .why{font-size:.95rem}
+.card .btns{display:flex;gap:10px;margin-top:6px}
+.card .btns a{flex:1;text-align:center;padding:10px;border-radius:10px;font-weight:600;font-size:.9rem;text-decoration:none;border:2px solid var(--primary);color:var(--primary)}
+.card .btns a.fill{background:var(--primary);color:#fff}
+:root[data-theme="dark"] .card .btns a.fill{color:#0f2218}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .card .btns a.fill{color:#0f2218}}
+
+/* despedida */
+.bye{background:var(--primary-dark);color:#fff;border-radius:var(--radius);padding:36px;display:grid;gap:14px}
+.bye h2{color:#fff}
+.bye p{color:#e6ece6}
+.bye .row{display:flex;gap:12px;flex-wrap:wrap;margin-top:6px}
+.bye .row a{border:2px solid rgba(255,255,255,.6);padding:10px 18px;border-radius:12px;text-decoration:none;font-weight:600}
+.bye .row a.solid{background:var(--accent);color:#1a1a1a;border-color:var(--accent)}
+
+/* validacao */
+.vote{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:8px 24px 24px}
+.vote .item{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding-block:14px;border-bottom:1px solid var(--line)}
+.vote .item:last-of-type{border-bottom:0}
+.vote .item b{display:block}
+.vote .item span{color:var(--muted);font-size:.9rem}
+.choice{display:flex;gap:6px}
+.choice label{cursor:pointer}
+.choice input{position:absolute;opacity:0;width:1px;height:1px}
+.choice span{display:inline-block;padding:7px 14px;border-radius:999px;border:1px solid var(--line);font-size:.85rem;font-weight:600;color:var(--text)}
+.choice input:checked + span{background:var(--primary);border-color:var(--primary);color:#fff}
+:root[data-theme="dark"] .choice input:checked + span{color:#0f2218}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .choice input:checked + span{color:#0f2218}}
+.choice input:focus-visible + span{outline:3px solid var(--accent);outline-offset:2px}
+.copybar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:18px}
+.copybar button{font-family:var(--body);font-weight:700;background:var(--accent);color:#1a1a1a;border:0;padding:12px 20px;border-radius:12px;cursor:pointer}
+.copybar output{font-size:.9rem;color:var(--muted)}
+textarea#resumo{width:100%;margin-top:14px;min-height:130px;font-family:var(--body);font-size:.9rem;padding:12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--text)}
+
+footer{background:#173426;color:#d9e2da;padding-block:28px;margin-top:56px;font-size:.9rem}
+
+@media (max-width:640px){
+  .timeline li{grid-template-columns:1fr;gap:6px}
+  .vote .item{grid-template-columns:1fr}
+  .bye{padding:24px}
+}
+@media (prefers-reduced-motion:reduce){.door img{transition:none}}
+
+
+/* ===== versão completa ===== */
+.kicker{color:var(--muted);max-width:68ch}
+.hostbox{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:28px;align-items:center}
+.hostbox .ph{border:2px dashed var(--line);border-radius:var(--radius);min-height:220px;display:grid;place-items:center;text-align:center;color:var(--muted);padding:20px;font-size:.92rem;background:var(--surface)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:8px}
+.gallery figure{background:var(--surface);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.gallery figcaption{padding:12px 14px;font-size:.9rem;color:var(--muted)}
+.badge{display:inline-flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--surface);border-radius:999px;padding:10px 18px;box-shadow:var(--shadow);font-weight:600;color:var(--primary);margin-bottom:22px}
+.badge .stars{color:var(--accent-ink)}
+.badge a{color:var(--primary)}
+.reviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.rev{background:var(--surface);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.rev img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.rev .in{padding:18px;display:grid;gap:8px;align-content:start}
+.rev .tag{justify-self:start;font-size:.78rem;font-weight:600;background:var(--chip);color:var(--primary);padding:4px 10px;border-radius:999px}
+.rev q{font-style:italic;quotes:none}
+.rev .by{font-weight:600;font-size:.9rem;color:var(--primary)}
+
+.tools{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:20px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chips button{font-family:var(--body);font-weight:600;font-size:.88rem;padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--text);cursor:pointer}
+.chips button[aria-pressed="true"]{background:var(--primary);border-color:var(--primary);color:#fff}
+:root[data-theme="dark"] .chips button[aria-pressed="true"]{color:#0f2218}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .chips button[aria-pressed="true"]{color:#0f2218}}
+.chips button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.chips small{opacity:.7;font-weight:500}
+.search{flex:1;min-width:200px;max-width:340px;padding:10px 14px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--text);font-family:var(--body);font-size:.92rem}
+.count{font-size:.88rem;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:20px}
+.grid .card .in{height:100%;align-content:start}
+.grid .card{display:flex;flex-direction:column}
+.grid .card .in{flex:1}
+.card .btns{margin-top:auto;padding-top:6px}
+.card .desc{font-size:.93rem}
+.card .fact{font-size:.9rem;color:var(--muted)}
+.card .addr{font-size:.84rem}
+.gap-note{font-size:.8rem;color:var(--muted);font-style:italic}
+
+.infos{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px}
+.box h3{font-family:var(--body);font-size:1.05rem;color:var(--primary);margin-bottom:10px}
+.box ul{padding-left:18px;display:grid;gap:10px}
+.box li{font-size:.95rem}
+@media (max-width:760px){.hostbox{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div class="banner"><strong>Versão 2 completa, em validação (não oficial).</strong> Usa todos os dados do site atual: 51 restaurantes, 69 atrações, avaliações, informações úteis e lembretes. Marcados com * ou "exemplo" estão os textos que ainda são proposta.</div>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">Casa Terras Altas<small>Campos do Jordão</small></div>
+    <nav class="top" aria-label="Principal">
+      <a href="#chegada">Chegada</a>
+      <a href="#casa">A casa</a>
+      <a href="#roteiros">Roteiros</a>
+      <a href="#onde-comer">Onde comer</a>
+      <a href="#o-que-fazer">O que fazer</a>
+      <a href="#informacoes">Informações</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <img src="../hero_casa_terras_altas.png" alt="Casa Terras Altas ao entardecer, com vidraças iluminadas">
+  <div class="wrap">
+    <p class="eyebrow" style="color:#f0d98a">Guia exclusivo para hóspedes</p>
+    <h1>Sua casa na serra, com Campos do Jordão ao redor</h1>
+    <p>O que você precisa saber, na ordem em que vai precisar: chegar, aproveitar e voltar com vontade de repetir.</p>
+    <div class="cta">
+      <a class="btn solid" href="#chegada">Suas primeiras 24 horas</a>
+      <a class="btn ghost" href="#roteiros">Ver roteiros prontos</a>
+    </div>
+  </div>
+</section>
+
+<main>
+
+<section class="block" id="chegada">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">1 · Chegada</span>
+      <h2>Suas primeiras 24 horas</h2>
+      <p>Hoje essas informações ficam no fim da página Sobre a Casa. Aqui abrem o guia, em ordem de horário.</p>
+    </div>
+    <ol class="timeline">
+      <li>
+        <div class="when">Antes de sair<small>no dia da viagem</small></div>
+        <div><h3>Rota e horário</h3>
+          <p>Rua K, 225, Jardim Primavera, Campos do Jordão. O check-in é às 16h. As senhas chegam por mensagem antes da data; por segurança não estão publicadas aqui.</p>
+          <a class="tag" href="https://www.google.com/maps/search/?api=1&query=Rua+K%2C+225+-+Jardim+Primavera%2C+Campos+do+Jord%C3%A3o+-+SP%2C+12466-176" target="_blank" rel="noopener">Abrir rota no Google Maps</a></div>
+      </li>
+      <li>
+        <div class="when">16h<small>check-in</small></div>
+        <div><h3>Entrar na casa</h3>
+          <p>Use as senhas da fechadura, do alarme e do Wi-Fi que enviamos por mensagem. O aquecimento é a gás: registro esquerdo para água quente.</p>
+          <span class="tag">Tomadas pretas: 20A, só para aquecedor a óleo</span></div>
+      </li>
+      <li>
+        <div class="when">Primeira noite<small>exemplo</small></div>
+        <div><h3>Jantar sem se perder em 51 opções</h3>
+          <p>Sugestão para a primeira noite fria: fondue na Casa Suíça (nota 4,7). Veja o roteiro "Dia de frio".</p></div>
+      </li>
+      <li>
+        <div class="when">Amanhã cedo<small>sem pressa</small></div>
+        <div><h3>Café olhando o vale</h3>
+          <p>Todos os cômodos têm vista para a montanha e a mata. A rede do quarto é o lugar favorito dos hóspedes para ver os passarinhos.</p></div>
+      </li>
+      <li>
+        <div class="when">Ao sair<small>até 12h</small></div>
+        <div><h3>Check-out</h3>
+          <p>Desligue cafeteiras e aquecedores antes de sair.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="block" id="casa">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">2 · A casa</span>
+      <h2>Conheça os anfitriões e a casa</h2>
+    </div>
+    <div class="hostbox">
+      <div>
+        <p>Somos Angélica e Edgar, juntos há quase 30 anos. Adoramos viajar, conhecer novas culturas e sabores. Nossa família inclui nossos filhos humanos, Bianca e Samuel, e nossas filhas de 4 patas, Frida e Hortência.</p>
+      </div>
+      <div class="ph" role="img" aria-label="Espaço reservado para as fotos dos anfitriões">As fotos de Angélica e Edgar e da família aparecem na versão final.</div>
+    </div>
+    <div class="head" style="margin-top:40px">
+      <h2 style="font-size:1.4rem">Na casa</h2>
+      <p>A casa foi pensada para ser integrada à natureza. Todos os cômodos possuem vista para a montanha e a mata local. Na versão atual isso é uma imagem única; aqui cada ambiente é uma foto com legenda.</p>
+    </div>
+    <div class="gallery">
+      <figure><img src="../avaliacoes/paisagem.png" alt="Paisagem ao redor da casa" loading="lazy"><figcaption>Vista incrível em todos os cômodos.</figcaption></figure>
+      <figure><img src="../avaliacoes/lareira.png" alt="Lareira a lenha na sala" loading="lazy"><figcaption>Lareira a lenha e ecológica para curtir o friozinho.</figcaption></figure>
+      <figure><img src="../avaliacoes/cozinha.png" alt="Cozinha equipada" loading="lazy"><figcaption>Cozinha bem equipada.</figcaption></figure>
+      <figure><img src="../avaliacoes/quarto-rede.png" alt="Quarto com rede na varanda" loading="lazy"><figcaption>Quartos confortáveis, com redes: um convite ao descanso e à contemplação.</figcaption></figure>
+      <figure><img src="../avaliacoes/banheira.png" alt="Banheira de hidromassagem com vista" loading="lazy"><figcaption>Banhos perfeitos, com vista maravilhosa e água com ótima pressão.</figcaption></figure>
+      <figure><img src="../avaliacoes/mesa-posta.jpg" alt="Mesa posta com vista para a mata" loading="lazy"><figcaption>Mesa posta para receber os hóspedes.</figcaption></figure>
+    </div>
+
+    <div class="head" style="margin-top:48px">
+      <h2 style="font-size:1.4rem">O que dizem os hóspedes</h2>
+      <p>O que quem já ficou aqui destaca nas avaliações do Airbnb.</p>
+    </div>
+    <div class="badge"><span class="stars">★ 4,98</span><span>· 84 avaliações</span><span>· Preferido dos hóspedes</span><a href="https://www.airbnb.com.br/rooms/1342639628979549242" target="_blank" rel="noopener">ver todas</a></div>
+    <div class="reviews">
+      <article class="rev"><img src="../avaliacoes/mesa-posta.jpg" alt="Mesa posta" loading="lazy"><div class="in"><span class="tag">Hospitalidade · citado 53×</span><q>"A Angélica e o Edgar são uns queridos, muito atenciosos e acolhedores."</q><span class="by">Taina, hóspede</span></div></article>
+      <article class="rev"><img src="../avaliacoes/quarto-rede.png" alt="Quarto com rede" loading="lazy"><div class="in"><span class="tag">Vista · citado 27×</span><q>"Eu adorava ficar relaxando na rede, apreciando a vista linda e observando os passarinhos."</q><span class="by">Taina, hóspede</span></div></article>
+      <article class="rev"><img src="../avaliacoes/lareira.png" alt="Lareira" loading="lazy"><div class="in"><span class="tag">Espaço interno · citado 30×</span><q>"A estrutura da casa é completa, os ambientes são muito confortáveis e a decoração deixa tudo ainda mais especial."</q><span class="by">Raphaela, hóspede</span></div></article>
+      <article class="rev"><img src="../avaliacoes/cozinha.png" alt="Cozinha" loading="lazy"><div class="in"><span class="tag">Limpeza · citado 29×</span><q>"A casa é muito cheirosa, extremamente limpa, organizada e aconchegante."</q><span class="by">Rubia, hóspede</span></div></article>
+      <article class="rev"><img src="../avaliacoes/paisagem.png" alt="Paisagem" loading="lazy"><div class="in"><span class="tag">Localização · citado 22×</span><q>"O local é muito bom e tranquilo para descansar, exatamente o que eu buscava."</q><span class="by">Bruno, hóspede</span></div></article>
+      <article class="rev"><img src="../avaliacoes/banheira.png" alt="Banheira" loading="lazy"><div class="in"><span class="tag">Destaque do anúncio</span><q>Suíte com banheira de hidromassagem e vista para o vale, um dos pontos mais elogiados nas fotos dos hóspedes.</q><span class="by">Airbnb</span></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="roteiros">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">3 · Durante a estadia</span>
+      <h2>Roteiros prontos</h2>
+      <p>Para quem não quer escolher entre 120 lugares. Cada roteiro usa lugares que já estão no guia.</p>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Tipo de roteiro">
+      <button role="tab" aria-selected="true" data-r="dia">Um dia perfeito</button>
+      <button role="tab" aria-selected="false" data-r="casal">Casal</button>
+      <button role="tab" aria-selected="false" data-r="familia">Família</button>
+      <button role="tab" aria-selected="false" data-r="frio">Dia de frio</button>
+    </div>
+    <div class="route" id="rota" role="tabpanel" aria-live="polite"></div>
+    <p class="note">Roteiros: combinação sugerida por mim, para aprovar. Os tempos de carro ainda não foram medidos e por isso não aparecem.</p>
+  </div>
+</section>
+
+<section class="block" id="anfitrioes">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Com a voz da casa</span>
+      <h2>A escolha da Angélica e do Edgar</h2>
+      <p>Recomendações curtas e pessoais, no lugar de mais uma lista. Os textos são exemplos para vocês reescreverem.</p>
+    </div>
+    <div class="picks">
+      <figure class="pick"><span class="label">Para a primeira noite</span>
+        <blockquote>"Chegou cansado? Peça um fondue e fique perto da lareira."</blockquote>
+        <figcaption><span class="where">Casa Suíça</span><br><cite>Exemplo de texto, a ser escrito pelos anfitriões</cite></figcaption></figure>
+      <figure class="pick"><span class="label">Para ver o vale</span>
+        <blockquote>"Vá no fim da tarde e fique até a luz baixar."</blockquote>
+        <figcaption><span class="where">Mirante do Parque Amantikir</span><br><cite>Exemplo de texto, a ser escrito pelos anfitriões</cite></figcaption></figure>
+      <figure class="pick"><span class="label">Para o café da manhã</span>
+        <blockquote>"Nosso favorito para um café demorado e sem pressa."</blockquote>
+        <figcaption><span class="where">Bam Bam Café</span><br><cite>Exemplo de texto, a ser escrito pelos anfitriões</cite></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="onde-comer">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Onde comer</span>
+      <h2>Restaurantes selecionados</h2>
+      <p class="kicker">Os 51 lugares do guia, escolhidos por nota e número de avaliações do Google. Filtre por tipo ou busque pelo nome.</p>
+    </div>
+    <div class="tools"><div class="chips" id="chips-rest" role="group" aria-label="Filtrar restaurantes"></div><input class="search" id="q-rest" type="search" placeholder="Buscar restaurante" aria-label="Buscar restaurante"><span class="count" id="n-rest" aria-live="polite"></span></div>
+    <div class="grid" id="grid-rest"></div>
+  </div>
+</section>
+
+<section class="block" id="o-que-fazer">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">O que fazer</span>
+      <h2>Atrações e serviços</h2>
+      <p class="kicker">Os 69 lugares do guia: natureza, mirantes, passeios, cultura, compras e supermercados.</p>
+    </div>
+    <div class="tools"><div class="chips" id="chips-atr" role="group" aria-label="Filtrar atrações"></div><input class="search" id="q-atr" type="search" placeholder="Buscar atração" aria-label="Buscar atração"><span class="count" id="n-atr" aria-live="polite"></span></div>
+    <div class="grid" id="grid-atr"></div>
+  </div>
+</section>
+
+<section class="block" id="informacoes">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Para o dia a dia</span>
+      <h2>Informações úteis e lembretes</h2>
+    </div>
+    <div class="infos">
+      <div class="box"><h3>Informações úteis</h3><ul>
+        <li><strong>Emergência:</strong> Polícia 190 | SAMU 192 | Bombeiros 193</li>
+        <li><strong>Corpo de Bombeiros de Campos do Jordão:</strong> Av. Frei Orestes Girardi, 4100, Capivari. (12) 3663-4599</li>
+        <li><strong>Pronto-Socorro Municipal:</strong> Av. Dr. Adhemar de Barros, 115, Abernéssia. (12) 3664-6434</li>
+        <li><strong>Posto de combustível mais próximo:</strong> Auto Posto Sete Estrelas, Rua Diva, 575, Vila Inglesa (a poucos minutos da casa)</li>
+      </ul></div>
+      <div class="box"><h3>Lembretes importantes</h3><ul>
+        <li><strong>Check-in:</strong> 16h | <strong>Check-out:</strong> 12h.</li>
+        <li><strong>Acesso e Wi-Fi:</strong> as senhas do cofre de chaves, do alarme e da rede Wi-Fi são enviadas por mensagem, perto da data do check-in. Por segurança, não são publicadas aqui.</li>
+        <li><strong>Aquecimento:</strong> é a gás. Registro esquerdo para água quente.</li>
+        <li><strong>Elétrica:</strong> tomadas pretas são de 20A (use apenas para aquecedores a óleo).</li>
+        <li><strong>Segurança:</strong> desligue cafeteiras e aquecedores ao sair.</li>
+        <li><strong>Pets:</strong> bem-vindos! Recolha as fezes e não deixe subir na banheira.</li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="partida">
+  <div class="wrap">
+    <div class="bye">
+      <h2>Obrigado por ficar na nossa casa</h2>
+      <p>Se a estadia foi boa, uma avaliação ajuda a casa a receber mais gente como você. Estamos sempre à disposição.</p>
+      <p>Telefones: (11) 99420-6875 | (11) 99417-6186</p>
+      <div class="row">
+        <a class="solid" href="https://www.airbnb.com.br/rooms/1342639628979549242" target="_blank" rel="noopener">Ver o anúncio no Airbnb</a>
+        <a href="https://www.instagram.com/casaterrasaltas_camposdojordao/" target="_blank" rel="noopener">Instagram da casa</a>
+        <a href="https://www.google.com/search?q=Casa+Terras+Altas+Campos+do+Jord%C3%A3o" target="_blank" rel="noopener">Avaliar no Google</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="validar">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Para decidir</span>
+      <h2>O que entra na versão final?</h2>
+      <p>Marque cada proposta e copie o resumo para me enviar. As escolhas ficam só neste navegador.</p>
+    </div>
+    <form class="vote" id="votacao" onsubmit="return false">
+      <div class="item"><div><b>Página inicial de boas-vindas</b><span>Promessa em uma frase e abertura pela chegada, no lugar da lista de restaurantes.</span></div>
+        <div class="choice" data-k="Boas-vindas"><label><input type="radio" name="p1" value="Quero"><span>Quero</span></label><label><input type="radio" name="p1" value="Talvez"><span>Talvez</span></label><label><input type="radio" name="p1" value="Não"><span>Não</span></label></div></div>
+      <div class="item"><div><b>Primeiras 24 horas no topo</b><span>Check-in, acesso, aquecimento, primeira noite e check-out em ordem de horário.</span></div>
+        <div class="choice" data-k="Primeiras 24 horas"><label><input type="radio" name="p2" value="Quero"><span>Quero</span></label><label><input type="radio" name="p2" value="Talvez"><span>Talvez</span></label><label><input type="radio" name="p2" value="Não"><span>Não</span></label></div></div>
+      <div class="item"><div><b>Roteiros prontos</b><span>Um dia perfeito, casal, família e dia de frio.</span></div>
+        <div class="choice" data-k="Roteiros"><label><input type="radio" name="p3" value="Quero"><span>Quero</span></label><label><input type="radio" name="p3" value="Talvez"><span>Talvez</span></label><label><input type="radio" name="p3" value="Não"><span>Não</span></label></div></div>
+      <div class="item"><div><b>A escolha dos anfitriões</b><span>Recomendações curtas com a voz da Angélica e do Edgar.</span></div>
+        <div class="choice" data-k="Escolha dos anfitriões"><label><input type="radio" name="p4" value="Quero"><span>Quero</span></label><label><input type="radio" name="p4" value="Talvez"><span>Talvez</span></label><label><input type="radio" name="p4" value="Não"><span>Não</span></label></div></div>
+      <div class="item"><div><b>Galeria com legendas no lugar da imagem única 'Na casa'</b><span>Cada ambiente vira uma foto com legenda, legível no celular.</span></div>
+        <div class="choice" data-k="Galeria Na casa"><label><input type="radio" name="p5" value="Quero"><span>Quero</span></label><label><input type="radio" name="p5" value="Talvez"><span>Talvez</span></label><label><input type="radio" name="p5" value="Não"><span>Não</span></label></div></div>
+      <div class="item"><div><b>Filtros e busca nas listas</b><span>Chips por categoria com contagem e busca por nome em restaurantes e atrações.</span></div>
+        <div class="choice" data-k="Filtros e busca"><label><input type="radio" name="p6" value="Quero"><span>Quero</span></label><label><input type="radio" name="p6" value="Talvez"><span>Talvez</span></label><label><input type="radio" name="p6" value="Não"><span>Não</span></label></div></div>
+      <div class="item"><div><b>Cartão com fato quando não há descrição</b><span>Quando o Google não traz texto, mostra nota e número de avaliações.</span></div>
+        <div class="choice" data-k="Cartão com fato"><label><input type="radio" name="p7" value="Quero"><span>Quero</span></label><label><input type="radio" name="p7" value="Talvez"><span>Talvez</span></label><label><input type="radio" name="p7" value="Não"><span>Não</span></label></div></div>
+      <div class="item"><div><b>Informações úteis e lembretes lado a lado</b><span>Duas caixas em vez de duas listas longas em sequência.</span></div>
+        <div class="choice" data-k="Informações em caixas"><label><input type="radio" name="p8" value="Quero"><span>Quero</span></label><label><input type="radio" name="p8" value="Talvez"><span>Talvez</span></label><label><input type="radio" name="p8" value="Não"><span>Não</span></label></div></div>
+      <div class="item"><div><b>Despedida com avaliação</b><span>Fecho curto com telefone, Airbnb, Instagram e Google.</span></div>
+        <div class="choice" data-k="Despedida"><label><input type="radio" name="p9" value="Quero"><span>Quero</span></label><label><input type="radio" name="p9" value="Talvez"><span>Talvez</span></label><label><input type="radio" name="p9" value="Não"><span>Não</span></label></div></div>
+      
+      <div class="copybar">
+        <button type="button" id="copiar">Copiar resumo</button>
+        <output id="status" aria-live="polite"></output>
+      </div>
+      <textarea id="resumo" readonly aria-label="Resumo das escolhas" placeholder="O resumo das suas escolhas aparece aqui."></textarea>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer><div class="wrap">Casa Terras Altas · Campos do Jordão · Versão 2 em validação, não publicada como oficial.</div></footer>
+
+<script>
+(function(){
+  var ORIGEM = "Rua K, 225 - Jardim Primavera, Campos do Jordão - SP, 12466-176";
+  function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+  function limpaEnd(e){return String(e||"").replace(/,\s*Brasil\s*$/i,"").replace(/,\s*\d{5}-\d{3}/,"")}
+  function milhar(n){return Number(n||0).toLocaleString("pt-BR")}
+  function rota(r){
+    var d = r.nome+" "+(r.bairro||"")+" Campos do Jordão";
+    return "https://www.google.com/maps/dir/?api=1&origin="+encodeURIComponent(ORIGEM)+"&destination="+encodeURIComponent(d.replace(/\s+/g," ").trim())+(r.place_id?"&destination_place_id="+r.place_id:"");
+  }
+  function cartao(r,tipo){
+    var meta='<span>★ '+esc(String(r.nota).replace(".",","))+' · '+esc(r.categoria)+'</span>';
+    if(r.preco) meta+='<span>'+esc(r.preco)+'</span>';
+    var corpo = r.descricao ? '<p class="desc">'+esc(r.descricao)+'</p>'
+      : '<p class="fact">Nota '+esc(String(r.nota).replace(".",","))+' em '+milhar(r.avaliacoes)+' avaliações no Google.</p>';
+    var foto = r.foto ? '<img src="../'+esc(r.foto)+'" alt="Foto de '+esc(r.nome)+'" loading="lazy">' : "";
+    var visitar = r.site||r.instagram||r.maps;
+    return '<article class="card">'+foto+'<div class="in"><h4>'+esc(r.nome)+'</h4><div class="meta">'+meta+'</div>'+corpo+
+      '<p class="addr">'+esc(limpaEnd(r.endereco))+'</p>'+
+      '<div class="btns"><a href="'+esc(visitar)+'" target="_blank" rel="noopener">Ver no Google</a><a class="fill" href="'+esc(rota(r))+'" target="_blank" rel="noopener">Como Chegar</a></div></div></article>';
+  }
+  function lista(arq,gridId,chipsId,qId,nId){
+    fetch('../'+arq).then(function(r){return r.json()}).then(function(dados){
+      var grid=document.getElementById(gridId), chips=document.getElementById(chipsId), q=document.getElementById(qId), n=document.getElementById(nId);
+      var cats=[]; dados.forEach(function(d){ if(cats.indexOf(d.categoria)<0) cats.push(d.categoria) });
+      var atual="Todos";
+      function desenha(){
+        var t=(q.value||"").toLowerCase();
+        var f=dados.filter(function(d){ return (atual==="Todos"||d.categoria===atual) && (!t || (d.nome+" "+(d.endereco||"")).toLowerCase().indexOf(t)>=0) });
+        grid.innerHTML=f.length?f.map(function(d){return cartao(d)}).join(""):'<p class="kicker">Nenhum lugar encontrado.</p>';
+        n.textContent=f.length+" de "+dados.length+" lugares";
+        chips.querySelectorAll("button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.c===atual?"true":"false")});
+      }
+      function chip(c,qtd){var b=document.createElement("button");b.type="button";b.dataset.c=c;b.innerHTML=esc(c)+" <small>"+qtd+"</small>";b.addEventListener("click",function(){atual=c;desenha()});chips.appendChild(b)}
+      chip("Todos",dados.length); cats.forEach(function(c){chip(c,dados.filter(function(d){return d.categoria===c}).length)});
+      q.addEventListener("input",desenha); desenha();
+    }).catch(function(){ document.getElementById(gridId).innerHTML='<p class="kicker">Não foi possível carregar a lista.</p>' });
+  }
+  lista("restaurantes.json","grid-rest","chips-rest","q-rest","n-rest");
+  lista("atracoes.json","grid-atr","chips-atr","q-atr","n-atr");
+
+  var rotas = {
+    dia: [
+      {slot:"Manhã", nome:"Parque Amantikir", img:"../atracoes_fotos/parque-amantikir.jpg", alt:"Labirinto de jardim no Parque Amantikir", nota:"★ 4,7", cat:"Natureza", txt:"Sereno jardim botânico com labirintos, restaurantes e eventos."},
+      {slot:"Tarde", nome:"Morro do Elefante", img:"../atracoes_fotos/morro-do-elefante.jpg", alt:"Escultura de elefante no Morro do Elefante", nota:"★ 4,4", cat:"Natureza", txt:"Vista panorâmica da cidade, com acesso por carro ou teleférico."},
+      {slot:"Noite", nome:"Casa Suíça", img:"../restaurantes_fotos/casa-suica.jpg", alt:"Fondue de chocolate", nota:"★ 4,7", cat:"Fondue", txt:"Fondue para fechar o dia."}
+    ],
+    casal: [
+      {slot:"Fim de tarde", nome:"Mirante do Parque Amantikir", img:"../atracoes_fotos/mirante-parque-amantikir.jpg", alt:"Mirante no Parque Amantikir", nota:"★ 4,8", cat:"Mirantes", txt:"Mirante dentro do Parque Amantikir, com vista aberta para o vale."},
+      {slot:"Noite", nome:"Casa Suíça", img:"../restaurantes_fotos/casa-suica.jpg", alt:"Fondue de chocolate", nota:"★ 4,7", cat:"Fondue", txt:"Fondue de chocolate para dois."},
+      {slot:"Depois do jantar", nome:"A lareira da casa", img:"../avaliacoes/lareira.png", alt:"Lareira acesa", nota:"", cat:"Na casa", txt:"Volte para a casa, acenda a lareira e fique."}
+    ],
+    familia: [
+      {slot:"Manhã", nome:"Horto Florestal", img:"../atracoes_fotos/parque-estadual-campos-do-jordao-horto-florestal.jpg", alt:"Cachoeira no Horto Florestal", nota:"★ 4,7", cat:"Natureza", txt:"Bosques com churrasqueiras, trilhas, lanchonete, lagos e viveiro de plantas."},
+      {slot:"Tarde", nome:"Morro do Elefante", img:"../atracoes_fotos/morro-do-elefante.jpg", alt:"Escultura de elefante", nota:"★ 4,4", cat:"Natureza", txt:"Cume de morro com parque temático de elefantes e vista panorâmica."},
+      {slot:"Lanche", nome:"Bam Bam Café", img:"../restaurantes_fotos/bam-bam-cafe.jpg", alt:"Batata frita com taça", nota:"★ 4,8", cat:"Fondue", txt:"Nota 4,8, a mais alta entre os lugares de fondue."}
+    ],
+    frio: [
+      {slot:"Manhã", nome:"Café e rede na casa", img:"../avaliacoes/quarto-rede.png", alt:"Quarto com rede", nota:"", cat:"Na casa", txt:"Sem pressa: café, rede e a vista para a mata."},
+      {slot:"Tarde", nome:"Bam Bam Café", img:"../restaurantes_fotos/bam-bam-cafe.jpg", alt:"Batata frita com taça", nota:"★ 4,8", cat:"Fondue", txt:"Uma parada quente quando o tempo fecha."},
+      {slot:"Noite", nome:"Casa Suíça", img:"../restaurantes_fotos/casa-suica.jpg", alt:"Fondue de chocolate", nota:"★ 4,7", cat:"Fondue", txt:"Fondue de chocolate e a lareira em casa depois."}
+    ]
+  };
+  var box=document.getElementById("rota");
+  function mostra(k){
+    box.innerHTML=rotas[k].map(function(p){
+      var meta=p.nota?'<span>'+esc(p.nota)+' · '+esc(p.cat)+'</span>':'<span>'+esc(p.cat)+'</span>';
+      return '<article class="stop"><img src="'+p.img+'" alt="'+esc(p.alt)+'" loading="lazy"><div class="in"><span class="slot">'+esc(p.slot)+'</span><h3>'+esc(p.nome)+'</h3><p>'+esc(p.txt)+'</p><div class="meta">'+meta+'</div></div></article>';
+    }).join("");
+    document.querySelectorAll(".tabs button").forEach(function(b){b.setAttribute("aria-selected",b.dataset.r===k?"true":"false")});
+  }
+  document.querySelectorAll(".tabs button").forEach(function(b){b.addEventListener("click",function(){mostra(b.dataset.r)})});
+  mostra("dia");
+
+  var out=document.getElementById("resumo"), st=document.getElementById("status");
+  function resumo(){
+    var l=[]; document.querySelectorAll(".choice").forEach(function(c){var s=c.querySelector("input:checked");l.push(c.dataset.k+": "+(s?s.value:"sem resposta"))});
+    out.value="Terras Altas v2 completa - minhas escolhas\n"+l.join("\n");
+  }
+  document.getElementById("votacao").addEventListener("change",resumo); resumo();
+  document.getElementById("copiar").addEventListener("click",function(){
+    resumo();
+    function falhou(){out.focus();out.select();st.textContent="Selecionei o texto. Copie com Ctrl+C."}
+    try{navigator.clipboard.writeText(out.value).then(function(){st.textContent="Resumo copiado. Cole na conversa."},falhou)}catch(e){falhou()}
+  });
+})();
+</script>
+</body>
+</html>
