@@ -372,9 +372,17 @@ footer{background:#173426;color:#d9e2da;padding-block:28px;margin-top:56px;font-
     <div class="head">
       <span class="eyebrow">O que fazer</span>
       <h2>Atrações e serviços</h2>
-      <p class="kicker">Os 69 lugares do guia: natureza, mirantes, passeios, cultura, compras e supermercados.</p>
+      <p class="kicker">Os 69 lugares do guia: natureza, mirantes, passeios, cultura, compras e supermercados. Escolha por perfil e tipo, ou busque pelo nome.</p>
     </div>
-    <div class="tools"><div class="chips" id="chips-atr" role="group" aria-label="Filtrar atrações"></div><input class="search" id="q-atr" type="search" placeholder="Buscar atração" aria-label="Buscar atração"><span class="count" id="n-atr" aria-live="polite"></span></div>
+    <div class="seg" id="seg-atr">
+      <div class="segrow"><span class="seglabel">Para quem</span><div class="chips" id="seg-chips-atr" role="group" aria-label="Perfil"></div></div>
+      <div class="segrow"><span class="seglabel">Em preparação</span><div class="chips" id="seg-pend-atr" role="group" aria-label="Segmentos em preparação"></div></div>
+      <div class="segrow"><span class="seglabel">Tipo</span><div class="chips" id="tipo-chips-atr" role="group" aria-label="Tipo de atração"></div></div>
+      <div class="rule" id="rule-atr" role="status" aria-live="polite" hidden></div>
+    </div>
+    <div class="tools"><input class="search" id="q-atr" type="search" placeholder="Buscar atração" aria-label="Buscar atração"><button type="button" class="clear" id="limpar-atr">Limpar filtros</button>
+      
+      <span class="count" id="n-atr" aria-live="polite"></span></div>
     <div class="grid" id="grid-atr"></div>
   </div>
 </section>
@@ -479,7 +487,7 @@ footer{background:#173426;color:#d9e2da;padding-block:28px;margin-top:56px;font-
       '<div class="btns"><a href="'+esc(visitar)+'" target="_blank" rel="noopener">Ver no Google</a><a class="fill" href="'+esc(rota(r))+'" target="_blank" rel="noopener">Como Chegar</a></div></div></article>';
   }
   function lista(arq,gridId,chipsId,qId,nId){
-    fetch('../'+arq).then(function(r){return r.json()}).then(function(dados){
+    fetch(arq).then(function(r){return r.json()}).then(function(dados){
       var grid=document.getElementById(gridId), chips=document.getElementById(chipsId), q=document.getElementById(qId), n=document.getElementById(nId);
       var cats=[]; dados.forEach(function(d){ if(cats.indexOf(d.categoria)<0) cats.push(d.categoria) });
       var atual="Todos";
@@ -496,14 +504,14 @@ footer{background:#173426;color:#d9e2da;padding-block:28px;margin-top:56px;font-
     }).catch(function(){ document.getElementById(gridId).innerHTML='<p class="kicker">Não foi possível carregar a lista.</p>' });
   }
 
-  // ---- restaurantes: segmentos por perfil, tipo e preco (filtros em cascata) ----
+  // ---- segmentos por perfil, tipo e preco, em cascata (restaurantes e atracoes) ----
   var PRECO = {"$":"$ econômico","$$":"$$ moderado","$$$":"$$$ caro","$$$$":"$$$$ muito caro"};
-  var ROTULO_ATR = {aceita_pet:"Aceita pet", ao_ar_livre:"Ao ar livre", bom_para_criancas:"Bom para crianças", bom_para_grupos:"Bom para grupos", vegetariano:"Vegetariano", cafe_da_manha:"Café da manhã", aceita_reserva:"Aceita reserva"};
+  var ROTULO_ATR = {aceita_pet:"Aceita pet", ao_ar_livre:"Ao ar livre", bom_para_criancas:"Bom para crianças", bom_para_grupos:"Bom para grupos", vegetariano:"Vegetariano", cafe_da_manha:"Café da manhã", aceita_reserva:"Aceita reserva", acessivel:"Acessível", estacionamento:"Estacionamento"};
   function A(r,k){ return !!(r.atributos && r.atributos[k]); }
   function custoBeneficio(r){ return r.nota>=4.5 && r.avaliacoes>=300 && (r.preco==="$"||r.preco==="$$"); }
   function maisBem(r){ return r.nota>=4.7 && r.avaliacoes>=500; }
-  var SEGS = [
-    {id:"cb", nome:"Melhor custo-benefício", dados:false, fn:custoBeneficio, regra:"Nota 4,5 ou mais, pelo menos 300 avaliações no Google e faixa de preço $ ou $$."},
+  var SEGS_REST = [
+    {id:"cb", nome:"Melhor custo-benefício", dados:false, fn:custoBeneficio, regra:"Nota 4,5 ou mais, pelo menos 300 avaliações no Google e faixa de preço $ ou $$. Os lugares sem faixa de preço no Google ficam de fora."},
     {id:"top", nome:"Mais bem avaliados", dados:false, fn:maisBem, regra:"Nota 4,7 ou mais e pelo menos 500 avaliações no Google."},
     {id:"casal", nome:"Casal", dados:true, campos:"serve jantar, vinho ou coquetel, aceita reserva e cardápio infantil",
       fn:function(r){return A(r,"jantar")&&(A(r,"vinho")||A(r,"coquetel"))&&A(r,"aceita_reserva")&&!A(r,"menu_infantil")},
@@ -516,18 +524,29 @@ footer{background:#173426;color:#d9e2da;padding-block:28px;margin-top:56px;font-
     {id:"cafe", nome:"Café da manhã", dados:true, campos:"serve café da manhã (servesBreakfast) e brunch (servesBrunch)", fn:function(r){return A(r,"cafe_da_manha")||A(r,"brunch")}, regra:"Serve café da manhã ou brunch, segundo o Google."},
     {id:"veg", nome:"Vegetariano", dados:true, campos:"serve comida vegetariana (servesVegetarianFood)", fn:function(r){return A(r,"vegetariano")}, regra:"O Google informa que serve comida vegetariana."}
   ];
-  function restaurantes(){
-    fetch("../restaurantes.json").then(function(r){return r.json()}).then(function(dados){
-      var grid=document.getElementById("grid-rest"), q=document.getElementById("q-rest"), n=document.getElementById("n-rest"), regra=document.getElementById("rule-rest");
-      var boxSeg=document.getElementById("seg-chips"), boxPend=document.getElementById("seg-pend"), boxTipo=document.getElementById("tipo-chips"), boxPreco=document.getElementById("preco-chips");
+  var CAT_AR_LIVRE = ["Natureza","Mirantes","Aventura"], CAT_COBERTO = ["Cultura","Compras"];
+  var SEGS_ATR = [
+    {id:"top", nome:"Mais bem avaliadas", dados:false, fn:maisBem, regra:"Nota 4,7 ou mais e pelo menos 500 avaliações no Google."},
+    {id:"ar", nome:"Ao ar livre", dados:false, fn:function(r){return CAT_AR_LIVRE.indexOf(r.categoria)>=0}, regra:"Atrações das categorias Natureza, Mirantes e Aventura."},
+    {id:"chuva", nome:"Para dia de chuva", dados:false, fn:function(r){return CAT_COBERTO.indexOf(r.categoria)>=0}, regra:"Atrações cobertas: categorias Cultura e Compras. Confirme o funcionamento antes de sair."},
+    {id:"familia", nome:"Família com crianças", dados:true, campos:"bom para crianças (goodForChildren)", fn:function(r){return A(r,"bom_para_criancas")}, regra:"O Google informa que é bom para crianças."},
+    {id:"pet", nome:"Aceita pet", dados:true, campos:"aceita cães (allowsDogs)", fn:function(r){return A(r,"aceita_pet")}, regra:"O Google informa que aceita cães."},
+    {id:"acess", nome:"Acessível", dados:true, campos:"entrada acessível para cadeira de rodas (accessibilityOptions)", fn:function(r){return A(r,"acessivel")}, regra:"O Google informa entrada acessível para cadeira de rodas."},
+    {id:"estac", nome:"Com estacionamento", dados:true, campos:"opções de estacionamento (parkingOptions)", fn:function(r){return A(r,"estacionamento")}, regra:"O Google informa alguma opção de estacionamento."},
+    {id:"grupo", nome:"Grupos", dados:true, campos:"bom para grupos (goodForGroups)", fn:function(r){return A(r,"bom_para_grupos")}, regra:"O Google informa que é bom para grupos."}
+  ];
+  function facetas(cfg){
+    fetch('../'+cfg.arquivo).then(function(r){return r.json()}).then(function(dados){
+      var I=cfg.ids, SEGS=cfg.segs;
+      var grid=document.getElementById(I.grid), q=document.getElementById(I.q), n=document.getElementById(I.n), regra=document.getElementById(I.regra);
+      var boxSeg=document.getElementById(I.seg), boxPend=document.getElementById(I.pend), boxTipo=document.getElementById(I.tipo), boxPreco=I.preco?document.getElementById(I.preco):null;
       var st={segs:[], pend:null, tipo:"Todos", preco:"Todos"};
-      var semPreco=dados.filter(function(d){return !d.preco}).length;
       var cats=[]; dados.forEach(function(d){ if(cats.indexOf(d.categoria)<0) cats.push(d.categoria) });
       function temDados(){ return dados.some(function(d){return d.atributos && Object.keys(d.atributos).length}) }
       function passa(d,e){
         var t=(q.value||"").toLowerCase();
         for(var i=0;i<e.segs.length;i++){ var g=SEGS.filter(function(x){return x.id===e.segs[i]})[0]; if(!g.fn(d)) return false; }
-        return (e.tipo==="Todos"||d.categoria===e.tipo) && (e.preco==="Todos"||d.preco===e.preco) && (!t||(d.nome+" "+(d.endereco||"")).toLowerCase().indexOf(t)>=0);
+        return (e.tipo==="Todos"||d.categoria===e.tipo) && (!boxPreco||e.preco==="Todos"||d.preco===e.preco) && (!t||(d.nome+" "+(d.endereco||"")).toLowerCase().indexOf(t)>=0);
       }
       function conta(e){ return dados.filter(function(d){return passa(d,e)}).length }
       function copia(o){ return {segs:o.segs.slice(), tipo:o.tipo, preco:o.preco} }
@@ -547,24 +566,26 @@ footer{background:#173426;color:#d9e2da;padding-block:28px;margin-top:56px;font-
         var th=chip("Todos","Todos",conta({segs:st.segs,tipo:"Todos",preco:st.preco}),st.tipo==="Todos","",false);
         cats.forEach(function(c){ var qtd=conta({segs:st.segs,tipo:c,preco:st.preco}); th+=chip(c,c,qtd,st.tipo===c,"",(st.tipo!==c&&qtd===0)); });
         boxTipo.innerHTML=th;
-        var ph=chip("Todos","Todos",conta({segs:st.segs,tipo:st.tipo,preco:"Todos"}),st.preco==="Todos","",false);
-        ["$","$$","$$$","$$$$"].forEach(function(p){ var qtd=conta({segs:st.segs,tipo:st.tipo,preco:p}); ph+=chip(p,PRECO[p],qtd,st.preco===p,"",(st.preco!==p&&qtd===0)); });
-        boxPreco.innerHTML=ph;
+        if(boxPreco){
+          var ph=chip("Todos","Todos",conta({segs:st.segs,tipo:st.tipo,preco:"Todos"}),st.preco==="Todos","",false);
+          ["$","$$","$$$","$$$$"].forEach(function(p){ var qtd=conta({segs:st.segs,tipo:st.tipo,preco:p}); ph+=chip(p,PRECO[p],qtd,st.preco===p,"",(st.preco!==p&&qtd===0)); });
+          boxPreco.innerHTML=ph;
+        }
       }
       function desenha(){
         monta();
         var pendSel=SEGS.filter(function(g){return g.id===st.pend})[0];
         var avisos=[];
         if(pendSel){
-          grid.innerHTML='<p class="kicker">O segmento "'+esc(pendSel.nome)+'" ainda não tem dados, por isso nenhum restaurante é listado. Escolha outro filtro.</p>';
-          n.textContent="0 de "+dados.length+" restaurantes";
+          grid.innerHTML='<p class="kicker">O segmento "'+esc(pendSel.nome)+'" ainda não tem dados, por isso nenhum lugar é listado. Escolha outro filtro.</p>';
+          n.textContent="0 de "+dados.length+" "+cfg.plural;
           avisos.push("<strong>"+esc(pendSel.nome)+" ainda não está disponível.</strong> Falta coletar do Google: "+esc(pendSel.campos)+".");
         } else {
           var f=dados.filter(function(d){return passa(d,st)});
           if(st.segs.length){ f.sort(function(a,b){ return b.nota-a.nota || b.avaliacoes-a.avaliacoes }); }
-          grid.innerHTML=f.length?f.map(function(d){return cartao(d)}).join(""):'<p class="kicker">Nenhum restaurante com essa combinação. Tire um filtro para ver mais opções.</p>';
-          n.textContent=f.length+" de "+dados.length+" restaurantes";
-          st.segs.forEach(function(id){ var g=SEGS.filter(function(x){return x.id===id})[0]; avisos.push("<strong>"+esc(g.nome)+":</strong> "+esc(g.regra)+(id==="cb"?" Os "+semPreco+" lugares sem faixa de preço no Google ficam de fora.":"")); });
+          grid.innerHTML=f.length?f.map(function(d){return cfg.cartao(d)}).join(""):'<p class="kicker">Nenhum lugar com essa combinação. Tire um filtro para ver mais opções.</p>';
+          n.textContent=f.length+" de "+dados.length+" "+cfg.plural;
+          st.segs.forEach(function(id){ var g=SEGS.filter(function(x){return x.id===id})[0]; avisos.push("<strong>"+esc(g.nome)+":</strong> "+esc(g.regra)); });
         }
         regra.hidden=!avisos.length; regra.innerHTML=avisos.join("<br>");
       }
@@ -572,14 +593,16 @@ footer{background:#173426;color:#d9e2da;padding-block:28px;margin-top:56px;font-
       clique(boxSeg,function(id){ st.pend=null; var i=st.segs.indexOf(id); if(i>=0) st.segs.splice(i,1); else st.segs.push(id); });
       clique(boxPend,function(id){ st.pend = st.pend===id?null:id; st.segs=[]; });
       clique(boxTipo,function(id){ st.tipo=id; });
-      clique(boxPreco,function(id){ st.preco=id; });
+      if(boxPreco) clique(boxPreco,function(id){ st.preco=id; });
       q.addEventListener("input",desenha);
-      document.getElementById("limpar-rest").addEventListener("click",function(){ st={segs:[],pend:null,tipo:"Todos",preco:"Todos"}; q.value=""; desenha() });
+      document.getElementById(I.limpar).addEventListener("click",function(){ st={segs:[],pend:null,tipo:"Todos",preco:"Todos"}; q.value=""; desenha() });
       desenha();
-    }).catch(function(){ document.getElementById("grid-rest").innerHTML='<p class="kicker">Não foi possível carregar a lista.</p>' });
+    }).catch(function(){ document.getElementById(cfg.ids.grid).innerHTML='<p class="kicker">Não foi possível carregar a lista.</p>' });
   }
-  restaurantes();
-  lista("atracoes.json","grid-atr","chips-atr","q-atr","n-atr");
+  facetas({arquivo:"restaurantes.json", lista:"restaurantes", plural:"restaurantes", segs:SEGS_REST, cartao:function(d){return cartao(d)},
+    ids:{grid:"grid-rest",q:"q-rest",n:"n-rest",regra:"rule-rest",limpar:"limpar-rest",seg:"seg-chips",pend:"seg-pend",tipo:"tipo-chips",preco:"preco-chips",demo:"demo-rest"}});
+  facetas({arquivo:"atracoes.json", lista:"atracoes", plural:"atrações", segs:SEGS_ATR, cartao:function(d){return cartao(d,"atr")},
+    ids:{grid:"grid-atr",q:"q-atr",n:"n-atr",regra:"rule-atr",limpar:"limpar-atr",seg:"seg-chips-atr",pend:"seg-pend-atr",tipo:"tipo-chips-atr",demo:"demo-atr"}});
 
   var out=document.getElementById("resumo"), st=document.getElementById("status");
   function resumo(){
