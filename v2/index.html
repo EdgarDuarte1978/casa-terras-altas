@@ -530,15 +530,21 @@ footer{background:#173426;color:#d9e2da;padding-block:28px;margin-top:56px;font-
           return (!seg||seg.fn(d)) && (st.tipo==="Todos"||d.categoria===st.tipo) && (st.preco==="Todos"||d.preco===st.preco) && (!t||(d.nome+" "+(d.endereco||"")).toLowerCase().indexOf(t)>=0);
         });
         if(seg){ f.sort(function(a,b){ return b.nota-a.nota || b.avaliacoes-a.avaliacoes }); }
-        grid.innerHTML=f.length?f.map(function(d){return cartao(d)}).join(""):'<p class="kicker">Nenhum restaurante com essa combinação.</p>';
-        n.textContent=f.length+" de "+dados.length+" restaurantes";
+        var pendSel=PEND.filter(function(g){return g.id===st.pend})[0];
+        if(pendSel){
+          grid.innerHTML='<p class="kicker">O segmento "'+esc(pendSel.nome)+'" ainda não tem dados, por isso nenhum restaurante é listado. Escolha outro filtro.</p>';
+          n.textContent="0 de "+dados.length+" restaurantes";
+        } else {
+          grid.innerHTML=f.length?f.map(function(d){return cartao(d)}).join(""):'<p class="kicker">Nenhum restaurante com essa combinação.</p>';
+          n.textContent=f.length+" de "+dados.length+" restaurantes";
+        }
         document.querySelectorAll("#seg-chips button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.c===st.seg?"true":"false")});
         document.querySelectorAll("#seg-pend button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.c===st.pend?"true":"false")});
         document.querySelectorAll("#tipo-chips button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.c===st.tipo?"true":"false")});
         document.querySelectorAll("#preco-chips button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.c===st.preco?"true":"false")});
         var p=PEND.filter(function(g){return g.id===st.pend})[0];
         if(seg){ regra.hidden=false; regra.innerHTML="<strong>Como escolhemos:</strong> "+esc(seg.regra)+" Os "+semPreco+" lugares sem faixa de preço no Google ficam fora do custo-benefício." }
-        else if(p){ regra.hidden=false; regra.innerHTML="<strong>"+esc(p.nome)+" ainda não está disponível.</strong> "+esc(p.dado)+" Falta coletar esse dado de cada restaurante; os cartões abaixo seguem sem esse filtro." }
+        else if(p){ regra.hidden=false; regra.innerHTML="<strong>"+esc(p.nome)+" ainda não está disponível.</strong> "+esc(p.dado)+" Falta coletar esse dado de cada restaurante." }
         else { regra.hidden=true; regra.innerHTML="" }
       }
       q.addEventListener("input",desenha);
