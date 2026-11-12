@@ -13,7 +13,21 @@
     "categoria": "Fondue",
     "subcategoria": "Fondue",
     "nome_google": "Restaurante Casa Suíça \"A Casa do Fondue\"",
-    "foto": "restaurantes_fotos/casa-suica.jpg"
+    "foto": "restaurantes_fotos/casa-suica.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "musica_ao_vivo": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": true,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Krokodillo",
@@ -30,7 +44,23 @@
     "categoria": "Fondue",
     "subcategoria": "Fondue",
     "nome_google": "Restaurante Krokodillo I",
-    "foto": "restaurantes_fotos/krokodillo.jpg"
+    "foto": "restaurantes_fotos/krokodillo.jpg",
+    "atributos": {
+      "aceita_pet": false,
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "cafe_da_manha": false,
+      "brunch": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Bam Bam Café",
@@ -45,7 +75,20 @@
     ],
     "categoria": "Fondue",
     "subcategoria": "Fondue",
-    "foto": "restaurantes_fotos/bam-bam-cafe.jpg"
+    "foto": "restaurantes_fotos/bam-bam-cafe.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "cafe_da_manha": true,
+      "almoco": true,
+      "jantar": true,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Rostie",
@@ -61,7 +104,22 @@
     "categoria": "Fondue",
     "subcategoria": "Fondue",
     "nome_google": "Rostie Restaurante Fondue e Pizzaria",
-    "foto": "restaurantes_fotos/rostie.jpg"
+    "foto": "restaurantes_fotos/rostie.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "cafe_da_manha": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Nonna Mimi",
@@ -77,7 +135,23 @@
     "categoria": "Fondue",
     "subcategoria": "Fondue",
     "nome_google": "Cantina Italiana di Nonna Mimi",
-    "foto": "restaurantes_fotos/nonna-mimi.jpg"
+    "foto": "restaurantes_fotos/nonna-mimi.jpg",
+    "atributos": {
+      "aceita_pet": false,
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": false,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "brunch": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "La Gália",
@@ -93,7 +167,23 @@
     "categoria": "Fondue",
     "subcategoria": "Fondue",
     "nome_google": "Restaurante La Gália",
-    "foto": "restaurantes_fotos/la-galia.jpg"
+    "foto": "restaurantes_fotos/la-galia.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "cafe_da_manha": false,
+      "brunch": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Avestruz",
@@ -110,7 +200,22 @@
     "categoria": "Fondue",
     "subcategoria": "Fondue",
     "nome_google": "Restaurante Avestruz",
-    "foto": "restaurantes_fotos/avestruz.jpg"
+    "foto": "restaurantes_fotos/avestruz.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Cantinho Suiço",
@@ -125,7 +230,21 @@
     ],
     "categoria": "Fondue",
     "subcategoria": "Fondue",
-    "foto": "restaurantes_fotos/cantinho-suico.jpg"
+    "foto": "restaurantes_fotos/cantinho-suico.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": true,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Matterhorn",
@@ -142,7 +261,22 @@
     "categoria": "Fondue",
     "subcategoria": "Fondue",
     "nome_google": "Matterhorn - Empório e Restaurante",
-    "foto": "restaurantes_fotos/matterhorn.jpg"
+    "foto": "restaurantes_fotos/matterhorn.jpg",
+    "atributos": {
+      "aceita_pet": false,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": false,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "cafe_da_manha": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Mercearia Campos",
@@ -158,7 +292,15 @@
     ],
     "categoria": "Fondue",
     "subcategoria": "Fondue",
-    "foto": "restaurantes_fotos/mercearia-campos.jpg"
+    "foto": "restaurantes_fotos/mercearia-campos.jpg",
+    "atributos": {
+      "aceita_pet": false,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "musica_ao_vivo": true,
+      "vegetariano": false
+    }
   },
   {
     "nome": "Café Terraço",
@@ -175,7 +317,24 @@
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
     "nome_google": "Café Terraço Pizzaria Artesanal e Bistrô",
-    "foto": "restaurantes_fotos/cafe-terraco.jpg"
+    "foto": "restaurantes_fotos/cafe-terraco.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": false,
+      "brunch": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": true,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Arte da Pizza",
@@ -192,7 +351,20 @@
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
     "nome_google": "Arte da Pizza - Grande Hotel Campos do Jordão",
-    "foto": "restaurantes_fotos/arte-da-pizza.jpg"
+    "foto": "restaurantes_fotos/arte-da-pizza.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": false,
+      "aceita_reserva": true,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": false,
+      "jantar": true,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Nonno Degga Pizzaria",
@@ -208,7 +380,19 @@
     ],
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
-    "foto": "restaurantes_fotos/nonno-degga-pizzaria.jpg"
+    "foto": "restaurantes_fotos/nonno-degga-pizzaria.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "cafe_da_manha": false,
+      "jantar": true,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Levare Pizzaria",
@@ -225,7 +409,24 @@
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
     "nome_google": "Di Marcelo Cecconi | Levare Pizzaria em Campos do Jordão",
-    "foto": "restaurantes_fotos/levare-pizzaria.jpg"
+    "foto": "restaurantes_fotos/levare-pizzaria.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": false,
+      "menu_infantil": false,
+      "bom_para_grupos": true,
+      "ao_ar_livre": false,
+      "aceita_reserva": true,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": false,
+      "brunch": false,
+      "almoco": false,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Sabor de Campos",
@@ -241,7 +442,23 @@
     ],
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
-    "foto": "restaurantes_fotos/sabor-de-campos.jpg"
+    "foto": "restaurantes_fotos/sabor-de-campos.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": false,
+      "aceita_reserva": true,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": false,
+      "brunch": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "La Fortezza",
@@ -258,7 +475,21 @@
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
     "nome_google": "La Fortezza Restaurante e Pizzaria",
-    "foto": "restaurantes_fotos/la-fortezza.jpg"
+    "foto": "restaurantes_fotos/la-fortezza.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": false,
+      "aceita_reserva": true,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": false,
+      "brunch": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Maná",
@@ -274,7 +505,20 @@
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
     "nome_google": "Maná Restaurante e Pizzaria - Campos do Jordão",
-    "foto": "restaurantes_fotos/mana.jpg"
+    "foto": "restaurantes_fotos/mana.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Artesão",
@@ -291,7 +535,21 @@
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
     "nome_google": "Artesão Restaurante e Pizzaria",
-    "foto": "restaurantes_fotos/artesao.jpg"
+    "foto": "restaurantes_fotos/artesao.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "bom_para_grupos": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": false,
+      "brunch": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "La Pizza",
@@ -308,7 +566,20 @@
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
     "nome_google": "la pizza",
-    "foto": "restaurantes_fotos/la-pizza.jpg"
+    "foto": "restaurantes_fotos/la-pizza.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "menu_infantil": false,
+      "bom_para_grupos": true,
+      "ao_ar_livre": false,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": false,
+      "brunch": false,
+      "almoco": false,
+      "vegetariano": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "TI.co Gastronomia Descomplicada",
@@ -324,7 +595,20 @@
     ],
     "categoria": "Pizzaria",
     "subcategoria": "Pizzaria",
-    "foto": "restaurantes_fotos/ti-co-gastronomia-descomplicada.jpg"
+    "foto": "restaurantes_fotos/ti-co-gastronomia-descomplicada.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": false,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Libertango Parrilla Argentina",
@@ -341,7 +625,24 @@
     "categoria": "Carnes",
     "subcategoria": "Carnes",
     "nome_google": "Restaurante Libertango Parrilla Argentina | Campos do Jordão",
-    "foto": "restaurantes_fotos/libertango-parrilla-argentina.jpg"
+    "foto": "restaurantes_fotos/libertango-parrilla-argentina.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": false,
+      "brunch": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Kanguru's Boliche",
@@ -357,7 +658,24 @@
     ],
     "categoria": "Carnes",
     "subcategoria": "Carnes",
-    "foto": "restaurantes_fotos/kanguru-s-boliche.jpg"
+    "foto": "restaurantes_fotos/kanguru-s-boliche.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "cafe_da_manha": false,
+      "brunch": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": true,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Cacerola",
@@ -374,7 +692,24 @@
     "categoria": "Carnes",
     "subcategoria": "Carnes",
     "nome_google": "Restaurante Cacerola | Carnes Nobres e Cortes Argentinos | Massas Artesanais | Parmegiana | Campos do Jordão",
-    "foto": "restaurantes_fotos/cacerola.jpg"
+    "foto": "restaurantes_fotos/cacerola.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": false,
+      "aceita_reserva": true,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": true,
+      "brunch": false,
+      "almoco": true,
+      "jantar": false,
+      "vegetariano": true,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Bonanza Grill",
@@ -391,7 +726,23 @@
     "categoria": "Carnes",
     "subcategoria": "Carnes",
     "nome_google": "Restaurante Bonanza Grill",
-    "foto": "restaurantes_fotos/bonanza-grill.jpg"
+    "foto": "restaurantes_fotos/bonanza-grill.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "cafe_da_manha": false,
+      "brunch": false,
+      "almoco": true,
+      "jantar": false,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Cantinho da Serra Grill",
@@ -407,7 +758,21 @@
     ],
     "categoria": "Carnes",
     "subcategoria": "Carnes",
-    "foto": "restaurantes_fotos/cantinho-da-serra-grill.jpg"
+    "foto": "restaurantes_fotos/cantinho-da-serra-grill.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": true,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Na Brasa",
@@ -424,7 +789,18 @@
     "categoria": "Carnes",
     "subcategoria": "Carnes",
     "nome_google": "Na Brasa Restaurante e Choperia",
-    "foto": "restaurantes_fotos/na-brasa.jpg"
+    "foto": "restaurantes_fotos/na-brasa.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "aceita_reserva": true,
+      "almoco": true,
+      "jantar": true,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Krokodillo III",
@@ -441,7 +817,22 @@
     "categoria": "Carnes",
     "subcategoria": "Carnes",
     "nome_google": "Restaurante Krokodillo III",
-    "foto": "restaurantes_fotos/krokodillo-iii.jpg"
+    "foto": "restaurantes_fotos/krokodillo-iii.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": false,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "cafe_da_manha": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Jardim Plátanos",
@@ -458,7 +849,22 @@
     "categoria": "Carnes",
     "subcategoria": "Carnes",
     "nome_google": "Jardim Plátanos | Gastronomia | Fondue | Restaurante | Campos do Jordão",
-    "foto": "restaurantes_fotos/jardim-platanos.jpg"
+    "foto": "restaurantes_fotos/jardim-platanos.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": false,
+      "cerveja": true
+    }
   },
   {
     "nome": "Churrasco ao Vivo",
@@ -473,7 +879,23 @@
     ],
     "categoria": "Carnes",
     "subcategoria": "Carnes",
-    "foto": "restaurantes_fotos/churrasco-ao-vivo.jpg"
+    "foto": "restaurantes_fotos/churrasco-ao-vivo.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "cafe_da_manha": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Chico Rei",
@@ -490,7 +912,21 @@
     "categoria": "Carnes",
     "subcategoria": "Carnes",
     "nome_google": "Chico Rei - Gastronomia e Bar",
-    "foto": "restaurantes_fotos/chico-rei.jpg"
+    "foto": "restaurantes_fotos/chico-rei.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Caras de Malte",
@@ -506,7 +942,23 @@
     ],
     "categoria": "Cervejaria",
     "subcategoria": "Cervejaria",
-    "foto": "restaurantes_fotos/caras-de-malte.jpg"
+    "foto": "restaurantes_fotos/caras-de-malte.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "cafe_da_manha": false,
+      "brunch": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Choperia Baden Baden",
@@ -522,7 +974,21 @@
     ],
     "categoria": "Cervejaria",
     "subcategoria": "Cervejaria",
-    "foto": "restaurantes_fotos/choperia-baden-baden.jpg"
+    "foto": "restaurantes_fotos/choperia-baden-baden.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": false,
+      "cafe_da_manha": false,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Vemaguet 67",
@@ -539,7 +1005,16 @@
     "categoria": "Cervejaria",
     "subcategoria": "Cervejaria",
     "nome_google": "Vemaguet 67 Microcervejaria e Choperia",
-    "foto": "restaurantes_fotos/vemaguet-67.jpg"
+    "foto": "restaurantes_fotos/vemaguet-67.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "menu_infantil": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Iceland Aventura",
@@ -556,7 +1031,16 @@
     "categoria": "Cervejaria",
     "subcategoria": "Cervejaria",
     "nome_google": "Iceland Aventura - Bar de Gelo",
-    "foto": "restaurantes_fotos/iceland-aventura.jpg"
+    "foto": "restaurantes_fotos/iceland-aventura.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": false,
+      "musica_ao_vivo": false,
+      "vinho": false,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Cervejaria Baden Baden",
@@ -571,7 +1055,10 @@
     ],
     "categoria": "Cervejaria",
     "subcategoria": "Cervejaria",
-    "foto": "restaurantes_fotos/cervejaria-baden-baden.jpg"
+    "foto": "restaurantes_fotos/cervejaria-baden-baden.jpg",
+    "atributos": {
+      "cerveja": true
+    }
   },
   {
     "nome": "Choperia Don Juan",
@@ -587,7 +1074,19 @@
     ],
     "categoria": "Cervejaria",
     "subcategoria": "Cervejaria",
-    "foto": "restaurantes_fotos/choperia-don-juan.jpg"
+    "foto": "restaurantes_fotos/choperia-don-juan.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "bom_para_grupos": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "almoco": true,
+      "jantar": true,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Boteco Itapeva",
@@ -603,7 +1102,21 @@
     ],
     "categoria": "Cervejaria",
     "subcategoria": "Cervejaria",
-    "foto": "restaurantes_fotos/boteco-itapeva.jpg"
+    "foto": "restaurantes_fotos/boteco-itapeva.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Esquina do Djalma",
@@ -618,7 +1131,17 @@
     ],
     "categoria": "Cervejaria",
     "subcategoria": "Cervejaria",
-    "foto": "restaurantes_fotos/esquina-do-djalma.jpg"
+    "foto": "restaurantes_fotos/esquina-do-djalma.jpg",
+    "atributos": {
+      "bom_para_criancas": false,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": true,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Luss Cervejaria & Restaurante",
@@ -634,7 +1157,10 @@
     "categoria": "Cervejaria",
     "subcategoria": "Cervejaria",
     "nome_google": "Luss Cervejaria & Restaurante - Campos do Jordão",
-    "foto": "restaurantes_fotos/luss-cervejaria-restaurante.jpg"
+    "foto": "restaurantes_fotos/luss-cervejaria-restaurante.jpg",
+    "atributos": {
+      "cerveja": true
+    }
   },
   {
     "nome": "Gård Cervejaria",
@@ -649,7 +1175,10 @@
     ],
     "categoria": "Cervejaria",
     "subcategoria": "Cervejaria",
-    "foto": "restaurantes_fotos/gard-cervejaria.jpg"
+    "foto": "restaurantes_fotos/gard-cervejaria.jpg",
+    "atributos": {
+      "cerveja": true
+    }
   },
   {
     "nome": "Sans Souci",
@@ -666,7 +1195,18 @@
     "categoria": "Cafés",
     "subcategoria": "Cafés",
     "nome_google": "Sans Souci Café e Confeitaria",
-    "foto": "restaurantes_fotos/sans-souci.jpg"
+    "foto": "restaurantes_fotos/sans-souci.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "cafe_da_manha": true,
+      "brunch": true,
+      "almoco": true,
+      "jantar": true,
+      "vinho": true,
+      "coquetel": true
+    }
   },
   {
     "nome": "Café No Bosque",
@@ -683,7 +1223,22 @@
     "categoria": "Cafés",
     "subcategoria": "Cafés",
     "nome_google": "Café No Bosque ®",
-    "foto": "restaurantes_fotos/cafe-no-bosque.jpg"
+    "foto": "restaurantes_fotos/cafe-no-bosque.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": true,
+      "brunch": true,
+      "almoco": true,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Dona Belandira Confeitaria & Café",
@@ -700,7 +1255,23 @@
     "categoria": "Cafés",
     "subcategoria": "Cafés",
     "nome_google": "Dona Belandira Confeitaria & Café em Campos do Jordão",
-    "foto": "restaurantes_fotos/dona-belandira-confeitaria-cafe.jpg"
+    "foto": "restaurantes_fotos/dona-belandira-confeitaria-cafe.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": true,
+      "brunch": true,
+      "almoco": false,
+      "jantar": false,
+      "vegetariano": false,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Pepita Café",
@@ -717,7 +1288,20 @@
     "categoria": "Cafés",
     "subcategoria": "Cafés",
     "nome_google": "Pepita Café em Campos do Jordão",
-    "foto": "restaurantes_fotos/pepita-cafe.jpg"
+    "foto": "restaurantes_fotos/pepita-cafe.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": true,
+      "brunch": true,
+      "vegetariano": true,
+      "vinho": false,
+      "coquetel": false,
+      "cerveja": false
+    }
   },
   {
     "nome": "Struderia Café",
@@ -734,7 +1318,23 @@
     "categoria": "Cafés",
     "subcategoria": "Cafés",
     "nome_google": "Struderia Café da Elaine Coffee Roasters",
-    "foto": "restaurantes_fotos/struderia-cafe.jpg"
+    "foto": "restaurantes_fotos/struderia-cafe.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "ao_ar_livre": false,
+      "aceita_reserva": false,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": true,
+      "brunch": true,
+      "almoco": false,
+      "jantar": false,
+      "vegetariano": false,
+      "vinho": false,
+      "coquetel": false,
+      "cerveja": false
+    }
   },
   {
     "nome": "Myriam Café",
@@ -751,7 +1351,24 @@
     "categoria": "Cafés",
     "subcategoria": "Cafés",
     "nome_google": "Myriam Café em Campos do Jordão",
-    "foto": "restaurantes_fotos/myriam-cafe.jpg"
+    "foto": "restaurantes_fotos/myriam-cafe.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "menu_infantil": false,
+      "bom_para_grupos": true,
+      "ao_ar_livre": true,
+      "aceita_reserva": true,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": true,
+      "brunch": true,
+      "almoco": true,
+      "jantar": true,
+      "vegetariano": true,
+      "vinho": true,
+      "coquetel": false,
+      "cerveja": true
+    }
   },
   {
     "nome": "Um Pé de Café",
@@ -768,7 +1385,14 @@
     "categoria": "Cafés",
     "subcategoria": "Cafés",
     "nome_google": "Um Pé de Café em Campos do Jordão",
-    "foto": "restaurantes_fotos/um-pe-de-cafe.jpg"
+    "foto": "restaurantes_fotos/um-pe-de-cafe.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "bom_para_grupos": true,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": true
+    }
   },
   {
     "nome": "Empório Recanto de Minas",
@@ -785,7 +1409,19 @@
     "categoria": "Cafés",
     "subcategoria": "Cafés",
     "nome_google": "Empório Recanto de Minas – Cafeteria em Campos do Jordão",
-    "foto": "restaurantes_fotos/emporio-recanto-de-minas.jpg"
+    "foto": "restaurantes_fotos/emporio-recanto-de-minas.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "bom_para_grupos": true,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": true,
+      "brunch": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Café Da Ane",
@@ -801,7 +1437,23 @@
     ],
     "categoria": "Cafés",
     "subcategoria": "Cafés",
-    "foto": "restaurantes_fotos/cafe-da-ane.jpg"
+    "foto": "restaurantes_fotos/cafe-da-ane.jpg",
+    "atributos": {
+      "aceita_pet": false,
+      "bom_para_criancas": true,
+      "bom_para_grupos": true,
+      "ao_ar_livre": false,
+      "aceita_reserva": false,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": true,
+      "brunch": true,
+      "almoco": false,
+      "jantar": false,
+      "vegetariano": true,
+      "vinho": false,
+      "coquetel": false,
+      "cerveja": false
+    }
   },
   {
     "nome": "Café Ferraz",
@@ -818,7 +1470,21 @@
     "categoria": "Cafés",
     "subcategoria": "Cafés",
     "nome_google": "Restaurante e café Ferraz",
-    "foto": "restaurantes_fotos/cafe-ferraz.jpg"
+    "foto": "restaurantes_fotos/cafe-ferraz.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "menu_infantil": true,
+      "bom_para_grupos": true,
+      "musica_ao_vivo": false,
+      "cafe_da_manha": true,
+      "brunch": true,
+      "almoco": true,
+      "vegetariano": false,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   },
   {
     "nome": "Cantinho do Fauno",
@@ -833,6 +1499,17 @@
     ],
     "categoria": "Cervejaria",
     "subcategoria": "Cervejaria",
-    "foto": "restaurantes_fotos/cantinho-do-fauno.jpg"
+    "foto": "restaurantes_fotos/cantinho-do-fauno.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "menu_infantil": false,
+      "bom_para_grupos": true,
+      "aceita_reserva": false,
+      "vegetariano": true,
+      "vinho": true,
+      "coquetel": true,
+      "cerveja": true
+    }
   }
 ]

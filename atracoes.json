@@ -11,7 +11,14 @@
       "natureza"
     ],
     "categoria": "Natureza",
-    "foto": "atracoes_fotos/parque-amantikir.jpg"
+    "foto": "atracoes_fotos/parque-amantikir.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Morro do Elefante",
@@ -25,7 +32,10 @@
       "natureza"
     ],
     "categoria": "Natureza",
-    "foto": "atracoes_fotos/morro-do-elefante.jpg"
+    "foto": "atracoes_fotos/morro-do-elefante.jpg",
+    "atributos": {
+      "acessivel": true
+    }
   },
   {
     "nome": "Parque Estadual Campos do Jordão (Horto Florestal)",
@@ -39,7 +49,11 @@
       "natureza"
     ],
     "categoria": "Natureza",
-    "foto": "atracoes_fotos/parque-estadual-campos-do-jordao-horto-florestal.jpg"
+    "foto": "atracoes_fotos/parque-estadual-campos-do-jordao-horto-florestal.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Bosque do Silêncio",
@@ -53,7 +67,12 @@
       "natureza"
     ],
     "categoria": "Natureza",
-    "foto": "atracoes_fotos/bosque-do-silencio.jpg"
+    "foto": "atracoes_fotos/bosque-do-silencio.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Mirante Lajeado",
@@ -67,7 +86,10 @@
       "natureza"
     ],
     "categoria": "Natureza",
-    "foto": "atracoes_fotos/mirante-lajeado.jpg"
+    "foto": "atracoes_fotos/mirante-lajeado.jpg",
+    "atributos": {
+      "bom_para_criancas": true
+    }
   },
   {
     "nome": "Parque da Cerejeira de Campos do Jordão",
@@ -81,7 +103,13 @@
       "natureza"
     ],
     "categoria": "Natureza",
-    "foto": "atracoes_fotos/parque-da-cerejeira-de-campos-do-jordao.jpg"
+    "foto": "atracoes_fotos/parque-da-cerejeira-de-campos-do-jordao.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Parque Tarundu",
@@ -95,7 +123,13 @@
       "natureza"
     ],
     "categoria": "Natureza",
-    "foto": "atracoes_fotos/parque-tarundu.jpg"
+    "foto": "atracoes_fotos/parque-tarundu.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Parque da Floresta Encantada",
@@ -109,7 +143,11 @@
       "natureza"
     ],
     "categoria": "Natureza",
-    "foto": "atracoes_fotos/parque-da-floresta-encantada.jpg"
+    "foto": "atracoes_fotos/parque-da-floresta-encantada.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Parque da Lagoinha",
@@ -123,7 +161,12 @@
       "natureza"
     ],
     "categoria": "Natureza",
-    "foto": "atracoes_fotos/parque-da-lagoinha.jpg"
+    "foto": "atracoes_fotos/parque-da-lagoinha.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Fazendinha Toriba",
@@ -137,7 +180,11 @@
       "natureza"
     ],
     "categoria": "Natureza",
-    "foto": "atracoes_fotos/fazendinha-toriba.jpg"
+    "foto": "atracoes_fotos/fazendinha-toriba.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true
+    }
   },
   {
     "nome": "Parque Capivari",
@@ -151,7 +198,14 @@
       "passeios"
     ],
     "categoria": "Passeios Clássicos",
-    "foto": "atracoes_fotos/parque-capivari.jpg"
+    "foto": "atracoes_fotos/parque-capivari.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Ducha de Prata",
@@ -165,7 +219,11 @@
       "passeios"
     ],
     "categoria": "Passeios Clássicos",
-    "foto": "atracoes_fotos/ducha-de-prata.jpg"
+    "foto": "atracoes_fotos/ducha-de-prata.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true
+    }
   },
   {
     "nome": "Portal de Campos do Jordão",
@@ -179,7 +237,12 @@
       "passeios"
     ],
     "categoria": "Passeios Clássicos",
-    "foto": "atracoes_fotos/portal-de-campos-do-jordao.jpg"
+    "foto": "atracoes_fotos/portal-de-campos-do-jordao.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Palácio Boa Vista",
@@ -193,7 +256,13 @@
       "passeios"
     ],
     "categoria": "Passeios Clássicos",
-    "foto": "atracoes_fotos/palacio-boa-vista.jpg"
+    "foto": "atracoes_fotos/palacio-boa-vista.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Praça do Capivari",
@@ -208,7 +277,12 @@
     ],
     "categoria": "Passeios Clássicos",
     "nome_google": "Praça do Capivari - Campos do Jordão",
-    "foto": "atracoes_fotos/praca-do-capivari.jpg"
+    "foto": "atracoes_fotos/praca-do-capivari.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Ponte dos Guarda-Chuvas",
@@ -222,7 +296,12 @@
       "passeios"
     ],
     "categoria": "Passeios Clássicos",
-    "foto": "atracoes_fotos/ponte-dos-guarda-chuvas.jpg"
+    "foto": "atracoes_fotos/ponte-dos-guarda-chuvas.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Cachoeira Véu da Noiva",
@@ -236,7 +315,11 @@
       "passeios"
     ],
     "categoria": "Passeios Clássicos",
-    "foto": "atracoes_fotos/cachoeira-veu-da-noiva.jpg"
+    "foto": "atracoes_fotos/cachoeira-veu-da-noiva.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true
+    }
   },
   {
     "nome": "Vila Capivari",
@@ -251,7 +334,12 @@
     ],
     "categoria": "Passeios Clássicos",
     "nome_google": "Vila capivari",
-    "foto": "atracoes_fotos/vila-capivari.jpg"
+    "foto": "atracoes_fotos/vila-capivari.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Mercado Municipal de Campos do Jordão",
@@ -265,7 +353,11 @@
       "passeios"
     ],
     "categoria": "Passeios Clássicos",
-    "foto": "atracoes_fotos/mercado-municipal-de-campos-do-jordao.jpg"
+    "foto": "atracoes_fotos/mercado-municipal-de-campos-do-jordao.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Teleférico do Morro do Elefante",
@@ -280,7 +372,11 @@
     ],
     "categoria": "Passeios Clássicos",
     "nome_google": "Teleférico do Morro do Elefante - WebCampos",
-    "foto": "atracoes_fotos/teleferico-do-morro-do-elefante.jpg"
+    "foto": "atracoes_fotos/teleferico-do-morro-do-elefante.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Museu Felícia Leirner",
@@ -294,7 +390,13 @@
       "cultura"
     ],
     "categoria": "Cultura",
-    "foto": "atracoes_fotos/museu-felicia-leirner.jpg"
+    "foto": "atracoes_fotos/museu-felicia-leirner.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Museu Casa da Xilogravura",
@@ -308,7 +410,12 @@
       "cultura"
     ],
     "categoria": "Cultura",
-    "foto": "atracoes_fotos/museu-casa-da-xilogravura.jpg"
+    "foto": "atracoes_fotos/museu-casa-da-xilogravura.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "CARDE",
@@ -323,7 +430,13 @@
     ],
     "categoria": "Cultura",
     "nome_google": "CARDE | Arte Design Museu",
-    "foto": "atracoes_fotos/carde.jpg"
+    "foto": "atracoes_fotos/carde.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Auditório Claudio Santoro",
@@ -337,7 +450,12 @@
       "cultura"
     ],
     "categoria": "Cultura",
-    "foto": "atracoes_fotos/auditorio-claudio-santoro.jpg"
+    "foto": "atracoes_fotos/auditorio-claudio-santoro.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Museu Medieval Campos",
@@ -351,7 +469,13 @@
       "cultura"
     ],
     "categoria": "Cultura",
-    "foto": "atracoes_fotos/museu-medieval-campos.jpg"
+    "foto": "atracoes_fotos/museu-medieval-campos.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Parque dos Elefantes",
@@ -365,7 +489,12 @@
       "cultura"
     ],
     "categoria": "Cultura",
-    "foto": "atracoes_fotos/parque-dos-elefantes.jpg"
+    "foto": "atracoes_fotos/parque-dos-elefantes.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Dreams House",
@@ -380,7 +509,13 @@
     ],
     "categoria": "Cultura",
     "nome_google": "Dreams House | Campos do Jordão",
-    "foto": "atracoes_fotos/dreams-house.jpg"
+    "foto": "atracoes_fotos/dreams-house.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Mirante Lageado 2",
@@ -394,7 +529,11 @@
       "mirantes"
     ],
     "categoria": "Mirantes",
-    "foto": "atracoes_fotos/mirante-lageado-2.jpg"
+    "foto": "atracoes_fotos/mirante-lageado-2.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": false
+    }
   },
   {
     "nome": "Fundação Lia Maria Aguiar",
@@ -408,7 +547,10 @@
       "cultura"
     ],
     "categoria": "Cultura",
-    "foto": "atracoes_fotos/fundacao-lia-maria-aguiar.jpg"
+    "foto": "atracoes_fotos/fundacao-lia-maria-aguiar.jpg",
+    "atributos": {
+      "acessivel": true
+    }
   },
   {
     "nome": "Praça das Artes",
@@ -422,7 +564,11 @@
       "cultura"
     ],
     "categoria": "Cultura",
-    "foto": "atracoes_fotos/praca-das-artes.jpg"
+    "foto": "atracoes_fotos/praca-das-artes.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Galeria Villa Capivari",
@@ -436,7 +582,11 @@
       "compras"
     ],
     "categoria": "Compras",
-    "foto": "atracoes_fotos/galeria-villa-capivari.jpg"
+    "foto": "atracoes_fotos/galeria-villa-capivari.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Boulevard Geneve",
@@ -450,7 +600,11 @@
       "compras"
     ],
     "categoria": "Compras",
-    "foto": "atracoes_fotos/boulevard-geneve.jpg"
+    "foto": "atracoes_fotos/boulevard-geneve.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Guido Couros",
@@ -464,7 +618,11 @@
       "compras"
     ],
     "categoria": "Compras",
-    "foto": "atracoes_fotos/guido-couros.jpg"
+    "foto": "atracoes_fotos/guido-couros.jpg",
+    "atributos": {
+      "acessivel": true,
+      "estacionamento": false
+    }
   },
   {
     "nome": "Center Suíço",
@@ -479,7 +637,11 @@
     ],
     "categoria": "Compras",
     "nome_google": "Center Suíço - Flats & Shopping",
-    "foto": "atracoes_fotos/center-suico.jpg"
+    "foto": "atracoes_fotos/center-suico.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Shopping Center Capivari",
@@ -493,7 +655,11 @@
       "compras"
     ],
     "categoria": "Compras",
-    "foto": "atracoes_fotos/shopping-center-capivari.jpg"
+    "foto": "atracoes_fotos/shopping-center-capivari.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Pernambucanas",
@@ -507,7 +673,11 @@
       "compras"
     ],
     "categoria": "Compras",
-    "foto": "atracoes_fotos/pernambucanas.jpg"
+    "foto": "atracoes_fotos/pernambucanas.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Malharia Jordão Tricot",
@@ -521,7 +691,11 @@
       "compras"
     ],
     "categoria": "Compras",
-    "foto": "atracoes_fotos/malharia-jordao-tricot.jpg"
+    "foto": "atracoes_fotos/malharia-jordao-tricot.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Shopping Cadij Plaza",
@@ -535,7 +709,11 @@
       "compras"
     ],
     "categoria": "Compras",
-    "foto": "atracoes_fotos/shopping-cadij-plaza.jpg"
+    "foto": "atracoes_fotos/shopping-cadij-plaza.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Galeria Suíça",
@@ -549,7 +727,10 @@
       "compras"
     ],
     "categoria": "Compras",
-    "foto": "atracoes_fotos/galeria-suica.jpg"
+    "foto": "atracoes_fotos/galeria-suica.jpg",
+    "atributos": {
+      "acessivel": true
+    }
   },
   {
     "nome": "Santa Cruz Center",
@@ -563,7 +744,11 @@
       "compras"
     ],
     "categoria": "Compras",
-    "foto": "atracoes_fotos/santa-cruz-center.jpg"
+    "foto": "atracoes_fotos/santa-cruz-center.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Campos do Jordão Quadriciclos (Capivari)",
@@ -577,7 +762,12 @@
       "aventura"
     ],
     "categoria": "Aventura",
-    "foto": "atracoes_fotos/campos-do-jordao-quadriciclos-capivari.jpg"
+    "foto": "atracoes_fotos/campos-do-jordao-quadriciclos-capivari.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Campos do Jordão Quadriciclos (Recanto Feliz)",
@@ -591,7 +781,12 @@
       "aventura"
     ],
     "categoria": "Aventura",
-    "foto": "atracoes_fotos/campos-do-jordao-quadriciclos-recanto-feliz.jpg"
+    "foto": "atracoes_fotos/campos-do-jordao-quadriciclos-recanto-feliz.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "acessivel": false,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Zoom Bike Park",
@@ -605,7 +800,11 @@
       "aventura"
     ],
     "categoria": "Aventura",
-    "foto": "atracoes_fotos/zoom-bike-park.jpg"
+    "foto": "atracoes_fotos/zoom-bike-park.jpg",
+    "atributos": {
+      "banheiro": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Pico do Imbiri",
@@ -619,7 +818,10 @@
       "aventura"
     ],
     "categoria": "Aventura",
-    "foto": "atracoes_fotos/pico-do-imbiri.jpg"
+    "foto": "atracoes_fotos/pico-do-imbiri.jpg",
+    "atributos": {
+      "acessivel": false
+    }
   },
   {
     "nome": "Parque Estadual Campos do Jordão",
@@ -633,7 +835,10 @@
       "aventura"
     ],
     "categoria": "Aventura",
-    "foto": "atracoes_fotos/parque-estadual-campos-do-jordao.jpg"
+    "foto": "atracoes_fotos/parque-estadual-campos-do-jordao.jpg",
+    "atributos": {
+      "bom_para_criancas": true
+    }
   },
   {
     "nome": "Parque Bambuí",
@@ -647,7 +852,13 @@
       "aventura"
     ],
     "categoria": "Aventura",
-    "foto": "atracoes_fotos/parque-bambui.jpg"
+    "foto": "atracoes_fotos/parque-bambui.jpg",
+    "atributos": {
+      "aceita_pet": true,
+      "bom_para_criancas": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Aventura no Rancho",
@@ -661,7 +872,10 @@
       "aventura"
     ],
     "categoria": "Aventura",
-    "foto": "atracoes_fotos/aventura-no-rancho.jpg"
+    "foto": "atracoes_fotos/aventura-no-rancho.jpg",
+    "atributos": {
+      "estacionamento": true
+    }
   },
   {
     "nome": "Prana Park",
@@ -675,7 +889,13 @@
       "aventura"
     ],
     "categoria": "Aventura",
-    "foto": "atracoes_fotos/prana-park.jpg"
+    "foto": "atracoes_fotos/prana-park.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Trenó de Montanha",
@@ -690,7 +910,12 @@
     ],
     "categoria": "Aventura",
     "nome_google": "Trenó de Montanha - Campos do Jordão",
-    "foto": "atracoes_fotos/treno-de-montanha.jpg"
+    "foto": "atracoes_fotos/treno-de-montanha.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Mirante Mantiqueira",
@@ -704,7 +929,12 @@
       "aventura"
     ],
     "categoria": "Aventura",
-    "foto": "atracoes_fotos/mirante-mantiqueira.jpg"
+    "foto": "atracoes_fotos/mirante-mantiqueira.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Mirante Belvedere",
@@ -718,7 +948,12 @@
       "mirantes"
     ],
     "categoria": "Mirantes",
-    "foto": "atracoes_fotos/mirante-belvedere.jpg"
+    "foto": "atracoes_fotos/mirante-belvedere.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "banheiro": false,
+      "acessivel": true
+    }
   },
   {
     "nome": "Mirante Home Green",
@@ -732,7 +967,10 @@
       "mirantes"
     ],
     "categoria": "Mirantes",
-    "foto": "atracoes_fotos/mirante-home-green.jpg"
+    "foto": "atracoes_fotos/mirante-home-green.jpg",
+    "atributos": {
+      "bom_para_criancas": true
+    }
   },
   {
     "nome": "Mirante - Parque Amantikir",
@@ -746,7 +984,11 @@
       "mirantes"
     ],
     "categoria": "Mirantes",
-    "foto": "atracoes_fotos/mirante-parque-amantikir.jpg"
+    "foto": "atracoes_fotos/mirante-parque-amantikir.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Trenzinho da Montanha",
@@ -760,7 +1002,10 @@
       "mirantes"
     ],
     "categoria": "Mirantes",
-    "foto": "atracoes_fotos/trenzinho-da-montanha.jpg"
+    "foto": "atracoes_fotos/trenzinho-da-montanha.jpg",
+    "atributos": {
+      "bom_para_criancas": true
+    }
   },
   {
     "nome": "Mirante Pau Arcado",
@@ -774,7 +1019,11 @@
       "mirantes"
     ],
     "categoria": "Mirantes",
-    "foto": "atracoes_fotos/mirante-pau-arcado.jpg"
+    "foto": "atracoes_fotos/mirante-pau-arcado.jpg",
+    "atributos": {
+      "bom_para_criancas": true,
+      "acessivel": false
+    }
   },
   {
     "nome": "Mirante Alto do Capivari",
@@ -788,7 +1037,8 @@
       "mirantes"
     ],
     "categoria": "Mirantes",
-    "foto": "atracoes_fotos/mirante-alto-do-capivari.jpg"
+    "foto": "atracoes_fotos/mirante-alto-do-capivari.jpg",
+    "atributos": {}
   },
   {
     "nome": "Mirante de Vidro AME Campos",
@@ -802,7 +1052,10 @@
       "mirantes"
     ],
     "categoria": "Mirantes",
-    "foto": "atracoes_fotos/mirante-de-vidro-ame-campos.jpg"
+    "foto": "atracoes_fotos/mirante-de-vidro-ame-campos.jpg",
+    "atributos": {
+      "bom_para_criancas": true
+    }
   },
   {
     "nome": "Circuito Turístico Alto Lajeado",
@@ -816,7 +1069,10 @@
       "mirantes"
     ],
     "categoria": "Mirantes",
-    "foto": "atracoes_fotos/circuito-turistico-alto-lajeado.jpg"
+    "foto": "atracoes_fotos/circuito-turistico-alto-lajeado.jpg",
+    "atributos": {
+      "bom_para_criancas": true
+    }
   },
   {
     "nome": "Mercadinho Piratininga",
@@ -831,7 +1087,12 @@
     ],
     "categoria": "Supermercados",
     "nome_google": "Mercadinho Piratininga - Campos do Jordão",
-    "foto": "atracoes_fotos/mercadinho-piratininga.jpg"
+    "foto": "atracoes_fotos/mercadinho-piratininga.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Supermercado Roma",
@@ -845,7 +1106,12 @@
       "supermercados"
     ],
     "categoria": "Supermercados",
-    "foto": "atracoes_fotos/supermercado-roma.jpg"
+    "foto": "atracoes_fotos/supermercado-roma.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Pão de Açúcar",
@@ -859,7 +1125,11 @@
       "supermercados"
     ],
     "categoria": "Supermercados",
-    "foto": "atracoes_fotos/pao-de-acucar.jpg"
+    "foto": "atracoes_fotos/pao-de-acucar.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Villa Rita Supermercados",
@@ -873,7 +1143,11 @@
       "supermercados"
     ],
     "categoria": "Supermercados",
-    "foto": "atracoes_fotos/villa-rita-supermercados.jpg"
+    "foto": "atracoes_fotos/villa-rita-supermercados.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Supermercado Máximo",
@@ -887,7 +1161,11 @@
       "supermercados"
     ],
     "categoria": "Supermercados",
-    "foto": "atracoes_fotos/supermercado-maximo.jpg"
+    "foto": "atracoes_fotos/supermercado-maximo.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Supermercado Bacana",
@@ -901,7 +1179,12 @@
       "supermercados"
     ],
     "categoria": "Supermercados",
-    "foto": "atracoes_fotos/supermercado-bacana.jpg"
+    "foto": "atracoes_fotos/supermercado-bacana.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Mercadinho Capivari",
@@ -915,7 +1198,11 @@
       "supermercados"
     ],
     "categoria": "Supermercados",
-    "foto": "atracoes_fotos/mercadinho-capivari.jpg"
+    "foto": "atracoes_fotos/mercadinho-capivari.jpg",
+    "atributos": {
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Panecampos",
@@ -929,7 +1216,10 @@
       "supermercados"
     ],
     "categoria": "Supermercados",
-    "foto": "atracoes_fotos/panecampos.jpg"
+    "foto": "atracoes_fotos/panecampos.jpg",
+    "atributos": {
+      "estacionamento": true
+    }
   },
   {
     "nome": "Mercado Supimpa Abernéssia",
@@ -943,7 +1233,12 @@
       "supermercados"
     ],
     "categoria": "Supermercados",
-    "foto": "atracoes_fotos/mercado-supimpa-abernessia.jpg"
+    "foto": "atracoes_fotos/mercado-supimpa-abernessia.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true,
+      "estacionamento": true
+    }
   },
   {
     "nome": "Supercampos",
@@ -957,7 +1252,11 @@
       "supermercados"
     ],
     "categoria": "Supermercados",
-    "foto": "atracoes_fotos/supercampos.jpg"
+    "foto": "atracoes_fotos/supercampos.jpg",
+    "atributos": {
+      "banheiro": true,
+      "acessivel": true
+    }
   },
   {
     "nome": "Prana Pôr do Sol",
