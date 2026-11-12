@@ -513,9 +513,6 @@ footer{background:#173426;color:#d9e2da;padding-block:28px;margin-top:56px;font-
   var SEGS_REST = [
     {id:"cb", nome:"Melhor custo-benefício", dados:false, fn:custoBeneficio, regra:"Nota 4,5 ou mais, pelo menos 300 avaliações no Google e faixa de preço $ ou $$. Os lugares sem faixa de preço no Google ficam de fora."},
     {id:"top", nome:"Mais bem avaliados", dados:false, fn:maisBem, regra:"Nota 4,7 ou mais e pelo menos 500 avaliações no Google."},
-    {id:"casal", nome:"Casal", dados:true, campos:"serve jantar, vinho ou coquetel, aceita reserva e cardápio infantil",
-      fn:function(r){return A(r,"jantar")&&(A(r,"vinho")||A(r,"coquetel"))&&A(r,"aceita_reserva")&&!A(r,"menu_infantil")},
-      regra:"Serve jantar, tem vinho ou coquetel, aceita reserva e não tem cardápio infantil. Regra proposta, a validar com os anfitriões."},
     {id:"familia", nome:"Família com crianças", dados:true, campos:"bom para crianças (goodForChildren) e cardápio infantil (menuForChildren)",
       fn:function(r){return A(r,"bom_para_criancas")||A(r,"menu_infantil")}, regra:"Bom para crianças ou com cardápio infantil, segundo o Google."},
     {id:"pet", nome:"Aceita pet", dados:true, campos:"aceita cães (allowsDogs)", fn:function(r){return A(r,"aceita_pet")}, regra:"O Google informa que aceita cães."},

@@ -3,7 +3,7 @@
 """
 Coleta, no Google Places API (New), os ATRIBUTOS de cada lugar de restaurantes.json ou atracoes.json
 e grava em cada item o campo "atributos". Esses dados alimentam os segmentos da pagina:
-  restaurantes: Casal, Familia com criancas, Aceita pet, Ao ar livre, Grupos, Cafe da manha, Vegetariano
+  restaurantes: Familia com criancas, Aceita pet, Ao ar livre, Grupos, Cafe da manha, Vegetariano
   atracoes:     Familia com criancas, Aceita pet, Acessivel, Com estacionamento, Grupos
 
 Uso (na pasta do projeto, com a chave definida no ambiente: set GOOGLE_PLACES_API_KEY=...):
