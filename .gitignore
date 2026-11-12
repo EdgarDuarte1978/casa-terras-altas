@@ -27,3 +27,6 @@ restaurantes_relatorio.csv
 
 # copias locais temporarias
 backup/
+
+# Vercel (vinculo local do projeto)
+.vercel/

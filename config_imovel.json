@@ -1,0 +1,18 @@
+{
+ "imovel": {
+  "nome": "Casa Terras Altas",
+  "anfitria": "Angélica e Edgar",
+  "endereco_publico": "Rua K, 225 - Jardim Primavera, Campos do Jordão - SP, 12466-176",
+  "endereco_origem_como_chegar": "Rua K, 225 - Jardim Primavera, Campos do Jordão - SP, 12466-176",
+  "airbnb": "https://www.airbnb.com.br/rooms/1342639628979549242",
+  "instagram": "https://www.instagram.com/casaterrasaltas_camposdojordao/",
+  "google": "https://www.google.com/search?q=Casa+Terras+Altas+Campos+do+Jord%C3%A3o",
+  "telefone": "(11) 99420-6875 | (11) 99417-6186",
+  "lat": -22.7491037,
+  "lng": -45.575150699999995
+ },
+ "cidade": {
+  "nome": "Campos do Jordão",
+  "raio_busca_m": 8000
+ }
+}
